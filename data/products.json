@@ -1,7 +1,8 @@
 [
     {
-        "x_coordinate": 40,
-        "y_coordinate": 2,
+        "gondola_id": 0,
+        "x_coordinate": 37,
+        "y_coordinate": 0,
         "list_of_products": [
             "product 1",
             "product 2",
@@ -9,8 +10,9 @@
         ]
     },
     {
-        "x_coordinate": 49,
-        "y_coordinate": 3,
+        "gondola_id": 1,
+        "x_coordinate": 42,
+        "y_coordinate": 0,
         "list_of_products": [
             "product 4",
             "product 5",
@@ -18,8 +20,9 @@
         ]
     },
     {
-        "x_coordinate": 3,
-        "y_coordinate": 4,
+        "gondola_id": 2,
+        "x_coordinate": 47,
+        "y_coordinate": 0,
         "list_of_products": [
             "product 7",
             "product 8",
@@ -27,8 +30,9 @@
         ]
     },
     {
-        "x_coordinate": 6,
-        "y_coordinate": 4,
+        "gondola_id": 3,
+        "x_coordinate": 40,
+        "y_coordinate": 3,
         "list_of_products": [
             "product 10",
             "product 11",
@@ -36,7 +40,8 @@
         ]
     },
     {
-        "x_coordinate": 12,
+        "gondola_id": 4,
+        "x_coordinate": 49,
         "y_coordinate": 4,
         "list_of_products": [
             "product 13",
@@ -45,8 +50,9 @@
         ]
     },
     {
-        "x_coordinate": 15,
-        "y_coordinate": 4,
+        "gondola_id": 5,
+        "x_coordinate": 3,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 16",
             "product 17",
@@ -54,8 +60,9 @@
         ]
     },
     {
-        "x_coordinate": 21,
-        "y_coordinate": 4,
+        "gondola_id": 6,
+        "x_coordinate": 6,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 19",
             "product 20",
@@ -63,8 +70,9 @@
         ]
     },
     {
-        "x_coordinate": 24,
-        "y_coordinate": 4,
+        "gondola_id": 7,
+        "x_coordinate": 12,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 22",
             "product 23",
@@ -72,8 +80,9 @@
         ]
     },
     {
-        "x_coordinate": 29,
-        "y_coordinate": 4,
+        "gondola_id": 8,
+        "x_coordinate": 15,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 25",
             "product 26",
@@ -81,8 +90,9 @@
         ]
     },
     {
-        "x_coordinate": 32,
-        "y_coordinate": 4,
+        "gondola_id": 9,
+        "x_coordinate": 21,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 28",
             "product 29",
@@ -90,8 +100,9 @@
         ]
     },
     {
-        "x_coordinate": 38,
-        "y_coordinate": 4,
+        "gondola_id": 10,
+        "x_coordinate": 24,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 31",
             "product 32",
@@ -99,8 +110,9 @@
         ]
     },
     {
-        "x_coordinate": 41,
-        "y_coordinate": 4,
+        "gondola_id": 11,
+        "x_coordinate": 29,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 34",
             "product 35",
@@ -108,8 +120,9 @@
         ]
     },
     {
-        "x_coordinate": 49,
-        "y_coordinate": 7,
+        "gondola_id": 12,
+        "x_coordinate": 32,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 37",
             "product 38",
@@ -117,8 +130,9 @@
         ]
     },
     {
-        "x_coordinate": 3,
-        "y_coordinate": 8,
+        "gondola_id": 13,
+        "x_coordinate": 38,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 40",
             "product 41",
@@ -126,8 +140,9 @@
         ]
     },
     {
-        "x_coordinate": 6,
-        "y_coordinate": 8,
+        "gondola_id": 14,
+        "x_coordinate": 41,
+        "y_coordinate": 5,
         "list_of_products": [
             "product 43",
             "product 44",
@@ -135,7 +150,8 @@
         ]
     },
     {
-        "x_coordinate": 12,
+        "gondola_id": 15,
+        "x_coordinate": 49,
         "y_coordinate": 8,
         "list_of_products": [
             "product 46",
@@ -144,8 +160,9 @@
         ]
     },
     {
-        "x_coordinate": 15,
-        "y_coordinate": 8,
+        "gondola_id": 16,
+        "x_coordinate": 3,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 49",
             "product 50",
@@ -153,8 +170,9 @@
         ]
     },
     {
-        "x_coordinate": 21,
-        "y_coordinate": 8,
+        "gondola_id": 17,
+        "x_coordinate": 6,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 52",
             "product 53",
@@ -162,8 +180,9 @@
         ]
     },
     {
-        "x_coordinate": 24,
-        "y_coordinate": 8,
+        "gondola_id": 18,
+        "x_coordinate": 12,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 55",
             "product 56",
@@ -171,8 +190,9 @@
         ]
     },
     {
-        "x_coordinate": 29,
-        "y_coordinate": 8,
+        "gondola_id": 19,
+        "x_coordinate": 15,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 58",
             "product 59",
@@ -180,8 +200,9 @@
         ]
     },
     {
-        "x_coordinate": 32,
-        "y_coordinate": 8,
+        "gondola_id": 20,
+        "x_coordinate": 21,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 61",
             "product 62",
@@ -189,8 +210,9 @@
         ]
     },
     {
-        "x_coordinate": 38,
-        "y_coordinate": 8,
+        "gondola_id": 21,
+        "x_coordinate": 24,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 64",
             "product 65",
@@ -198,8 +220,9 @@
         ]
     },
     {
-        "x_coordinate": 41,
-        "y_coordinate": 8,
+        "gondola_id": 22,
+        "x_coordinate": 29,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 67",
             "product 68",
@@ -207,8 +230,9 @@
         ]
     },
     {
-        "x_coordinate": 3,
-        "y_coordinate": 12,
+        "gondola_id": 23,
+        "x_coordinate": 32,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 70",
             "product 71",
@@ -216,8 +240,9 @@
         ]
     },
     {
-        "x_coordinate": 6,
-        "y_coordinate": 12,
+        "gondola_id": 24,
+        "x_coordinate": 38,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 73",
             "product 74",
@@ -225,8 +250,9 @@
         ]
     },
     {
-        "x_coordinate": 12,
-        "y_coordinate": 12,
+        "gondola_id": 25,
+        "x_coordinate": 41,
+        "y_coordinate": 9,
         "list_of_products": [
             "product 76",
             "product 77",
@@ -234,8 +260,9 @@
         ]
     },
     {
-        "x_coordinate": 15,
-        "y_coordinate": 12,
+        "gondola_id": 26,
+        "x_coordinate": 3,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 79",
             "product 80",
@@ -243,8 +270,9 @@
         ]
     },
     {
-        "x_coordinate": 21,
-        "y_coordinate": 12,
+        "gondola_id": 27,
+        "x_coordinate": 6,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 82",
             "product 83",
@@ -252,8 +280,9 @@
         ]
     },
     {
-        "x_coordinate": 24,
-        "y_coordinate": 12,
+        "gondola_id": 28,
+        "x_coordinate": 12,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 85",
             "product 86",
@@ -261,8 +290,9 @@
         ]
     },
     {
-        "x_coordinate": 29,
-        "y_coordinate": 12,
+        "gondola_id": 29,
+        "x_coordinate": 15,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 88",
             "product 89",
@@ -270,8 +300,9 @@
         ]
     },
     {
-        "x_coordinate": 32,
-        "y_coordinate": 12,
+        "gondola_id": 30,
+        "x_coordinate": 21,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 91",
             "product 92",
@@ -279,8 +310,9 @@
         ]
     },
     {
-        "x_coordinate": 38,
-        "y_coordinate": 12,
+        "gondola_id": 31,
+        "x_coordinate": 24,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 94",
             "product 95",
@@ -288,8 +320,9 @@
         ]
     },
     {
-        "x_coordinate": 41,
-        "y_coordinate": 12,
+        "gondola_id": 32,
+        "x_coordinate": 29,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 97",
             "product 98",
@@ -297,8 +330,9 @@
         ]
     },
     {
-        "x_coordinate": 49,
-        "y_coordinate": 12,
+        "gondola_id": 33,
+        "x_coordinate": 32,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 100",
             "product 101",
@@ -306,8 +340,9 @@
         ]
     },
     {
-        "x_coordinate": 30,
-        "y_coordinate": 15,
+        "gondola_id": 34,
+        "x_coordinate": 38,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 103",
             "product 104",
@@ -315,8 +350,9 @@
         ]
     },
     {
-        "x_coordinate": 4,
-        "y_coordinate": 21,
+        "gondola_id": 35,
+        "x_coordinate": 41,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 106",
             "product 107",
@@ -324,8 +360,9 @@
         ]
     },
     {
-        "x_coordinate": 12,
-        "y_coordinate": 21,
+        "gondola_id": 36,
+        "x_coordinate": 49,
+        "y_coordinate": 13,
         "list_of_products": [
             "product 109",
             "product 110",
@@ -333,8 +370,9 @@
         ]
     },
     {
-        "x_coordinate": 20,
-        "y_coordinate": 21,
+        "gondola_id": 37,
+        "x_coordinate": 30,
+        "y_coordinate": 16,
         "list_of_products": [
             "product 112",
             "product 113",
@@ -342,8 +380,9 @@
         ]
     },
     {
-        "x_coordinate": 25,
-        "y_coordinate": 21,
+        "gondola_id": 38,
+        "x_coordinate": 4,
+        "y_coordinate": 22,
         "list_of_products": [
             "product 115",
             "product 116",
@@ -351,8 +390,9 @@
         ]
     },
     {
-        "x_coordinate": 30,
-        "y_coordinate": 21,
+        "gondola_id": 39,
+        "x_coordinate": 12,
+        "y_coordinate": 22,
         "list_of_products": [
             "product 118",
             "product 119",
@@ -360,8 +400,9 @@
         ]
     },
     {
-        "x_coordinate": 40,
-        "y_coordinate": 21,
+        "gondola_id": 40,
+        "x_coordinate": 20,
+        "y_coordinate": 22,
         "list_of_products": [
             "product 121",
             "product 122",
@@ -369,8 +410,9 @@
         ]
     },
     {
-        "x_coordinate": 43,
-        "y_coordinate": 21,
+        "gondola_id": 41,
+        "x_coordinate": 25,
+        "y_coordinate": 22,
         "list_of_products": [
             "product 124",
             "product 125",
@@ -378,8 +420,9 @@
         ]
     },
     {
-        "x_coordinate": 34,
-        "y_coordinate": 23,
+        "gondola_id": 42,
+        "x_coordinate": 30,
+        "y_coordinate": 22,
         "list_of_products": [
             "product 127",
             "product 128",
@@ -387,8 +430,9 @@
         ]
     },
     {
-        "x_coordinate": 38,
-        "y_coordinate": 23,
+        "gondola_id": 43,
+        "x_coordinate": 40,
+        "y_coordinate": 22,
         "list_of_products": [
             "product 130",
             "product 131",
@@ -396,8 +440,9 @@
         ]
     },
     {
-        "x_coordinate": 46,
-        "y_coordinate": 23,
+        "gondola_id": 44,
+        "x_coordinate": 43,
+        "y_coordinate": 22,
         "list_of_products": [
             "product 133",
             "product 134",
@@ -405,8 +450,9 @@
         ]
     },
     {
+        "gondola_id": 45,
         "x_coordinate": 34,
-        "y_coordinate": 26,
+        "y_coordinate": 24,
         "list_of_products": [
             "product 136",
             "product 137",
@@ -414,8 +460,9 @@
         ]
     },
     {
-        "x_coordinate": 46,
-        "y_coordinate": 26,
+        "gondola_id": 46,
+        "x_coordinate": 38,
+        "y_coordinate": 24,
         "list_of_products": [
             "product 139",
             "product 140",
@@ -423,8 +470,9 @@
         ]
     },
     {
-        "x_coordinate": 38,
-        "y_coordinate": 27,
+        "gondola_id": 47,
+        "x_coordinate": 46,
+        "y_coordinate": 24,
         "list_of_products": [
             "product 142",
             "product 143",
@@ -432,8 +480,9 @@
         ]
     },
     {
-        "x_coordinate": 4,
-        "y_coordinate": 28,
+        "gondola_id": 48,
+        "x_coordinate": 34,
+        "y_coordinate": 27,
         "list_of_products": [
             "product 145",
             "product 146",
@@ -441,8 +490,9 @@
         ]
     },
     {
-        "x_coordinate": 12,
-        "y_coordinate": 28,
+        "gondola_id": 49,
+        "x_coordinate": 46,
+        "y_coordinate": 27,
         "list_of_products": [
             "product 148",
             "product 149",
@@ -450,7 +500,8 @@
         ]
     },
     {
-        "x_coordinate": 20,
+        "gondola_id": 50,
+        "x_coordinate": 38,
         "y_coordinate": 28,
         "list_of_products": [
             "product 151",
@@ -459,8 +510,9 @@
         ]
     },
     {
-        "x_coordinate": 25,
-        "y_coordinate": 28,
+        "gondola_id": 51,
+        "x_coordinate": 4,
+        "y_coordinate": 29,
         "list_of_products": [
             "product 154",
             "product 155",
@@ -468,8 +520,9 @@
         ]
     },
     {
-        "x_coordinate": 30,
-        "y_coordinate": 28,
+        "gondola_id": 52,
+        "x_coordinate": 12,
+        "y_coordinate": 29,
         "list_of_products": [
             "product 157",
             "product 158",
@@ -477,8 +530,9 @@
         ]
     },
     {
-        "x_coordinate": 41,
-        "y_coordinate": 28,
+        "gondola_id": 53,
+        "x_coordinate": 20,
+        "y_coordinate": 29,
         "list_of_products": [
             "product 160",
             "product 161",
@@ -486,8 +540,9 @@
         ]
     },
     {
-        "x_coordinate": 44,
-        "y_coordinate": 28,
+        "gondola_id": 54,
+        "x_coordinate": 25,
+        "y_coordinate": 29,
         "list_of_products": [
             "product 163",
             "product 164",
@@ -495,8 +550,9 @@
         ]
     },
     {
-        "x_coordinate": 44,
-        "y_coordinate": 33,
+        "gondola_id": 55,
+        "x_coordinate": 30,
+        "y_coordinate": 29,
         "list_of_products": [
             "product 166",
             "product 167",
@@ -504,8 +560,9 @@
         ]
     },
     {
-        "x_coordinate": 7,
-        "y_coordinate": 35,
+        "gondola_id": 56,
+        "x_coordinate": 41,
+        "y_coordinate": 29,
         "list_of_products": [
             "product 169",
             "product 170",
@@ -513,8 +570,9 @@
         ]
     },
     {
-        "x_coordinate": 10,
-        "y_coordinate": 35,
+        "gondola_id": 57,
+        "x_coordinate": 44,
+        "y_coordinate": 29,
         "list_of_products": [
             "product 172",
             "product 173",
@@ -522,8 +580,9 @@
         ]
     },
     {
-        "x_coordinate": 16,
-        "y_coordinate": 35,
+        "gondola_id": 58,
+        "x_coordinate": 44,
+        "y_coordinate": 34,
         "list_of_products": [
             "product 175",
             "product 176",
@@ -531,8 +590,9 @@
         ]
     },
     {
-        "x_coordinate": 19,
-        "y_coordinate": 35,
+        "gondola_id": 59,
+        "x_coordinate": 7,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 178",
             "product 179",
@@ -540,8 +600,9 @@
         ]
     },
     {
-        "x_coordinate": 25,
-        "y_coordinate": 35,
+        "gondola_id": 60,
+        "x_coordinate": 10,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 181",
             "product 182",
@@ -549,8 +610,9 @@
         ]
     },
     {
-        "x_coordinate": 28,
-        "y_coordinate": 35,
+        "gondola_id": 61,
+        "x_coordinate": 16,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 184",
             "product 185",
@@ -558,8 +620,9 @@
         ]
     },
     {
-        "x_coordinate": 33,
-        "y_coordinate": 35,
+        "gondola_id": 62,
+        "x_coordinate": 19,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 187",
             "product 188",
@@ -567,8 +630,9 @@
         ]
     },
     {
-        "x_coordinate": 36,
-        "y_coordinate": 35,
+        "gondola_id": 63,
+        "x_coordinate": 25,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 190",
             "product 191",
@@ -576,8 +640,9 @@
         ]
     },
     {
-        "x_coordinate": 42,
-        "y_coordinate": 35,
+        "gondola_id": 64,
+        "x_coordinate": 28,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 193",
             "product 194",
@@ -585,8 +650,9 @@
         ]
     },
     {
-        "x_coordinate": 45,
-        "y_coordinate": 35,
+        "gondola_id": 65,
+        "x_coordinate": 33,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 196",
             "product 197",
@@ -594,8 +660,9 @@
         ]
     },
     {
-        "x_coordinate": 7,
-        "y_coordinate": 39,
+        "gondola_id": 66,
+        "x_coordinate": 36,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 199",
             "product 200",
@@ -603,8 +670,9 @@
         ]
     },
     {
-        "x_coordinate": 10,
-        "y_coordinate": 39,
+        "gondola_id": 67,
+        "x_coordinate": 42,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 202",
             "product 203",
@@ -612,8 +680,9 @@
         ]
     },
     {
-        "x_coordinate": 16,
-        "y_coordinate": 39,
+        "gondola_id": 68,
+        "x_coordinate": 45,
+        "y_coordinate": 36,
         "list_of_products": [
             "product 205",
             "product 206",
@@ -621,8 +690,9 @@
         ]
     },
     {
-        "x_coordinate": 19,
-        "y_coordinate": 39,
+        "gondola_id": 69,
+        "x_coordinate": 7,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 208",
             "product 209",
@@ -630,8 +700,9 @@
         ]
     },
     {
-        "x_coordinate": 25,
-        "y_coordinate": 39,
+        "gondola_id": 70,
+        "x_coordinate": 10,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 211",
             "product 212",
@@ -639,8 +710,9 @@
         ]
     },
     {
-        "x_coordinate": 28,
-        "y_coordinate": 39,
+        "gondola_id": 71,
+        "x_coordinate": 16,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 214",
             "product 215",
@@ -648,8 +720,9 @@
         ]
     },
     {
-        "x_coordinate": 33,
-        "y_coordinate": 39,
+        "gondola_id": 72,
+        "x_coordinate": 19,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 217",
             "product 218",
@@ -657,8 +730,9 @@
         ]
     },
     {
-        "x_coordinate": 36,
-        "y_coordinate": 39,
+        "gondola_id": 73,
+        "x_coordinate": 25,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 220",
             "product 221",
@@ -666,8 +740,9 @@
         ]
     },
     {
-        "x_coordinate": 42,
-        "y_coordinate": 39,
+        "gondola_id": 74,
+        "x_coordinate": 28,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 223",
             "product 224",
@@ -675,8 +750,9 @@
         ]
     },
     {
-        "x_coordinate": 45,
-        "y_coordinate": 39,
+        "gondola_id": 75,
+        "x_coordinate": 33,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 226",
             "product 227",
@@ -684,8 +760,9 @@
         ]
     },
     {
-        "x_coordinate": 7,
-        "y_coordinate": 43,
+        "gondola_id": 76,
+        "x_coordinate": 36,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 229",
             "product 230",
@@ -693,8 +770,9 @@
         ]
     },
     {
-        "x_coordinate": 10,
-        "y_coordinate": 43,
+        "gondola_id": 77,
+        "x_coordinate": 42,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 232",
             "product 233",
@@ -702,8 +780,9 @@
         ]
     },
     {
-        "x_coordinate": 16,
-        "y_coordinate": 43,
+        "gondola_id": 78,
+        "x_coordinate": 45,
+        "y_coordinate": 40,
         "list_of_products": [
             "product 235",
             "product 236",
@@ -711,8 +790,9 @@
         ]
     },
     {
-        "x_coordinate": 19,
-        "y_coordinate": 43,
+        "gondola_id": 79,
+        "x_coordinate": 7,
+        "y_coordinate": 44,
         "list_of_products": [
             "product 238",
             "product 239",
@@ -720,8 +800,9 @@
         ]
     },
     {
-        "x_coordinate": 25,
-        "y_coordinate": 43,
+        "gondola_id": 80,
+        "x_coordinate": 10,
+        "y_coordinate": 44,
         "list_of_products": [
             "product 241",
             "product 242",
@@ -729,8 +810,9 @@
         ]
     },
     {
-        "x_coordinate": 28,
-        "y_coordinate": 43,
+        "gondola_id": 81,
+        "x_coordinate": 16,
+        "y_coordinate": 44,
         "list_of_products": [
             "product 244",
             "product 245",
@@ -738,8 +820,9 @@
         ]
     },
     {
-        "x_coordinate": 33,
-        "y_coordinate": 43,
+        "gondola_id": 82,
+        "x_coordinate": 19,
+        "y_coordinate": 44,
         "list_of_products": [
             "product 247",
             "product 248",
@@ -747,8 +830,9 @@
         ]
     },
     {
-        "x_coordinate": 36,
-        "y_coordinate": 43,
+        "gondola_id": 83,
+        "x_coordinate": 25,
+        "y_coordinate": 44,
         "list_of_products": [
             "product 250",
             "product 251",
@@ -756,8 +840,9 @@
         ]
     },
     {
-        "x_coordinate": 42,
-        "y_coordinate": 43,
+        "gondola_id": 84,
+        "x_coordinate": 28,
+        "y_coordinate": 44,
         "list_of_products": [
             "product 253",
             "product 254",
@@ -765,8 +850,9 @@
         ]
     },
     {
-        "x_coordinate": 45,
-        "y_coordinate": 43,
+        "gondola_id": 85,
+        "x_coordinate": 33,
+        "y_coordinate": 44,
         "list_of_products": [
             "product 256",
             "product 257",
@@ -774,12 +860,43 @@
         ]
     },
     {
-        "x_coordinate": 34,
-        "y_coordinate": 46,
+        "gondola_id": 86,
+        "x_coordinate": 36,
+        "y_coordinate": 44,
         "list_of_products": [
             "product 259",
             "product 260",
             "product 261"
+        ]
+    },
+    {
+        "gondola_id": 87,
+        "x_coordinate": 42,
+        "y_coordinate": 44,
+        "list_of_products": [
+            "product 262",
+            "product 263",
+            "product 264"
+        ]
+    },
+    {
+        "gondola_id": 88,
+        "x_coordinate": 45,
+        "y_coordinate": 44,
+        "list_of_products": [
+            "product 265",
+            "product 266",
+            "product 267"
+        ]
+    },
+    {
+        "gondola_id": 89,
+        "x_coordinate": 34,
+        "y_coordinate": 47,
+        "list_of_products": [
+            "product 268",
+            "product 269",
+            "product 270"
         ]
     }
 ]

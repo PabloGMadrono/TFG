@@ -1,9 +1,11 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load CSV file with encoding fix
 file_path = "data/mapaTFG.csv"  # Replace with your actual file path
-data = np.loadtxt(file_path, delimiter=";", dtype=int, encoding="utf-8-sig")
+data = pd.read_csv(file_path, delimiter=",", dtype=int, encoding="utf-8-sig", header=None).to_numpy()
+
 
 # Define colors: 0 -> Light Blue, 1 -> Dark Blue, 2 -> Yellow
 colors = {

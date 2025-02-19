@@ -4,23 +4,26 @@ import pandas as pd
 
 # Load CSV file and handle potential encoding issues
 file_path = "data/mapaTFG.csv"  # Replace with your actual file path
-data = pd.read_csv(file_path, delimiter=";", dtype=int, encoding="utf-8-sig").to_numpy()
+data = pd.read_csv(file_path, delimiter=",", dtype=int, encoding="utf-8-sig", header=None).to_numpy()
 
 # Prepare the JSON structure
 product_list = []
 product_id = 1  # Start product ID
+gondola_id = 0
 
 # Iterate over the matrix to find product locations (value = 2)
 for y, row in enumerate(data):  # y is the row index
     for x, value in enumerate(row):  # x is the column index
         if value == 2:
             entry = {
+                "gondola_id": gondola_id,
                 "x_coordinate": x,
                 "y_coordinate": y,
                 "list_of_products": ["product " + str(product_id), "product " + str(product_id + 1), "product " + str(product_id + 2)]
             }
             product_list.append(entry)
             product_id += 3  # Increment ID for next entry
+            gondola_id += 1
 
 # Save data to a JSON file
 output_file = "data/products.json"
