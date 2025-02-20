@@ -790,6 +790,18 @@
         ]
     },
     {
+        "gondola_id": "starting_point",
+        "x_coordinate": 49,
+        "y_coordinate": 40,
+        "list_of_products": []
+    },
+    {
+        "gondola_id": "finishing_point",
+        "x_coordinate": 49,
+        "y_coordinate": 40,
+        "list_of_products": []
+    },
+    {
         "gondola_id": 79,
         "x_coordinate": 7,
         "y_coordinate": 44,

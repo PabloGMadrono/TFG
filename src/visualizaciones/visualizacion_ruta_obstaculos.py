@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 import heapq
 
 # 1. A* that returns the path, not just the distance.
@@ -78,7 +79,7 @@ def main():
         route_data = json.load(f)
     
     route_list = route_data.get("route", [])
-    print(f"Loaded route with {len(route_list)} products: {route_list}")
+    print(f"Loaded route with {len(route_list)} nodes: {route_list}")
     
     # 4. Load product data (for mapping product -> (row, col))
     products_file = "data/products.json"
@@ -86,26 +87,41 @@ def main():
         products_data = json.load(f)
 
     # Create a dictionary: product_name -> (row, col)
+    # If you have "starting_point" or "finishing_point" as gondola_id,
+    # you should also handle those here, e.g.:
     product_coords = {}
     for gondola in products_data:
         row = gondola["y_coordinate"]
         col = gondola["x_coordinate"]
-        for product in gondola["list_of_products"]:
-            product_coords[product] = (row, col)
-    
-    # Convert route (list of products) into coordinates
-    route_coords = []
-    for product in route_list:
-        if product in product_coords:
-            route_coords.append(product_coords[product])
+        gid = gondola["gondola_id"]
+        if gid in ("starting_point", "finishing_point"):
+            product_coords[gid] = (row, col)
         else:
-            print(f"Warning: product '{product}' not found in product_coords.")
+            for product in gondola["list_of_products"]:
+                product_coords[product] = (row, col)
     
-    # 5. Plot the supermarket map
+    # Convert route (list of product/special node names) into coordinates
+    route_coords = []
+    for node in route_list:
+        if node in product_coords:
+            route_coords.append(product_coords[node])
+        else:
+            print(f"Warning: node '{node}' not found in product_coords.")
+    
+    # 5. Create a discrete colormap so gondolas (2) appear in yellow, etc.
+    cmap = mcolors.ListedColormap(["lightgrey", "blue", "yellow", "purple"])
+    # The boundaries for each color bin:
+    #  - [ -0.5,  0.5) -> color index 0 (lightblue) -> for value 0
+    #  - [ 0.5,  1.5) -> color index 1 (black)      -> for value 1
+    #  - [ 1.5,  2.5) -> color index 2 (yellow)     -> for value 2
+    #  - [ 2.5, 99.5) -> color index 3 (red)        -> for value 3..99
+    bounds = [-0.5, 0.5, 1.5, 2.5, 99.5]
+    norm = mcolors.BoundaryNorm(bounds, cmap.N)
+    
     plt.figure(figsize=(10, 10))
-    plt.imshow(grid, cmap="Blues")  # or "gray", etc.
+    plt.imshow(grid, cmap=cmap, norm=norm)
     
-    # 6. For each consecutive pair of products, run A* to get the path around obstacles
+    # 6. For each consecutive pair of route nodes, run A* to get the path around obstacles
     for i in range(len(route_coords) - 1):
         start = route_coords[i]
         goal = route_coords[i + 1]
@@ -115,16 +131,14 @@ def main():
         for j in range(len(path) - 1):
             (r1, c1) = path[j]
             (r2, c2) = path[j + 1]
-            # Note that plot() expects (x, y). Here col is x, row is y.
             plt.plot([c1, c2], [r1, r2], color="red", linewidth=2)
         
-        # Optionally mark each path point with a red dot (can be noisy if path is long)
+        # Optionally mark each path point with a red dot
         # for (r, c) in path:
         #     plt.scatter(c, r, color="red", s=10)
     
     plt.title("Supermarket Map with Actual Route (Avoiding Obstacles)")
-    plt.xlabel("Columns (x)")
-    plt.ylabel("Rows (y)")
+
     # If you want (0,0) at the bottom-left, uncomment:
     # plt.gca().invert_yaxis()
     

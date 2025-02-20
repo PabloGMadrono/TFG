@@ -27,19 +27,25 @@ def main():
         return
 
     # Build a mapping from each product to its gondola_id.
-    # Also, collect a list of all products.
+    # Also, collect a list of all product identifiers.
+    # For special nodes (starting_point and finishing_point), add them as product nodes.
     product_to_gondola = {}
     product_list = []
     for gondola in products_data:
         try:
             gid = gondola["gondola_id"]
-            for product in gondola["list_of_products"]:
-                product_to_gondola[product] = gid
-                product_list.append(product)
+            if gid == "starting_point" or gid == "finishing_point":
+                # Add the special node as a product identifier.
+                product_to_gondola[gid] = gid
+                product_list.append(gid)
+            else:
+                for product in gondola["list_of_products"]:
+                    product_to_gondola[product] = gid
+                    product_list.append(product)
         except KeyError as e:
             print(f"Missing key {e} in gondola data: {gondola}")
 
-    print(f"Total products found: {len(product_list)}")
+    print(f"Total product nodes found: {len(product_list)}")
     
     # Compute pairwise product distances based on gondola distances.
     product_distances = {}
@@ -60,8 +66,6 @@ def main():
                     d = 0  # Same gondola => zero distance.
                 else:
                     # Look up the distance between the gondolas.
-                    # The keys in gondola_distances might be strings or integers.
-                    # We'll attempt both ways.
                     d = None
                     # Try with string keys:
                     if str(gid1) in gondola_distances and str(gid2) in gondola_distances[str(gid1)]:
@@ -79,10 +83,11 @@ def main():
                         d = float('inf')
             product_distances[prod1][prod2] = d
             product_distances.setdefault(prod2, {})[prod1] = d
-            #print(f"Distance between '{prod1}' and '{prod2}': {d}")
+            # Optionally, print debug info:
+            # print(f"Distance between '{prod1}' and '{prod2}': {d}")
 
     # Save the product distances to the output JSON file.
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    os.makedirs(os.path.dirname(output_file) or ".", exist_ok=True)
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(product_distances, f, indent=4)

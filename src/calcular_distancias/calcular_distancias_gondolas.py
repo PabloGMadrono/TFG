@@ -6,21 +6,20 @@ import heapq
 import os
 
 # --- A* Algorithm Implementation ---
-
 def heuristic(a, b):
     """Compute Manhattan distance between points a and b."""
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
 
 def get_neighbors(pos, grid):
     """Return valid neighboring cells (up, down, left, right) that are traversable.
-       Traversable cells are those with value 0 (free) or 2 (gondola)."""
+       Traversable cells are those with value 0 (free), 2 (normal gondola), or 99 (start/finish)."""
     neighbors = []
     rows, cols = grid.shape
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
     for dr, dc in directions:
         nr, nc = pos[0] + dr, pos[1] + dc
         if 0 <= nr < rows and 0 <= nc < cols:
-            # Cell is traversable if it's not an obstacle (i.e., not 1)
+            # A cell is traversable if it's not an obstacle (i.e. not 1)
             if grid[nr, nc] != 1:
                 neighbors.append((nr, nc))
     return neighbors
@@ -61,45 +60,44 @@ def main():
     products_file = 'data/products.json' 
 
     # Load the map as a NumPy array.
-    # Make sure the delimiter here matches your CSV file's actual delimiter.
     try:
         grid = pd.read_csv(map_file, delimiter=",", dtype=int, encoding="utf-8-sig", header=None).to_numpy()
-
         print("Map loaded successfully. Grid shape:", grid.shape)
     except Exception as e:
         print(f"Error loading map: {e}")
         return
 
-    # Load gondola information from the JSON file.
+    # Load gondola (and special points) information from the JSON file.
     try:
-        with open(products_file, 'r') as f:
-            # The JSON is expected to be a list of gondola dictionaries.
+        with open(products_file, 'r', encoding="utf-8") as f:
+            # The JSON is expected to be a list of gondola dictionaries, including the starting and finishing points.
             data = json.load(f)
-        print(f"Products JSON loaded successfully. Number of gondolas: {len(data)}")
+        print(f"Products JSON loaded successfully. Number of entries: {len(data)}")
     except Exception as e:
         print(f"Error loading JSON: {e}")
         return
 
     # Build a dictionary mapping each gondola_id to its (row, col) coordinate.
-    # Here we assume: y_coordinate -> row, x_coordinate -> col.
+    # We assume: y_coordinate -> row, x_coordinate -> col.
     gondola_coords = {}
     for gondola in data:
         try:
             gondola_id = gondola["gondola_id"]
-            # If your grid's coordinate system is reversed relative to your JSON,
-            # swap the following assignments.
             row = gondola["y_coordinate"]
             col = gondola["x_coordinate"]
-            # Print a warning if the coordinate appears out-of-bound.
+            # Check that the coordinate is within the map bounds.
             if not (0 <= row < grid.shape[0] and 0 <= col < grid.shape[1]):
                 print(f"Warning: Gondola {gondola_id} coordinate {(row, col)} is out of grid bounds {grid.shape}.")
-                # If you suspect the coordinates are swapped, try:
-                # row, col = gondola["x_coordinate"], gondola["y_coordinate"]
-                # print(f"  -> After swapping, gondola {gondola_id} coordinate becomes {(row, col)}")
             gondola_coords[gondola_id] = (row, col)
             print(f"Gondola {gondola_id} located at {(row, col)}")
         except KeyError as e:
             print(f"Missing key {e} in gondola data: {gondola}")
+
+    # Optional: Warn if starting or finishing point is missing.
+    if "starting_point" not in gondola_coords:
+        print("Warning: No starting point found in the products JSON.")
+    if "finishing_point" not in gondola_coords:
+        print("Warning: No finishing point found in the products JSON.")
 
     # Compute pairwise distances using the A* algorithm.
     distances = {}
@@ -111,23 +109,28 @@ def main():
         for j in range(i, n):
             id2 = gondola_ids[j]
             if i == j:
-                # Distance from a node to itself is 0.
-                dist = 0
+                dist = 0  # Distance from a node to itself is 0.
             else:
-                start = gondola_coords[id1]
-                goal = gondola_coords[id2]
-                dist = astar(grid, start, goal)
+                start_coord = gondola_coords[id1]
+                goal_coord = gondola_coords[id2]
+                dist = astar(grid, start_coord, goal_coord)
             distances[id1][id2] = dist
             # Ensure symmetry: distance from id2 to id1 is the same.
             distances.setdefault(id2, {})[id1] = dist
-            #print(f"Distance between gondola {id1} and {id2}: {dist}")
+
+    # Remove distance entries from a product to the starting point.
+    # That is, for every gondola that is not the starting point, remove the key "starting_point" if it exists.
+    for gondola_id in distances:
+        if gondola_id != "starting_point":
+            if "starting_point" in distances[gondola_id]:
+                del distances[gondola_id]["starting_point"]
 
     # Save the computed distances for later use (e.g., by a TSP optimizer).
     output_dir = 'data'
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, 'gondola_distances.json')
     try:
-        with open(output_file, 'w') as f:
+        with open(output_file, 'w', encoding="utf-8") as f:
             json.dump(distances, f, indent=4)
         print(f"\nPairwise gondola distances have been saved to {output_file}")
     except Exception as e:
