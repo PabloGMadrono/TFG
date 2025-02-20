@@ -4,9 +4,9 @@ import os
 
 def main():
     # File paths for input and output.
-    products_file = 'data/products.json'
-    gondola_distances_file = 'data/gondola_distances.json'
-    output_file = 'data/product_distances.json'
+    products_file = '../../data/products.json'
+    gondola_distances_file = '../../data/gondola_distances.json'
+    output_file = '../../data/product_distances.json'
     
     # Load the products JSON.
     try:

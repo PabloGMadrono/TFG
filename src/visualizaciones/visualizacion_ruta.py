@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
 def main():
-    map_file = "data/mapaTFG.csv"
+    map_file = "../../data/mapaTFG.csv"
     grid = pd.read_csv(map_file, delimiter=",", header=None, dtype=int).to_numpy()
 
     # Load the optimized route JSON

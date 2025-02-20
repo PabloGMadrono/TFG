@@ -1,0 +1,8 @@
+
+
+0. Add baselines
+1. Clean code 
+2. Make version 01: No golden rules, raw TSP
+
+3. Start version 02: Golden rules, improve TSP.
+4. Start version 03: Golden rules, optional - different type of optimizer

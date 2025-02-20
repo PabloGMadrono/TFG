@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load CSV file with encoding fix
-file_path = "data/mapaTFG.csv"  # Replace with your actual file path
+file_path = "../../data/mapaTFG.csv"  # Replace with your actual file path
 data = pd.read_csv(file_path, delimiter=",", dtype=int, encoding="utf-8-sig", header=None).to_numpy()
 
 

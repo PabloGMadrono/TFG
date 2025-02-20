@@ -2,8 +2,8 @@ import json
 import random
 
 # Load the existing products.json file
-input_file = "data/products.json"
-output_file = "data/typeproducts.json"
+input_file = "../../data/products.json"
+output_file = "../../data/typeproducts.json"
 
 with open(input_file, "r", encoding="utf-8") as f:
     products = json.load(f)

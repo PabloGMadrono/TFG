@@ -69,12 +69,12 @@ def astar_path(grid, start, goal):
 
 def main():
     # 2. Load the supermarket map
-    map_file = "data/mapaTFG.csv"
+    map_file = "../../data/mapaTFG.csv"
     # Adjust delimiter if needed (e.g., ";" instead of ",")
     grid = pd.read_csv(map_file, delimiter=",", header=None, dtype=int).to_numpy()
     
     # 3. Load the optimized route
-    optimized_route_file = "output/optimized_route.json"
+    optimized_route_file = "../../output/baseline_full_route.json"
     with open(optimized_route_file, "r", encoding="utf-8") as f:
         route_data = json.load(f)
     
@@ -82,7 +82,7 @@ def main():
     print(f"Loaded route with {len(route_list)} nodes: {route_list}")
     
     # 4. Load product data (for mapping product -> (row, col))
-    products_file = "data/products.json"
+    products_file = "../../data/products.json"
     with open(products_file, "r", encoding="utf-8") as f:
         products_data = json.load(f)
 

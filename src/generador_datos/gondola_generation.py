@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 # Load CSV file (adjust delimiter if necessary, e.g., ";")
-file_path = "data/mapaTFG.csv"  # Replace with your actual file path
+file_path = "../../data/mapaTFG.csv"  # Replace with your actual file path
 data = pd.read_csv(file_path, delimiter=",", dtype=int, encoding="utf-8-sig", header=None).to_numpy()
 
 # Prepare the JSON structure
@@ -60,7 +60,7 @@ for y, row in enumerate(data):  # y is the row index
                 print(f"Warning: Additional cell with value 99 found at (row={y}, col={x}) beyond start/finish.")
 
 # Save data to a JSON file
-output_file = "data/products.json"
+output_file = "../../data/products.json"
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(product_list, f, indent=4)
 

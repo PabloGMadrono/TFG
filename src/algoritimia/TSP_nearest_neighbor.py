@@ -63,11 +63,7 @@ def forced_nearest_neighbor_tsp(product_list, distances):
     
     return route, total_distance
 
-def main():
-    orders_file = "data/pedidos.json"
-    product_distances_file = "data/product_distances.json"
-    output_file = "output/optimized_route.json"  # Adjust directory if needed.
-
+def find_best_route(orders_file, product_distances_file, output_file):
     try:
         orders = load_json(orders_file)
     except Exception as e:
@@ -79,6 +75,7 @@ def main():
         return
 
     # For this example, we take the first order.
+    print(orders)
     order = orders[0]
     order_id = order.get("order_id", "N/A")
     product_list = order.get("products", [])
@@ -124,5 +121,16 @@ def main():
     print("Route:", route)
     print("Total distance:", total_distance)
 
+    return route, total_distance
+
+
+def main():
+    orders_file = "../../data/pedidos.json"
+    product_distances_file = "../../data/product_distances.json"
+    output_file = "../../output/optimized_route.json"  # Adjust directory if needed.
+
+    find_best_route(orders_file, product_distances_file, output_file)
+
+    
 if __name__ == '__main__':
     main()

@@ -57,8 +57,8 @@ def astar(grid, start, goal):
 # --- Main Script ---
 def main():
     # Paths to input files
-    map_file = 'data/mapaTFG.csv'
-    products_file = 'data/products.json'
+    map_file = '../../data/mapaTFG.csv'
+    products_file = '../../data/products.json'
 
     # Load the map as a NumPy array.
     # Adjust the delimiter if necessary (e.g., if your CSV uses a comma or semicolon).
