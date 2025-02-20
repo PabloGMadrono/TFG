@@ -42,7 +42,7 @@ def main():
         simulated_orders.append(order_entry)
     
     # Save the simulated orders to a JSON file named pedidos.json.
-    output_file = "pedidos.json"
+    output_file = "data/pedidos.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(simulated_orders, f, indent=4)
     
