@@ -1,33 +1,38 @@
 import json
 import random
+from src.files_management.file_names import products_file, product_types_file
+from src.files_management.json_management import load_file, save_file
 
-# Load the existing products.json file
-input_file = "../../data/products.json"
-output_file = "../../data/typeproducts.json"
 
-with open(input_file, "r", encoding="utf-8") as f:
-    products = json.load(f)
+def generate_product_categories(products_file, product_types_file):
 
-# Define category keys
-categories = {
-    "frozen products": [],
-    "heavy products": [],
-    "normal products": []
-}
+    products = load_file(products_file)
+    # Define category keys
+    categories = {
+        "frozen products": [],
+        "heavy products": [],
+        "normal products": []
+    }
 
-# Flatten the product list (get all product IDs)
-all_products = [prod_id for product in products for prod_id in product["list_of_products"]]
+    # Flatten the product list (get all product IDs)
+    all_products = [prod_id for product in products for prod_id in product["list_of_products"]]
 
-# Shuffle the product list to ensure randomness
-random.shuffle(all_products)
+    # Shuffle the product list to ensure randomness
+    random.shuffle(all_products)
 
-# Distribute products among categories randomly
-for product_id in all_products:
-    chosen_category = random.choice(list(categories.keys()))
-    categories[chosen_category].append(product_id)
+    # Distribute products among categories randomly
+    for product_id in all_products:
+        chosen_category = random.choice(list(categories.keys()))
+        categories[chosen_category].append(product_id)
 
-# Save to a new JSON file
-with open(output_file, "w", encoding="utf-8") as f:
-    json.dump(categories, f, indent=4)
+    save_file(product_types_file, categories)
 
-print(f"Categorized JSON file '{output_file}' created successfully!")
+
+
+def main():
+    generate_product_categories(products_file, product_types_file)
+
+
+
+if __name__ == '__main__':
+    main()

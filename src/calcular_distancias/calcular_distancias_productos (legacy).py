@@ -5,11 +5,13 @@ import json
 import heapq
 import os
 
-# --- A* Algorithm Implementation ---
 
+# --- A* Algorithm Implementation ---
+'''
 def heuristic(a, b):
     """Compute Manhattan distance between points a and b."""
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
+
 
 def get_neighbors(pos, grid):
     """Return valid neighboring cells (up, down, left, right) that are traversable.
@@ -24,6 +26,7 @@ def get_neighbors(pos, grid):
             if grid[nr, nc] != 1:
                 neighbors.append((nr, nc))
     return neighbors
+
 
 def astar(grid, start, goal):
     """
@@ -50,9 +53,10 @@ def astar(grid, start, goal):
                 continue
             g_score[neighbor] = tentative_g
             heapq.heappush(open_set, (tentative_g + heuristic(neighbor, goal), tentative_g, neighbor))
-    
+
     # Return infinity if no path is found
     return float('inf')
+
 
 # --- Main Script ---
 def main():
@@ -92,7 +96,7 @@ def main():
             print(f"Missing key {e} in gondola data: {gondola}")
 
     print(f"Total products found: {len(product_locations)}")
-    
+
     # Compute pairwise distances between products using A*.
     distances = {}
     product_names = list(product_locations.keys())
@@ -110,7 +114,7 @@ def main():
                 d = astar(grid, start, goal)
             distances[prod1][prod2] = d
             distances.setdefault(prod2, {})[prod1] = d  # Ensure symmetry
-            #print(f"Distance between {prod1} and {prod2}: {d}")
+            # print(f"Distance between {prod1} and {prod2}: {d}")
 
     # Save the computed product distances for later use.
     output_dir = 'data'
@@ -123,5 +127,7 @@ def main():
     except Exception as e:
         print(f"Error saving output JSON: {e}")
 
+
 if __name__ == '__main__':
     main()
+'''

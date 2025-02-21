@@ -3,19 +3,21 @@ import json
 import os
 
 import sys
+from src.visualizaciones.visualizacion_ruta_obstaculos import generate_visualizacion_route
 """
 sys.path.insert(0, "/Users/pablo/Documents/TFG/TFG/src/algoritimia")
 from TSP_nearest_neighbor import find_best_route
 """
 from src.algoritimia.TSP_nearest_neighbor import find_best_route
+from src.files_management.json_management import save_file, load_file
+from src.files_management.file_names import products_file, baseline1_order_file, baseline1_route_file
 
-def main():
-    products_file = "../../data/products.json"
-    output_file = "../../data/baseline.json"
 
-    # Load products from the JSON file.
-    with open(products_file, "r", encoding="utf-8") as f:
-        products_data = json.load(f)
+def generate_baseline_1_order(products_file, baseline1_order_file):
+    """Generates a full route through the whole supermarket."""
+
+
+    products_data = load_file(products_file)
 
     # Create an order that includes one product from each gondola.
     # If you want to ignore special nodes (e.g., starting_point or finishing_point),
@@ -26,7 +28,7 @@ def main():
         # Skip special nodes if desired. Uncomment the following lines if you want to skip them:
         # if gondola_id in ("starting_point", "finishing_point"):
         #     continue
-        
+
         # If the gondola has at least one product, choose one (here we choose the first).
         products = gondola.get("list_of_products", [])
         if products:
@@ -43,16 +45,26 @@ def main():
     }
     orders.append(order)
     # Save the order to a JSON file.
-    os.makedirs(os.path.dirname(output_file) or ".", exist_ok=True)
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(orders, f, indent=4)
 
-    print(f"Order created with {len(order_products)} products and saved to '{output_file}'.")
+    save_file(baseline1_order_file, orders)
+
+def generate_baseline1_route(baseline1_order_file, output_file):
+    orders = load_file(baseline1_order_file)
+
+    if not orders:
+        print("No orders found in the file.")
+        return
+    order = orders[0]
+
+    find_best_route(order=order, output_file=baseline1_route_file)
 
 
-    ## Ejecutar TSP para encontrar ruta optima que visita todas las gondolas
+def main():
 
-    find_best_route(orders_file=output_file, product_distances_file="../../data/product_distances.json", output_file="../../output/baseline_full_route.json")
+    generate_baseline_1_order(products_file=products_file, baseline1_order_file=baseline1_order_file)
+    generate_baseline1_route(baseline1_order_file, output_file=baseline1_route_file)
+    generate_visualizacion_route(baseline1_route_file, products_file)
+
 
 if __name__ == "__main__":
     main()

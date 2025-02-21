@@ -4,6 +4,7 @@ import json
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
+'''
 def main():
     map_file = "../../data/mapaTFG.csv"
     grid = pd.read_csv(map_file, delimiter=",", header=None, dtype=int).to_numpy()
@@ -47,7 +48,7 @@ def main():
     # Plot
     plt.figure(figsize=(10, 10))
     plt.imshow(grid, cmap=cmap, norm=norm)
-    
+
     # Draw the route
     for i in range(len(route_coords) - 1):
         (r1, c1) = route_coords[i]
@@ -62,5 +63,7 @@ def main():
     # plt.gca().invert_yaxis()  # Uncomment if needed
     plt.show()
 
+
 if __name__ == "__main__":
     main()
+'''

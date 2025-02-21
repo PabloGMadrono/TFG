@@ -1,30 +1,17 @@
 #!/usr/bin/env python3
 import json
 import os
+from src.files_management.file_names import products_file, gondolas_distances_file, product_distances_file
+from src.files_management.json_management import save_file, load_file
 
-def main():
-    # File paths for input and output.
-    products_file = '../../data/products.json'
-    gondola_distances_file = '../../data/gondola_distances.json'
-    output_file = '../../data/product_distances.json'
-    
+def calcular_distancias_productos(products_file, gondolas_distances_file, output_file):
+    """Calcula la distancia entre todos los productos en base a la distancia que hay entre sus gondolas"""
+
     # Load the products JSON.
-    try:
-        with open(products_file, 'r', encoding='utf-8') as f:
-            products_data = json.load(f)
-        print(f"Loaded {len(products_data)} gondola entries from {products_file}.")
-    except Exception as e:
-        print(f"Error loading products JSON: {e}")
-        return
+    products_data = load_file(products_file)
 
     # Load the precomputed gondola distances.
-    try:
-        with open(gondola_distances_file, 'r', encoding='utf-8') as f:
-            gondola_distances = json.load(f)
-        print(f"Loaded gondola distances from {gondola_distances_file}.")
-    except Exception as e:
-        print(f"Error loading gondola distances JSON: {e}")
-        return
+    gondola_distances = load_file(gondolas_distances_file)
 
     # Build a mapping from each product to its gondola_id.
     # Also, collect a list of all product identifiers.
@@ -46,7 +33,7 @@ def main():
             print(f"Missing key {e} in gondola data: {gondola}")
 
     print(f"Total product nodes found: {len(product_list)}")
-    
+
     # Compute pairwise product distances based on gondola distances.
     product_distances = {}
     n = len(product_list)
@@ -72,13 +59,7 @@ def main():
                         d = gondola_distances[str(gid1)][str(gid2)]
                     elif str(gid2) in gondola_distances and str(gid1) in gondola_distances[str(gid2)]:
                         d = gondola_distances[str(gid2)][str(gid1)]
-                    # If not found, try with integer keys:
-                    if d is None:
-                        if gid1 in gondola_distances and gid2 in gondola_distances[gid1]:
-                            d = gondola_distances[gid1][gid2]
-                        elif gid2 in gondola_distances and gid1 in gondola_distances[gid2]:
-                            d = gondola_distances[gid2][gid1]
-                    # If still not found, default to infinity.
+
                     if d is None:
                         d = float('inf')
             product_distances[prod1][prod2] = d
@@ -87,13 +68,14 @@ def main():
             # print(f"Distance between '{prod1}' and '{prod2}': {d}")
 
     # Save the product distances to the output JSON file.
-    os.makedirs(os.path.dirname(output_file) or ".", exist_ok=True)
-    try:
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(product_distances, f, indent=4)
-        print(f"\nPairwise product distances have been saved to {output_file}")
-    except Exception as e:
-        print(f"Error saving output JSON: {e}")
+    #os.makedirs(os.path.dirname(output_file) or ".", exist_ok=True)
+
+    save_file(output_file, product_distances)
+
+
+def main():
+
+    calcular_distancias_productos(products_file, gondolas_distances_file, output_file=product_distances_file)
 
 if __name__ == '__main__':
     main()

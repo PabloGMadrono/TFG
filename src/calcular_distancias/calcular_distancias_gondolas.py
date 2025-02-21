@@ -4,11 +4,15 @@ import pandas as pd
 import json
 import heapq
 import os
+from src.files_management.file_names import map_file, products_file, gondolas_distances_file
+from src.files_management.json_management import load_file, save_file
+
 
 # --- A* Algorithm Implementation ---
 def heuristic(a, b):
     """Compute Manhattan distance between points a and b."""
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
+
 
 def get_neighbors(pos, grid):
     """Return valid neighboring cells (up, down, left, right) that are traversable.
@@ -23,6 +27,7 @@ def get_neighbors(pos, grid):
             if grid[nr, nc] != 1:
                 neighbors.append((nr, nc))
     return neighbors
+
 
 def astar(grid, start, goal):
     """
@@ -49,15 +54,14 @@ def astar(grid, start, goal):
                 continue
             g_score[neighbor] = tentative_g
             heapq.heappush(open_set, (tentative_g + heuristic(neighbor, goal), tentative_g, neighbor))
-    
+
     # Return infinity if no path is found
     return float('inf')
 
+
 # --- Main Script ---
-def main():
-    # Paths to input files
-    map_file = '../../data/mapaTFG.csv'
-    products_file = '../../data/products.json'
+def calcular_distancias_gondolas(map_file, products_file, output_file):
+
 
     # Load the map as a NumPy array.
     try:
@@ -68,14 +72,7 @@ def main():
         return
 
     # Load gondola (and special points) information from the JSON file.
-    try:
-        with open(products_file, 'r', encoding="utf-8") as f:
-            # The JSON is expected to be a list of gondola dictionaries, including the starting and finishing points.
-            data = json.load(f)
-        print(f"Products JSON loaded successfully. Number of entries: {len(data)}")
-    except Exception as e:
-        print(f"Error loading JSON: {e}")
-        return
+    data = load_file(products_file)
 
     # Build a dictionary mapping each gondola_id to its (row, col) coordinate.
     # We assume: y_coordinate -> row, x_coordinate -> col.
@@ -126,15 +123,18 @@ def main():
                 del distances[gondola_id]["starting_point"]
 
     # Save the computed distances for later use (e.g., by a TSP optimizer).
+    """
     output_dir = 'data'
     os.makedirs(output_dir, exist_ok=True)
-    output_file = os.path.join(output_dir, 'gondola_distances.json')
-    try:
-        with open(output_file, 'w', encoding="utf-8") as f:
-            json.dump(distances, f, indent=4)
-        print(f"\nPairwise gondola distances have been saved to {output_file}")
-    except Exception as e:
-        print(f"Error saving output JSON: {e}")
+    """
+
+    save_file(output_file, distances)
+
+
+# --- Main Script ---
+def main():
+
+    calcular_distancias_gondolas(map_file, products_file, output_file=gondolas_distances_file)
 
 if __name__ == '__main__':
     main()
