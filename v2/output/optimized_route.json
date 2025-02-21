@@ -1,0 +1,20 @@
+{
+    "order_id": 0,
+    "route": [
+        "starting_point",
+        "product 257",
+        "product 254",
+        "product 241",
+        "product 213",
+        "product 161",
+        "product 101",
+        "product 86",
+        "product 56",
+        "product 17",
+        "product 2",
+        "product 44",
+        "product 176",
+        "finishing_point"
+    ],
+    "total_distance": 288
+}
