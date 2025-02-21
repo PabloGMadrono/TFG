@@ -5,7 +5,7 @@ from v2.src.visualizaciones.visualizacion_ruta_obstaculos import generate_visual
 sys.path.insert(0, "/Users/pablo/Documents/TFG/TFG/src/algoritimia")
 from TSP_nearest_neighbor import find_best_route
 """
-from v2.src.algoritimia.TSP_nearest_neighbor import find_best_route
+from v2.src.algoritimia.find_best_route import find_best_route
 from v2.src.files_management.json_management import save_file, load_file
 from v2.src.files_management.file_names import products_file, baseline1_order_file, baseline1_route_file
 

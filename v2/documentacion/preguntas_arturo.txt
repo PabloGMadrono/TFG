@@ -15,5 +15,7 @@
     14 nodos -> 300 seg
 
 
+5. Por que usar brute force si DP tarda siempre menos?
+
 
 

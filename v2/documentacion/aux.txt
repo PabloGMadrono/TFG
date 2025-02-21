@@ -11,3 +11,23 @@ Data saved to /Users/pablo/Documents/TFG/TFG/v2/output/optimized_route.json
 Route: ['starting_point', 'product 257', 'product 254', 'product 161', 'product 213', 'product 241', 'product 176', 'product 101', 'product 2', 'product 56', 'product 86', 'product 17', 'finishing_point']
 Total distance: 334
 Execution time: 0.0063 seconds
+
+
+--------------------
+
+
+Optimizing route for order 0 with 9 products and 11 nodes.
+Using brute-force TSP solver.
+Data saved to /Users/pablo/Documents/TFG/TFG/v2/output/optimized_route.json
+Route: ['starting_point', 'product 257', 'product 254', 'product 241', 'product 213', 'product 161', 'product 86', 'product 56', 'product 2', 'product 101', 'finishing_point']
+Total distance: 252
+Execution time: 0.2486 seconds
+
+
+
+Optimizing route for order 0 with 9 products and 11 nodes.
+Using Dynamic programming TSP solver.
+Data saved to /Users/pablo/Documents/TFG/TFG/v2/output/optimized_route.json
+Route: ['starting_point', 'product 257', 'product 254', 'product 241', 'product 213', 'product 161', 'product 101', 'product 86', 'product 56', 'product 2', 'finishing_point']
+Total distance: 252
+Execution time: 0.0131 seconds

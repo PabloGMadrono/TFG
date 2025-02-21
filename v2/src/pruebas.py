@@ -16,6 +16,9 @@ from v2.src.generador_datos.product_categorization import *
 # Import from visualizaciones
 from v2.src.visualizaciones.visualizacion_ruta_obstaculos import *
 
+from v2.src.algoritimia.find_best_route import find_best_route
+
+
 
 def main():
     generate_gondolas(map_file, products_file)
