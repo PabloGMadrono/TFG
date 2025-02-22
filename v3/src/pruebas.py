@@ -16,7 +16,7 @@ from v3.src.generador_datos.product_categorization import *
 # Import from visualizaciones
 from v3.src.visualizaciones.visualizacion_ruta_obstaculos import *
 
-from v3.src.algoritimia.find_best_route import find_best_route
+from v3.src.algoritimia.find_best_route import *
 
 
 
@@ -26,7 +26,7 @@ def main():
     generate_product_categories(products_file, product_types_file)
 
     calcular_distancias_gondolas(map_file, products_file, gondolas_distances_file)
-    calcular_distancias_productos(products_file, gondolas_distances_file, product_distances_file)
+    calcular_distancias_productos(products_file, gondolas_distances_file, product_distances_file, product_types_file)
 
     orders = load_file(pedidos_file)
 
@@ -38,8 +38,9 @@ def main():
     print(orders)
     order = orders[0]
 
-    find_best_route(order=order, output_file=optimized_route_file)
-    generate_visualizacion_route(optimized_route_file, products_file)
+    route, total_distance, order_id = find_best_route(order=order)
+    save_route_order_to_file(order_id, route, total_distance, output_file=optimized_route_file)
+    generate_visualizacion_route(optimized_route_file, products_file, map_file)
 
     generate_baseline_1_order(products_file, baseline1_order_file)
     generate_baseline1_route(baseline1_order_file, baseline1_route_file)

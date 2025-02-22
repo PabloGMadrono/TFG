@@ -53,7 +53,7 @@ def generate_baseline1_route(baseline1_order_file, output_file):
         return
     order = orders[0]
 
-    find_best_route(order=order, output_file=baseline1_route_file)
+    find_best_route(order=order)
 
 
 def main():

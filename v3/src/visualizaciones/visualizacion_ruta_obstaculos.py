@@ -58,23 +58,34 @@ def astar_path(grid, start, goal):
     return []  # No path found
 
 
-def generate_visualizacion_route(optimized_route_file, products_file,map_file=map_file):
-    # Load the supermarket map
+def generate_visualizacion_route(optimized_route_file, products_file, map_file, selected_order_id=None):
+    # Clear any previous plots and load the supermarket map
     plt.clf()
     grid = pd.read_csv(map_file, delimiter=",", header=None, dtype=int).to_numpy()
 
+    # Load orders from JSON (each order is a dict in a list)
+    orders = load_file(optimized_route_file)
+    if not orders:
+        print("No orders found in the file.")
+        return
 
-    route_data = load_file(optimized_route_file)
+    # Select the order by order_id if provided; otherwise, use the first order
+    if selected_order_id is None:
+        selected_order = orders[0]
+    else:
+        selected_order = next((order for order in orders if order.get("order_id") == selected_order_id), None)
+        if selected_order is None:
+            print(f"Order with id {selected_order_id} not found.")
+            return
 
-    route_list = route_data.get("route", [])
-    print(f"Loaded route with {len(route_list)} nodes: {route_list}")
+    # Extract the route list from the selected order
+    route_list = selected_order.get("route", [])
+    print(f"Loaded route for order {selected_order.get('order_id')} with {len(route_list)} nodes: {route_list}")
 
     # Load product data (for mapping product -> (row, col))
     products_data = load_file(products_file)
 
-    # Create a dictionary: product_name -> (row, col)
-    # If you have "starting_point" or "finishing_point" as gondola_id,
-    # you should also handle those here, e.g.:
+    # Create a dictionary mapping product names to coordinates
     product_coords = {}
     for gondola in products_data:
         row = gondola["y_coordinate"]
@@ -94,44 +105,30 @@ def generate_visualizacion_route(optimized_route_file, products_file,map_file=ma
         else:
             print(f"Warning: node '{node}' not found in product_coords.")
 
-    # Create a discrete colormap so gondolas (2) appear in yellow, etc.
+    # Create a discrete colormap (example colors)
     cmap = mcolors.ListedColormap(["lightgrey", "blue", "yellow", "purple"])
-    # The boundaries for each color bin:
-    #  - [ -0.5,  0.5) -> color index 0 (lightblue) -> for value 0
-    #  - [ 0.5,  1.5) -> color index 1 (black)      -> for value 1
-    #  - [ 1.5,  2.5) -> color index 2 (yellow)     -> for value 2
-    #  - [ 2.5, 99.5) -> color index 3 (red)        -> for value 3..99
     bounds = [-0.5, 0.5, 1.5, 2.5, 99.5]
     norm = mcolors.BoundaryNorm(bounds, cmap.N)
 
     plt.figure(figsize=(10, 10))
     plt.imshow(grid, cmap=cmap, norm=norm)
 
-    # For each consecutive pair of route nodes, run A* to get the path around obstacles
+    # For each consecutive pair of route nodes, compute and plot the A* path
     for i in range(len(route_coords) - 1):
         start = route_coords[i]
         goal = route_coords[i + 1]
         path = astar_path(grid, start, goal)
-
-        # Plot each step in red
         for j in range(len(path) - 1):
             (r1, c1) = path[j]
             (r2, c2) = path[j + 1]
             plt.plot([c1, c2], [r1, r2], color="red", linewidth=2)
 
-        # Optionally mark each path point with a red dot
-        # for (r, c) in path:
-        #     plt.scatter(c, r, color="red", s=10)
-
     plt.title("Supermarket Map with Actual Route (Avoiding Obstacles)")
-
-    # If you want (0,0) at the bottom-left, uncomment:
-    # plt.gca().invert_yaxis()
-
     plt.show()
 
+
 def main():
-    generate_visualizacion_route(optimized_route_file, products_file)
+    generate_visualizacion_route(optimized_route_file, products_file, map_file)
     """
     for filename in os.listdir(pruebas_annealing_dir):
         file_path = os.path.join(pruebas_annealing_dir, filename)

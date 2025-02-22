@@ -59,7 +59,6 @@ def astar(grid, start, goal):
 # --- Main Script ---
 def calcular_distancias_gondolas(map_file, products_file, output_file):
 
-
     # Load the map as a NumPy array.
     try:
         grid = pd.read_csv(map_file, delimiter=",", dtype=int, encoding="utf-8-sig", header=None).to_numpy()
@@ -93,13 +92,14 @@ def calcular_distancias_gondolas(map_file, products_file, output_file):
     if "finishing_point" not in gondola_coords:
         print("Warning: No finishing point found in the products JSON.")
 
-    # Compute pairwise distances using the A* algorithm.
-    distances = {}
+    # Preinitialize the distances dictionary for every gondola.
     gondola_ids = list(gondola_coords.keys())
+    distances = {gid: {} for gid in gondola_ids}
+
+    # Compute pairwise distances using the A* algorithm.
     n = len(gondola_ids)
     for i in range(n):
         id1 = gondola_ids[i]
-        distances[id1] = {}
         for j in range(i, n):
             id2 = gondola_ids[j]
             if i == j:
@@ -109,29 +109,21 @@ def calcular_distancias_gondolas(map_file, products_file, output_file):
                 goal_coord = gondola_coords[id2]
                 dist = astar(grid, start_coord, goal_coord)
             distances[id1][id2] = dist
-            # Ensure symmetry: distance from id2 to id1 is the same.
-            distances.setdefault(id2, {})[id1] = dist
+            distances[id2][id1] = dist
 
-    # Remove distance entries from a product to the starting point.
-    # That is, for every gondola that is not the starting point, remove the key "starting_point" if it exists.
+    # If desired, you can comment out this removal loop to retain all distances.
     for gondola_id in distances:
         if gondola_id != "starting_point":
-            if "starting_point" in distances[gondola_id]:
-                del distances[gondola_id]["starting_point"]
+             distances[gondola_id].pop("starting_point", None)
 
-    # Save the computed distances for later use (e.g., by a TSP optimizer).
-    """
-    output_dir = 'data'
-    os.makedirs(output_dir, exist_ok=True)
-    """
-
+    # Save the computed distances for later use.
     save_file(output_file, distances)
 
 
 # --- Main Script ---
 def main():
-
     calcular_distancias_gondolas(map_file, products_file, output_file=gondolas_distances_file)
+
 
 if __name__ == '__main__':
     main()
