@@ -3,6 +3,7 @@ from v2.src.files_management.file_names import product_distances_file, optimized
 from v2.src.files_management.json_management import load_file, save_file
 from v2.src.algoritimia.brute_force_TSP import brute_force_tsp
 from v2.src.algoritimia.nearest_neighbor_TSP import forced_nearest_neighbor_tsp
+from v2.src.algoritimia.simulated_annealing import simulated_annealing_tsp
 from v2.src.algoritimia.DP_TSP import held_karp_tsp
 
 
@@ -30,8 +31,8 @@ def find_best_route(order, output_file, product_distances_file=product_distances
         print("Using Dynamic programming TSP solver.")
         route, total_distance = held_karp_tsp(product_list, product_distances)
     else:
-        print("Using nearest neighbor TSP solver.")
-        route, total_distance = forced_nearest_neighbor_tsp(product_list, product_distances)
+        print("Using simulated annealing TSP solver.")
+        route, total_distance = simulated_annealing_tsp(product_list, product_distances)
 
     result = {
         "order_id": order_id,
@@ -58,7 +59,7 @@ def main():
 
     # For this example, we take the first order.
     print(orders)
-    order = orders[1]
+    order = orders[10]
     start_time = time.time()
     find_best_route(order=order, output_file=optimized_route_file)
     end_time = time.time()

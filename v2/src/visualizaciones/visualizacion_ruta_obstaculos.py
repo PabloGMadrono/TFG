@@ -8,7 +8,8 @@ from v2.src.calcular_distancias.calcular_distancias_gondolas import heuristic, g
 from v2.src.files_management.file_names import map_file, optimized_route_file, products_file
 from v2.src.files_management.json_management import load_file
 
-
+import os
+from v2.src.files_management.file_names import pruebas_annealing_dir
 
 
 def reconstruct_path(came_from, current):
@@ -131,6 +132,11 @@ def generate_visualizacion_route(optimized_route_file, products_file,map_file=ma
 
 def main():
     generate_visualizacion_route(optimized_route_file, products_file)
+    """
+    for filename in os.listdir(pruebas_annealing_dir):
+        file_path = os.path.join(pruebas_annealing_dir, filename)
+        generate_visualizacion_route(file_path, products_file, map_file)
+    """
 
 if __name__ == "__main__":
     main()

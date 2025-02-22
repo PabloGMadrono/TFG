@@ -31,3 +31,45 @@ Data saved to /Users/pablo/Documents/TFG/TFG/v2/output/optimized_route.json
 Route: ['starting_point', 'product 257', 'product 254', 'product 241', 'product 213', 'product 161', 'product 101', 'product 86', 'product 56', 'product 2', 'finishing_point']
 Total distance: 252
 Execution time: 0.0131 seconds
+
+
+
+
+-------
+Annealing con 10k iterations y 0.995
+
+Optimizing route for order 10 with 36 products and 38 nodes.
+Using simulated annealing TSP solver.
+Data saved to /Users/pablo/Documents/TFG/TFG/v2/output/optimized_route.json
+Route: ['starting_point', 'product 269', 'product 221', 'product 222', 'product 166', 'product 168', 'product 172', 'product 201', 'product 199', 'product 206', 'product 148', 'product 133', 'product 109', 'product 44', 'product 4', 'product 11', 'product 1', 'product 75', 'product 104', 'product 228', 'product 193', 'product 210', 'product 209', 'product 155', 'product 156', 'product 182', 'product 188', 'product 191', 'product 117', 'product 86', 'product 83', 'product 61', 'product 58', 'product 16', 'product 18', 'product 22', 'product 114', 'finishing_point']
+Total distance: 562
+Execution time: 0.0230 seconds
+
+
+Annealing con 1M y 0.999
+
+Optimizing route for order 10 with 36 products and 38 nodes.
+Using simulated annealing TSP solver.
+Data saved to /Users/pablo/Documents/TFG/TFG/v2/output/optimized_route.json
+Route: ['starting_point', 'product 269', 'product 199', 'product 201', 'product 222', 'product 221', 'product 172', 'product 148', 'product 133', 'product 104', 'product 75', 'product 114', 'product 117', 'product 83', 'product 86', 'product 22', 'product 18', 'product 16', 'product 58', 'product 61', 'product 1', 'product 11', 'product 4', 'product 44', 'product 109', 'product 168', 'product 166', 'product 182', 'product 155', 'product 156', 'product 209', 'product 210', 'product 188', 'product 191', 'product 193', 'product 228', 'product 206', 'finishing_point']
+Total distance: 508
+Execution time: 0.0854 seconds
+
+
+annealing con 1M y 0.9999
+
+Optimizing route for order 10 with 36 products and 38 nodes.
+Using simulated annealing TSP solver.
+Data saved to /Users/pablo/Documents/TFG/TFG/v2/output/optimized_route.json
+Route: ['starting_point', 'product 269', 'product 228', 'product 193', 'product 156', 'product 155', 'product 209', 'product 210', 'product 182', 'product 188', 'product 221', 'product 222', 'product 191', 'product 166', 'product 168', 'product 104', 'product 75', 'product 201', 'product 199', 'product 172', 'product 109', 'product 44', 'product 4', 'product 11', 'product 1', 'product 22', 'product 86', 'product 83', 'product 117', 'product 18', 'product 16', 'product 58', 'product 61', 'product 114', 'product 133', 'product 148', 'product 206', 'finishing_point']
+Total distance: 472
+Execution time: 0.7928 seconds
+
+Annealing con 1M y 0.99999
+
+Optimizing route for order 10 with 36 products and 38 nodes.
+Using simulated annealing TSP solver.
+Data saved to /Users/pablo/Documents/TFG/TFG/v2/output/optimized_route.json
+Route: ['starting_point', 'product 269', 'product 209', 'product 210', 'product 155', 'product 156', 'product 182', 'product 188', 'product 191', 'product 222', 'product 221', 'product 166', 'product 168', 'product 193', 'product 228', 'product 201', 'product 199', 'product 117', 'product 16', 'product 18', 'product 83', 'product 86', 'product 22', 'product 58', 'product 61', 'product 114', 'product 104', 'product 75', 'product 1', 'product 11', 'product 4', 'product 44', 'product 109', 'product 133', 'product 148', 'product 172', 'product 206', 'finishing_point']
+Total distance: 438
+Execution time: 5.7910 seconds
