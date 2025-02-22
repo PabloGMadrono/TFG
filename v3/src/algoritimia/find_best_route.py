@@ -1,10 +1,11 @@
 import time
-from v2.src.files_management.file_names import product_distances_file, optimized_route_file, pedidos_file
-from v2.src.files_management.json_management import load_file, save_file
-from v2.src.algoritimia.brute_force_TSP import brute_force_tsp
-from v2.src.algoritimia.nearest_neighbor_TSP import forced_nearest_neighbor_tsp
-from v2.src.algoritimia.simulated_annealing import simulated_annealing_tsp
-from v2.src.algoritimia.DP_TSP import held_karp_tsp
+from v3.src.files_management.file_names import product_distances_file, optimized_route_file, pedidos_file
+from v3.src.files_management.json_management import *
+from v3.src.algoritimia.brute_force_TSP import brute_force_tsp
+from v3.src.algoritimia.nearest_neighbor_TSP import forced_nearest_neighbor_tsp
+from v3.src.algoritimia.simulated_annealing import simulated_annealing_tsp
+from v3.src.algoritimia.DP_TSP import held_karp_tsp
+from v3.src.validadores.validador_reglas_de_oro import route_respects_frozen_rule
 
 
 
@@ -39,11 +40,14 @@ def find_best_route(order, output_file, product_distances_file=product_distances
         "route": route,
         "total_distance": total_distance
     }
-
-    save_file(output_file, result)
+    # If we want to replace_file uncomment next line
+    #save_file(output_file, result)
+    add_to_file(output_file, result)
 
     print("Route:", route)
     print("Total distance:", total_distance)
+
+    print(f"order: {order_id}, route respects regla de oro congelados:{route_respects_frozen_rule(route)}.")
 
     return route, total_distance
 
@@ -59,14 +63,24 @@ def main():
 
     # For this example, we take the first order.
     print(orders)
-    order = orders[10]
+    order = orders[42]
     start_time = time.time()
     find_best_route(order=order, output_file=optimized_route_file)
     end_time = time.time()
 
     execution_time = end_time - start_time
+
     print(f"Execution time: {execution_time:.4f} seconds")
 
+    """
+    for order in orders:
+        start_time = time.time()
+        find_best_route(order=order, output_file=optimized_route_file)
+        end_time = time.time()
+
+        execution_time = end_time - start_time
+        print(f"Execution time: {execution_time:.4f} seconds")
+    """
 
 if __name__ == "__main__":
     main()

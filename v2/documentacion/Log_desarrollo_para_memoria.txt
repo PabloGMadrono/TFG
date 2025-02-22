@@ -1,8 +1,0 @@
-
-
-
-- Calculo de distancias entre productos usando calculo de distancias de gondolas para ahorrar tiempo
-
-
-
-
