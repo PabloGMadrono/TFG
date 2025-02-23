@@ -7,6 +7,7 @@ from v3.src.algoritimia.simulated_annealing import simulated_annealing_tsp
 from v3.src.algoritimia.DP_TSP import held_karp_tsp
 from v3.src.validadores.validador_reglas_de_oro import route_respects_frozen_rule
 from v3.src.algoritimia.get_distance import get_distance
+from v3.src.algoritimia.genetic_algorithm_TSP import genetic_algorithm_tsp
 
 
 def is_frozen(product, type_products_file):
@@ -56,6 +57,10 @@ def find_best_route(order, product_distances_file=product_distances_file):
     else:
         print("Using simulated annealing TSP solver.")
         route, total_distance = simulated_annealing_tsp(product_list, product_distances)
+
+        print("Also computing route with genetic algorithm.")
+        route1, total_distance1 = genetic_algorithm_tsp(product_list, product_distances)
+
         if not route_respects_frozen_rule(route):
             print("Simulated annealing solution does not respect the frozen rule.")
             # Split the order into non-frozen and frozen products.
@@ -86,6 +91,13 @@ def find_best_route(order, product_distances_file=product_distances_file):
             route = merged_route
             print("Merged route created to respect frozen rule.")
 
+        if total_distance < total_distance1:
+            print("Simulated Annealing algorithm was better")
+        else:
+            print("Genetic algorithm was better")
+            route = route1
+            total_distance = total_distance1
+
         print("Route:", route)
         print("Total distance:", total_distance)
         return route, total_distance, order_id
@@ -105,10 +117,10 @@ def main():
     if not orders:
         print("No orders found in the file.")
         return
-    """
+
     # For this example, we take the first order.
     print(orders)
-    order = orders[13]
+    order = orders[2]
     start_time = time.time()
     route, total_distance, order_id = find_best_route(order=order)
     save_route_order_to_file(order_id, route, total_distance, output_file=optimized_route_file, mode='r')
@@ -129,7 +141,7 @@ def main():
 
         execution_time = end_time - start_time
         print(f"Execution time: {execution_time:.4f} seconds")
-
+    """
 
 if __name__ == "__main__":
     main()
