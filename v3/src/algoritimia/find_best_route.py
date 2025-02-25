@@ -74,8 +74,8 @@ def find_best_route(order, product_distances_file=product_distances_file):
                 else:
                     non_frozen.append(prod)
             # Create two new orders.
-            non_frozen_order = {"order_id": order_id + "-nonfrozen", "products": non_frozen}
-            frozen_order = {"order_id": order_id + "-frozen", "products": frozen}
+            non_frozen_order = {"order_id": str(order_id) + "-nonfrozen", "products": non_frozen}
+            frozen_order = {"order_id": str(order_id) + "-frozen", "products": frozen}
             print("Optimizing route for non-frozen products...")
             route_non, dist_non, _ = find_best_route(non_frozen_order)
             print("Optimizing route for frozen products...")
@@ -120,7 +120,7 @@ def main():
 
     # For this example, we take the first order.
     print(orders)
-    order = orders[2]
+    order = orders[4]
     start_time = time.time()
     route, total_distance, order_id = find_best_route(order=order)
     save_route_order_to_file(order_id, route, total_distance, output_file=optimized_route_file, mode='r')

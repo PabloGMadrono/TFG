@@ -9,7 +9,7 @@ from v3.src.files_management.json_management import save_file, load_file
 import math
 
 
-def calcular_distancias_productos(products_file, gondolas_distances_file, output_file, type_products_file):
+def calcular_distancias_productos(products_file, gondolas_distances_file, output_file, type_products_file, regla_obj_pesados=True):
     """
     Calcula la distancia entre todos los productos en base a la distancia entre sus góndolas,
     aplicando una penalización extra al ir de un producto congelado a uno no congelado.
@@ -24,7 +24,8 @@ def calcular_distancias_productos(products_file, gondolas_distances_file, output
     # Load the type products JSON and build a set of frozen products.
     type_products_data = load_file(type_products_file)
     frozen_set = set(type_products_data.get("frozen products", []))
-
+    heavy_set = set(type_products_data.get("heavy products", []))
+    normal_set = set(type_products_data.get("normal products", []))
     # Build a mapping from each product to its gondola_id.
     # Also, collect a list of all product identifiers.
     # Special nodes (starting_point and finishing_point) are added as product nodes.
@@ -75,7 +76,7 @@ def calcular_distancias_productos(products_file, gondolas_distances_file, output
                     if base_d is None:
                         base_d = float('inf')
 
-            # Calculate directional distances with penalty logic.
+            # ENFORCE REGLA DE ORO CONGELADOS
             # From prod1 to prod2:
             d_forward = base_d
             if prod1 in frozen_set and prod2 not in frozen_set and prod2 != "finishing_point":
@@ -85,6 +86,16 @@ def calcular_distancias_productos(products_file, gondolas_distances_file, output
             d_reverse = base_d
             if prod2 in frozen_set and prod1 not in frozen_set and prod1 != "finishing_point":
                 d_reverse += PENALTY
+
+            # ENFORCE REGLA DE ORO ART. PESADOS
+            if regla_obj_pesados:
+                # From prod1 to prod2:
+                if prod1 in normal_set and prod2 in heavy_set and prod2 != "finishing_point":
+                    d_forward += PENALTY
+
+                # From prod2 to prod1:
+                if prod2 in normal_set and prod1 in heavy_set and prod1 != "finishing_point":
+                    d_reverse += PENALTY
 
             product_distances[prod1][prod2] = d_forward
             product_distances[prod2][prod1] = d_reverse

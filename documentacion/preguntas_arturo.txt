@@ -1,15 +1,16 @@
 
 
-1. Punto de inicio? Punto final de la ruta?
-
 2. Que baselines utilizas para comparar la solucion con lo que ya se tenia?
     -baselines 1: Visitar todas las gondolas
+
+
+
+ COMPARACION CON DISTANCIAS EUCLIDIAS
 
 3. y metricas para evaluar la calidad de solucion?
 
 
-4. Como han resuelto ellos el algoritmo (demo del codigo)
-    - brute force para <12 porq. Cual es el limite de tiempo que se ha puesto.
+4. brute force para <12 porq. Cual es el limite de tiempo que se ha puesto.
     Para mi 12 nodos -> 2.5 seg
     13 nodos -> 26 seg
     14 nodos -> 300 seg
@@ -19,3 +20,6 @@
 
 
 
+PARA EVALUAR LOS ALGORITMOS APROXIMATIVOS LO COMPARAMOS CON PRODUCTOS PEQUEÑOS
+
+PYTHON TSP HEURISTIC

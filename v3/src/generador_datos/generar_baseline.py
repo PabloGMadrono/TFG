@@ -7,7 +7,7 @@ from TSP_nearest_neighbor import find_best_route
 """
 from v3.src.algoritimia.find_best_route import find_best_route
 from v3.src.files_management.json_management import save_file, load_file
-from v3.src.files_management.file_names import products_file, baseline1_order_file, baseline1_route_file
+from v3.src.files_management.file_names import products_file, baseline1_order_file, baseline1_route_file, map_file
 
 
 def generate_baseline_1_order(products_file, baseline1_order_file):
@@ -60,7 +60,7 @@ def main():
 
     generate_baseline_1_order(products_file=products_file, baseline1_order_file=baseline1_order_file)
     generate_baseline1_route(baseline1_order_file, output_file=baseline1_route_file)
-    generate_visualizacion_route(baseline1_route_file, products_file)
+    generate_visualizacion_route(baseline1_route_file, products_file, map_file)
 
 
 if __name__ == "__main__":
