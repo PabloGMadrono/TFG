@@ -69,6 +69,11 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
         print("No orders found in the file.")
         return
 
+    # If the orders are in a dict (not a list), convert it to a list
+    if isinstance(orders, dict):
+        orders = [orders]
+
+
     # Select the order by order_id if provided; otherwise, use the first order
     if selected_order_id is None:
         selected_order = orders[0]
