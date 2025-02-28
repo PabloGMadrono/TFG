@@ -44,7 +44,7 @@ def main():
 
     generate_baseline_1_order(products_file, baseline1_order_file)
     generate_baseline1_route(baseline1_order_file, baseline1_route_file)
-    generate_visualizacion_route(baseline1_route_file, products_file)
+    generate_visualizacion_route(baseline1_route_file, products_file, map_file)
 
 
 

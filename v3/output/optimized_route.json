@@ -1,25 +1,80 @@
-{
-    "order_id": 4,
-    "route": [
-        "starting_point",
-        "product 179",
-        "product 146",
-        "product 64",
-        "product 120",
-        "product 18",
-        "product 32",
-        "product 12",
-        "product 38",
-        "product 164",
-        "product 250",
-        "product 220",
-        "product 188",
-        "product 145",
-        "product 136",
-        "product 105",
-        "product 13",
-        "product 265",
-        "finishing_point"
-    ],
-    "total_distance": 438
-}
+[
+    {
+        "order_id": 4,
+        "route": [
+            "starting_point",
+            "product 179",
+            "product 146",
+            "product 64",
+            "product 120",
+            "product 18",
+            "product 32",
+            "product 12",
+            "product 38",
+            "product 164",
+            "product 250",
+            "product 220",
+            "product 188",
+            "product 145",
+            "product 136",
+            "product 105",
+            "product 13",
+            "product 265",
+            "finishing_point"
+        ],
+        "total_distance": 438
+    },
+    {
+        "order_id": 0,
+        "route": [
+            "starting_point",
+            "product 109",
+            "product 60",
+            "product 27",
+            "product 86",
+            "product 119",
+            "product 158",
+            "product 155",
+            "product 179",
+            "product 270",
+            "product 234",
+            "product 174",
+            "product 39",
+            "product 35",
+            "product 62",
+            "product 85",
+            "product 20",
+            "product 54",
+            "product 123",
+            "product 2",
+            "product 44",
+            "product 138",
+            "product 157",
+            "product 190",
+            "product 230",
+            "finishing_point"
+        ],
+        "total_distance": 586
+    },
+    {
+        "order_id": 0,
+        "route": [
+            "starting_point",
+            "product 124",
+            "product 96",
+            "product 67",
+            "product 39",
+            "product 143",
+            "product 162",
+            "product 218",
+            "product 154",
+            "product 179",
+            "product 138",
+            "product 61",
+            "product 45",
+            "product 14",
+            "finishing_point"
+        ],
+        "total_distance": 356
+    }
+]
