@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import heapq
 
 from v3.src.calcular_distancias.calcular_distancias_gondolas import heuristic, get_neighbors
-from v3.src.files_management.file_names import map_file, optimized_route_file, products_file
+from v3.src.files_management.file_names import map_file, optimized_route_file, products_file, visualization_dir
 from v3.src.files_management.json_management import load_file
 
 import os
@@ -60,7 +59,7 @@ def astar_path(grid, start, goal):
 
 def generate_visualizacion_route(optimized_route_file, products_file, map_file, selected_order_id=None):
     # Clear any previous plots and load the supermarket map
-    plt.clf()
+    #plt.clf()
     grid = pd.read_csv(map_file, delimiter=",", header=None, dtype=int).to_numpy()
 
     # Load orders from JSON (each order is a dict in a list)
@@ -115,7 +114,7 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
     bounds = [-0.5, 0.5, 1.5, 2.5, 99.5]
     norm = mcolors.BoundaryNorm(bounds, cmap.N)
 
-    plt.figure(figsize=(10, 10))
+    fig = plt.figure(figsize=(10, 10))
     plt.imshow(grid, cmap=cmap, norm=norm)
 
     # For each consecutive pair of route nodes, compute and plot the A* path
@@ -131,6 +130,11 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
     plt.title("Supermarket Map with Actual Route (Avoiding Obstacles)")
     plt.show()
 
+    order_id = selected_order.get("order_id", "default")
+    output_filename = os.path.join(visualization_dir, f"order_{order_id}_visualization.png")
+
+    # Save the visualization to file instead of showing it
+    fig.savefig(output_filename)
 
 def main():
     generate_visualizacion_route(optimized_route_file, products_file, map_file)

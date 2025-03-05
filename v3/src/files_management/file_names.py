@@ -31,9 +31,11 @@ gondolas_distances_file = BASE_DIR / "data/gondolas_distances.json"
 optimized_route_file = BASE_DIR / "output/optimized_route.json"  # Ajustar directorio si es necesario.
 
 
+visualization_dir = BASE_DIR / "output/visualizations/"
 """---- Pruebas------"""
 
 pruebas_annealing_dir = BASE_DIR / "output/pruebas_annealing/"
+
 
 def main():
     print(BASE_DIR)
