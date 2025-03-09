@@ -2,13 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import heapq
+import os
 
 from v3.src.calcular_distancias.calcular_distancias_gondolas import heuristic, get_neighbors
 from v3.src.files_management.file_names import map_file, optimized_route_file, products_file, visualization_dir
-from v3.src.files_management.json_management import load_file
-
-import os
 from v3.src.files_management.file_names import pruebas_annealing_dir
+from v3.src.files_management.json_management import load_file
 
 
 def reconstruct_path(came_from, current):
@@ -59,7 +58,6 @@ def astar_path(grid, start, goal):
 
 def generate_visualizacion_route(optimized_route_file, products_file, map_file, selected_order_id=None):
     # Clear any previous plots and load the supermarket map
-    #plt.clf()
     grid = pd.read_csv(map_file, delimiter=",", header=None, dtype=int).to_numpy()
 
     # Load orders from JSON (each order is a dict in a list)
@@ -71,7 +69,6 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
     # If the orders are in a dict (not a list), convert it to a list
     if isinstance(orders, dict):
         orders = [orders]
-
 
     # Select the order by order_id if provided; otherwise, use the first order
     if selected_order_id is None:
@@ -99,7 +96,12 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
             product_coords[gid] = (row, col)
         else:
             for product in gondola["list_of_products"]:
-                product_coords[product] = (row, col)
+                # Check if product is a dictionary and extract its 'name'
+                if isinstance(product, dict):
+                    prod_name = product.get("name")
+                else:
+                    prod_name = product
+                product_coords[prod_name] = (row, col)
 
     # Convert route (list of product/special node names) into coordinates
     route_coords = []
@@ -136,6 +138,7 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
     # Save the visualization to file instead of showing it
     fig.savefig(output_filename)
 
+
 def main():
     generate_visualizacion_route(optimized_route_file, products_file, map_file)
     """
@@ -143,6 +146,7 @@ def main():
         file_path = os.path.join(pruebas_annealing_dir, filename)
         generate_visualizacion_route(file_path, products_file, map_file)
     """
+
 
 if __name__ == "__main__":
     main()

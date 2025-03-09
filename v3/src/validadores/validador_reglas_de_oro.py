@@ -12,8 +12,7 @@ def route_respects_frozen_rule(route, product_types_file=product_types_file):
     Special nodes 'starting_point' and 'finishing_point' are ignored.
 
     Args:
-        route (list): List of node names in the route.
-        frozen_set (set): Set of product names that are frozen.
+        route (list): List of node names (or dictionaries with a 'name' key) in the route.
 
     Returns:
         bool: True if the route respects the rule, False otherwise.
@@ -25,11 +24,18 @@ def route_respects_frozen_rule(route, product_types_file=product_types_file):
 
     encountered_frozen = False
     for node in route:
+        # If the node is a dictionary, extract its 'name' field.
+        if isinstance(node, dict):
+            node_name = node.get("name", node)
+        else:
+            node_name = node
+
         # Skip special nodes.
-        if node in {"starting_point", "finishing_point"}:
+        if node_name in {"starting_point", "finishing_point"}:
             continue
+
         # If the node is frozen, mark that we have entered the frozen segment.
-        if node in frozen_set:
+        if node_name in frozen_set:
             encountered_frozen = True
         else:
             # If we've already encountered a frozen product and now find a non-frozen one, rule is violated.
@@ -47,14 +53,12 @@ def check_orders_routes(pedidos_file):
 
     Args:
         pedidos_file (str): Path to the JSON file with orders.
-        product_types_file (str): Path to the JSON file with type product definitions.
 
     Returns:
         list: A list of dictionaries with order_id and whether the route respects the frozen rule.
     """
-    # Load orders and type-products data.
+    # Load orders data.
     orders_data = load_file(pedidos_file)
-
 
     results = []
     for order in orders_data:
@@ -67,7 +71,7 @@ def check_orders_routes(pedidos_file):
 
 
 def main():
-    # Assuming pedidos_file and product_types_file are defined in your file_names module.
+    # Assuming optimized_route_file is used as the orders file.
     check_orders_routes(optimized_route_file)
 
 

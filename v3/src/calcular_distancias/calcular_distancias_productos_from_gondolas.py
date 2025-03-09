@@ -8,7 +8,6 @@ from v3.src.files_management.file_names import (
 from v3.src.files_management.json_management import save_file, load_file
 import math
 
-
 def calcular_distancias_productos(products_file, gondolas_distances_file, output_file, type_products_file, regla_obj_pesados=True):
     """
     Calcula la distancia entre todos los productos en base a la distancia entre sus góndolas,
@@ -21,11 +20,12 @@ def calcular_distancias_productos(products_file, gondolas_distances_file, output
     # Load the precomputed gondola distances.
     gondola_distances = load_file(gondolas_distances_file)
 
-    # Load the type products JSON and build a set of frozen products.
+    # Load the type products JSON and build sets for each category.
     type_products_data = load_file(type_products_file)
     frozen_set = set(type_products_data.get("frozen products", []))
     heavy_set = set(type_products_data.get("heavy products", []))
     normal_set = set(type_products_data.get("normal products", []))
+
     # Build a mapping from each product to its gondola_id.
     # Also, collect a list of all product identifiers.
     # Special nodes (starting_point and finishing_point) are added as product nodes.
@@ -39,8 +39,10 @@ def calcular_distancias_productos(products_file, gondolas_distances_file, output
                 product_list.append(gid)
             else:
                 for product in gondola["list_of_products"]:
-                    product_to_gondola[product] = gid
-                    product_list.append(product)
+                    # Extract the product name from the dictionary.
+                    product_name = product["name"]
+                    product_to_gondola[product_name] = gid
+                    product_list.append(product_name)
         except KeyError as e:
             print(f"Missing key {e} in gondola data: {gondola}")
 

@@ -1,14 +1,11 @@
 import random
 
-
-
-
 def genetic_algorithm_tsp(product_list, product_distances, population_size=100, generations=4000, mutation_rate=0.01):
     """
     Solve the TSP using a genetic algorithm.
     The first and last nodes in product_list are fixed (starting_point and finishing_point).
     """
-    # Fix start and end
+    # Fix start and end nodes.
     start_node = product_list[0]
     end_node = product_list[-1]
     intermediate_nodes = product_list[1:-1]
@@ -16,9 +13,15 @@ def genetic_algorithm_tsp(product_list, product_distances, population_size=100, 
     def route_distance(route):
         total = 0
         for i in range(len(route) - 1):
-            total += product_distances[route[i]][route[i + 1]]
+            a = route[i]
+            b = route[i + 1]
+            # If the node is a dictionary, extract its 'name'
+            if isinstance(a, dict):
+                a = a.get("name", a)
+            if isinstance(b, dict):
+                b = b.get("name", b)
+            total += product_distances[a][b]
         return total
-
 
     # Create initial population: each individual is a route with a random permutation of intermediate_nodes.
     population = []

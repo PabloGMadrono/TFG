@@ -4,9 +4,18 @@
         "x_coordinate": 37,
         "y_coordinate": 0,
         "list_of_products": [
-            "product 1",
-            "product 2",
-            "product 3"
+            {
+                "name": "product 1",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 2",
+                "category": "normal products"
+            },
+            {
+                "name": "product 3",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -14,9 +23,18 @@
         "x_coordinate": 42,
         "y_coordinate": 0,
         "list_of_products": [
-            "product 4",
-            "product 5",
-            "product 6"
+            {
+                "name": "product 4",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 5",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 6",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -24,9 +42,18 @@
         "x_coordinate": 47,
         "y_coordinate": 0,
         "list_of_products": [
-            "product 7",
-            "product 8",
-            "product 9"
+            {
+                "name": "product 7",
+                "category": "normal products"
+            },
+            {
+                "name": "product 8",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 9",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -34,9 +61,18 @@
         "x_coordinate": 40,
         "y_coordinate": 3,
         "list_of_products": [
-            "product 10",
-            "product 11",
-            "product 12"
+            {
+                "name": "product 10",
+                "category": "normal products"
+            },
+            {
+                "name": "product 11",
+                "category": "normal products"
+            },
+            {
+                "name": "product 12",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -44,9 +80,18 @@
         "x_coordinate": 49,
         "y_coordinate": 4,
         "list_of_products": [
-            "product 13",
-            "product 14",
-            "product 15"
+            {
+                "name": "product 13",
+                "category": "normal products"
+            },
+            {
+                "name": "product 14",
+                "category": "normal products"
+            },
+            {
+                "name": "product 15",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -54,9 +99,18 @@
         "x_coordinate": 3,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 16",
-            "product 17",
-            "product 18"
+            {
+                "name": "product 16",
+                "category": "normal products"
+            },
+            {
+                "name": "product 17",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 18",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -64,9 +118,18 @@
         "x_coordinate": 6,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 19",
-            "product 20",
-            "product 21"
+            {
+                "name": "product 19",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 20",
+                "category": "normal products"
+            },
+            {
+                "name": "product 21",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -74,9 +137,18 @@
         "x_coordinate": 12,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 22",
-            "product 23",
-            "product 24"
+            {
+                "name": "product 22",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 23",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 24",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -84,9 +156,18 @@
         "x_coordinate": 15,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 25",
-            "product 26",
-            "product 27"
+            {
+                "name": "product 25",
+                "category": "normal products"
+            },
+            {
+                "name": "product 26",
+                "category": "normal products"
+            },
+            {
+                "name": "product 27",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -94,9 +175,18 @@
         "x_coordinate": 21,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 28",
-            "product 29",
-            "product 30"
+            {
+                "name": "product 28",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 29",
+                "category": "normal products"
+            },
+            {
+                "name": "product 30",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -104,9 +194,18 @@
         "x_coordinate": 24,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 31",
-            "product 32",
-            "product 33"
+            {
+                "name": "product 31",
+                "category": "normal products"
+            },
+            {
+                "name": "product 32",
+                "category": "normal products"
+            },
+            {
+                "name": "product 33",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -114,9 +213,18 @@
         "x_coordinate": 29,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 34",
-            "product 35",
-            "product 36"
+            {
+                "name": "product 34",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 35",
+                "category": "normal products"
+            },
+            {
+                "name": "product 36",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -124,9 +232,18 @@
         "x_coordinate": 32,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 37",
-            "product 38",
-            "product 39"
+            {
+                "name": "product 37",
+                "category": "normal products"
+            },
+            {
+                "name": "product 38",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 39",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -134,9 +251,18 @@
         "x_coordinate": 38,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 40",
-            "product 41",
-            "product 42"
+            {
+                "name": "product 40",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 41",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 42",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -144,9 +270,18 @@
         "x_coordinate": 41,
         "y_coordinate": 5,
         "list_of_products": [
-            "product 43",
-            "product 44",
-            "product 45"
+            {
+                "name": "product 43",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 44",
+                "category": "normal products"
+            },
+            {
+                "name": "product 45",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -154,9 +289,18 @@
         "x_coordinate": 49,
         "y_coordinate": 8,
         "list_of_products": [
-            "product 46",
-            "product 47",
-            "product 48"
+            {
+                "name": "product 46",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 47",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 48",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -164,9 +308,18 @@
         "x_coordinate": 3,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 49",
-            "product 50",
-            "product 51"
+            {
+                "name": "product 49",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 50",
+                "category": "normal products"
+            },
+            {
+                "name": "product 51",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -174,9 +327,18 @@
         "x_coordinate": 6,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 52",
-            "product 53",
-            "product 54"
+            {
+                "name": "product 52",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 53",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 54",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -184,9 +346,18 @@
         "x_coordinate": 12,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 55",
-            "product 56",
-            "product 57"
+            {
+                "name": "product 55",
+                "category": "normal products"
+            },
+            {
+                "name": "product 56",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 57",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -194,9 +365,18 @@
         "x_coordinate": 15,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 58",
-            "product 59",
-            "product 60"
+            {
+                "name": "product 58",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 59",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 60",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -204,9 +384,18 @@
         "x_coordinate": 21,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 61",
-            "product 62",
-            "product 63"
+            {
+                "name": "product 61",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 62",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 63",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -214,9 +403,18 @@
         "x_coordinate": 24,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 64",
-            "product 65",
-            "product 66"
+            {
+                "name": "product 64",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 65",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 66",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -224,9 +422,18 @@
         "x_coordinate": 29,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 67",
-            "product 68",
-            "product 69"
+            {
+                "name": "product 67",
+                "category": "normal products"
+            },
+            {
+                "name": "product 68",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 69",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -234,9 +441,18 @@
         "x_coordinate": 32,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 70",
-            "product 71",
-            "product 72"
+            {
+                "name": "product 70",
+                "category": "normal products"
+            },
+            {
+                "name": "product 71",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 72",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -244,9 +460,18 @@
         "x_coordinate": 38,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 73",
-            "product 74",
-            "product 75"
+            {
+                "name": "product 73",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 74",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 75",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -254,9 +479,18 @@
         "x_coordinate": 41,
         "y_coordinate": 9,
         "list_of_products": [
-            "product 76",
-            "product 77",
-            "product 78"
+            {
+                "name": "product 76",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 77",
+                "category": "normal products"
+            },
+            {
+                "name": "product 78",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -264,9 +498,18 @@
         "x_coordinate": 3,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 79",
-            "product 80",
-            "product 81"
+            {
+                "name": "product 79",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 80",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 81",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -274,9 +517,18 @@
         "x_coordinate": 6,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 82",
-            "product 83",
-            "product 84"
+            {
+                "name": "product 82",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 83",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 84",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -284,9 +536,18 @@
         "x_coordinate": 12,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 85",
-            "product 86",
-            "product 87"
+            {
+                "name": "product 85",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 86",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 87",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -294,9 +555,18 @@
         "x_coordinate": 15,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 88",
-            "product 89",
-            "product 90"
+            {
+                "name": "product 88",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 89",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 90",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -304,9 +574,18 @@
         "x_coordinate": 21,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 91",
-            "product 92",
-            "product 93"
+            {
+                "name": "product 91",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 92",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 93",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -314,9 +593,18 @@
         "x_coordinate": 24,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 94",
-            "product 95",
-            "product 96"
+            {
+                "name": "product 94",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 95",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 96",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -324,9 +612,18 @@
         "x_coordinate": 29,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 97",
-            "product 98",
-            "product 99"
+            {
+                "name": "product 97",
+                "category": "normal products"
+            },
+            {
+                "name": "product 98",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 99",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -334,9 +631,18 @@
         "x_coordinate": 32,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 100",
-            "product 101",
-            "product 102"
+            {
+                "name": "product 100",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 101",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 102",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -344,9 +650,18 @@
         "x_coordinate": 38,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 103",
-            "product 104",
-            "product 105"
+            {
+                "name": "product 103",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 104",
+                "category": "normal products"
+            },
+            {
+                "name": "product 105",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -354,9 +669,18 @@
         "x_coordinate": 41,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 106",
-            "product 107",
-            "product 108"
+            {
+                "name": "product 106",
+                "category": "normal products"
+            },
+            {
+                "name": "product 107",
+                "category": "normal products"
+            },
+            {
+                "name": "product 108",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -364,9 +688,18 @@
         "x_coordinate": 49,
         "y_coordinate": 13,
         "list_of_products": [
-            "product 109",
-            "product 110",
-            "product 111"
+            {
+                "name": "product 109",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 110",
+                "category": "normal products"
+            },
+            {
+                "name": "product 111",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -374,9 +707,18 @@
         "x_coordinate": 30,
         "y_coordinate": 16,
         "list_of_products": [
-            "product 112",
-            "product 113",
-            "product 114"
+            {
+                "name": "product 112",
+                "category": "normal products"
+            },
+            {
+                "name": "product 113",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 114",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -384,9 +726,18 @@
         "x_coordinate": 4,
         "y_coordinate": 22,
         "list_of_products": [
-            "product 115",
-            "product 116",
-            "product 117"
+            {
+                "name": "product 115",
+                "category": "normal products"
+            },
+            {
+                "name": "product 116",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 117",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -394,9 +745,18 @@
         "x_coordinate": 12,
         "y_coordinate": 22,
         "list_of_products": [
-            "product 118",
-            "product 119",
-            "product 120"
+            {
+                "name": "product 118",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 119",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 120",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -404,9 +764,18 @@
         "x_coordinate": 20,
         "y_coordinate": 22,
         "list_of_products": [
-            "product 121",
-            "product 122",
-            "product 123"
+            {
+                "name": "product 121",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 122",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 123",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -414,9 +783,18 @@
         "x_coordinate": 25,
         "y_coordinate": 22,
         "list_of_products": [
-            "product 124",
-            "product 125",
-            "product 126"
+            {
+                "name": "product 124",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 125",
+                "category": "normal products"
+            },
+            {
+                "name": "product 126",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -424,9 +802,18 @@
         "x_coordinate": 30,
         "y_coordinate": 22,
         "list_of_products": [
-            "product 127",
-            "product 128",
-            "product 129"
+            {
+                "name": "product 127",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 128",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 129",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -434,9 +821,18 @@
         "x_coordinate": 40,
         "y_coordinate": 22,
         "list_of_products": [
-            "product 130",
-            "product 131",
-            "product 132"
+            {
+                "name": "product 130",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 131",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 132",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -444,9 +840,18 @@
         "x_coordinate": 43,
         "y_coordinate": 22,
         "list_of_products": [
-            "product 133",
-            "product 134",
-            "product 135"
+            {
+                "name": "product 133",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 134",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 135",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -454,9 +859,18 @@
         "x_coordinate": 34,
         "y_coordinate": 24,
         "list_of_products": [
-            "product 136",
-            "product 137",
-            "product 138"
+            {
+                "name": "product 136",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 137",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 138",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -464,9 +878,18 @@
         "x_coordinate": 38,
         "y_coordinate": 24,
         "list_of_products": [
-            "product 139",
-            "product 140",
-            "product 141"
+            {
+                "name": "product 139",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 140",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 141",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -474,9 +897,18 @@
         "x_coordinate": 46,
         "y_coordinate": 24,
         "list_of_products": [
-            "product 142",
-            "product 143",
-            "product 144"
+            {
+                "name": "product 142",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 143",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 144",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -484,9 +916,18 @@
         "x_coordinate": 34,
         "y_coordinate": 27,
         "list_of_products": [
-            "product 145",
-            "product 146",
-            "product 147"
+            {
+                "name": "product 145",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 146",
+                "category": "normal products"
+            },
+            {
+                "name": "product 147",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -494,9 +935,18 @@
         "x_coordinate": 46,
         "y_coordinate": 27,
         "list_of_products": [
-            "product 148",
-            "product 149",
-            "product 150"
+            {
+                "name": "product 148",
+                "category": "normal products"
+            },
+            {
+                "name": "product 149",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 150",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -504,9 +954,18 @@
         "x_coordinate": 38,
         "y_coordinate": 28,
         "list_of_products": [
-            "product 151",
-            "product 152",
-            "product 153"
+            {
+                "name": "product 151",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 152",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 153",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -514,9 +973,18 @@
         "x_coordinate": 4,
         "y_coordinate": 29,
         "list_of_products": [
-            "product 154",
-            "product 155",
-            "product 156"
+            {
+                "name": "product 154",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 155",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 156",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -524,9 +992,18 @@
         "x_coordinate": 12,
         "y_coordinate": 29,
         "list_of_products": [
-            "product 157",
-            "product 158",
-            "product 159"
+            {
+                "name": "product 157",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 158",
+                "category": "normal products"
+            },
+            {
+                "name": "product 159",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -534,9 +1011,18 @@
         "x_coordinate": 20,
         "y_coordinate": 29,
         "list_of_products": [
-            "product 160",
-            "product 161",
-            "product 162"
+            {
+                "name": "product 160",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 161",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 162",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -544,9 +1030,18 @@
         "x_coordinate": 25,
         "y_coordinate": 29,
         "list_of_products": [
-            "product 163",
-            "product 164",
-            "product 165"
+            {
+                "name": "product 163",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 164",
+                "category": "normal products"
+            },
+            {
+                "name": "product 165",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -554,9 +1049,18 @@
         "x_coordinate": 30,
         "y_coordinate": 29,
         "list_of_products": [
-            "product 166",
-            "product 167",
-            "product 168"
+            {
+                "name": "product 166",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 167",
+                "category": "normal products"
+            },
+            {
+                "name": "product 168",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -564,9 +1068,18 @@
         "x_coordinate": 41,
         "y_coordinate": 29,
         "list_of_products": [
-            "product 169",
-            "product 170",
-            "product 171"
+            {
+                "name": "product 169",
+                "category": "normal products"
+            },
+            {
+                "name": "product 170",
+                "category": "normal products"
+            },
+            {
+                "name": "product 171",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -574,9 +1087,18 @@
         "x_coordinate": 44,
         "y_coordinate": 29,
         "list_of_products": [
-            "product 172",
-            "product 173",
-            "product 174"
+            {
+                "name": "product 172",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 173",
+                "category": "normal products"
+            },
+            {
+                "name": "product 174",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -584,9 +1106,18 @@
         "x_coordinate": 44,
         "y_coordinate": 34,
         "list_of_products": [
-            "product 175",
-            "product 176",
-            "product 177"
+            {
+                "name": "product 175",
+                "category": "normal products"
+            },
+            {
+                "name": "product 176",
+                "category": "normal products"
+            },
+            {
+                "name": "product 177",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -594,9 +1125,18 @@
         "x_coordinate": 7,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 178",
-            "product 179",
-            "product 180"
+            {
+                "name": "product 178",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 179",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 180",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -604,9 +1144,18 @@
         "x_coordinate": 10,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 181",
-            "product 182",
-            "product 183"
+            {
+                "name": "product 181",
+                "category": "normal products"
+            },
+            {
+                "name": "product 182",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 183",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -614,9 +1163,18 @@
         "x_coordinate": 16,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 184",
-            "product 185",
-            "product 186"
+            {
+                "name": "product 184",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 185",
+                "category": "normal products"
+            },
+            {
+                "name": "product 186",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -624,9 +1182,18 @@
         "x_coordinate": 19,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 187",
-            "product 188",
-            "product 189"
+            {
+                "name": "product 187",
+                "category": "normal products"
+            },
+            {
+                "name": "product 188",
+                "category": "normal products"
+            },
+            {
+                "name": "product 189",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -634,9 +1201,18 @@
         "x_coordinate": 25,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 190",
-            "product 191",
-            "product 192"
+            {
+                "name": "product 190",
+                "category": "normal products"
+            },
+            {
+                "name": "product 191",
+                "category": "normal products"
+            },
+            {
+                "name": "product 192",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -644,9 +1220,18 @@
         "x_coordinate": 28,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 193",
-            "product 194",
-            "product 195"
+            {
+                "name": "product 193",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 194",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 195",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -654,9 +1239,18 @@
         "x_coordinate": 33,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 196",
-            "product 197",
-            "product 198"
+            {
+                "name": "product 196",
+                "category": "normal products"
+            },
+            {
+                "name": "product 197",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 198",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -664,9 +1258,18 @@
         "x_coordinate": 36,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 199",
-            "product 200",
-            "product 201"
+            {
+                "name": "product 199",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 200",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 201",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -674,9 +1277,18 @@
         "x_coordinate": 42,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 202",
-            "product 203",
-            "product 204"
+            {
+                "name": "product 202",
+                "category": "normal products"
+            },
+            {
+                "name": "product 203",
+                "category": "normal products"
+            },
+            {
+                "name": "product 204",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -684,9 +1296,18 @@
         "x_coordinate": 45,
         "y_coordinate": 36,
         "list_of_products": [
-            "product 205",
-            "product 206",
-            "product 207"
+            {
+                "name": "product 205",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 206",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 207",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -694,9 +1315,18 @@
         "x_coordinate": 7,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 208",
-            "product 209",
-            "product 210"
+            {
+                "name": "product 208",
+                "category": "normal products"
+            },
+            {
+                "name": "product 209",
+                "category": "normal products"
+            },
+            {
+                "name": "product 210",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -704,9 +1334,18 @@
         "x_coordinate": 10,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 211",
-            "product 212",
-            "product 213"
+            {
+                "name": "product 211",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 212",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 213",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -714,9 +1353,18 @@
         "x_coordinate": 16,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 214",
-            "product 215",
-            "product 216"
+            {
+                "name": "product 214",
+                "category": "normal products"
+            },
+            {
+                "name": "product 215",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 216",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -724,9 +1372,18 @@
         "x_coordinate": 19,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 217",
-            "product 218",
-            "product 219"
+            {
+                "name": "product 217",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 218",
+                "category": "normal products"
+            },
+            {
+                "name": "product 219",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -734,9 +1391,18 @@
         "x_coordinate": 25,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 220",
-            "product 221",
-            "product 222"
+            {
+                "name": "product 220",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 221",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 222",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -744,9 +1410,18 @@
         "x_coordinate": 28,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 223",
-            "product 224",
-            "product 225"
+            {
+                "name": "product 223",
+                "category": "normal products"
+            },
+            {
+                "name": "product 224",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 225",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -754,9 +1429,18 @@
         "x_coordinate": 33,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 226",
-            "product 227",
-            "product 228"
+            {
+                "name": "product 226",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 227",
+                "category": "normal products"
+            },
+            {
+                "name": "product 228",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -764,9 +1448,18 @@
         "x_coordinate": 36,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 229",
-            "product 230",
-            "product 231"
+            {
+                "name": "product 229",
+                "category": "normal products"
+            },
+            {
+                "name": "product 230",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 231",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -774,9 +1467,18 @@
         "x_coordinate": 42,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 232",
-            "product 233",
-            "product 234"
+            {
+                "name": "product 232",
+                "category": "normal products"
+            },
+            {
+                "name": "product 233",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 234",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -784,9 +1486,18 @@
         "x_coordinate": 45,
         "y_coordinate": 40,
         "list_of_products": [
-            "product 235",
-            "product 236",
-            "product 237"
+            {
+                "name": "product 235",
+                "category": "normal products"
+            },
+            {
+                "name": "product 236",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 237",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -806,9 +1517,18 @@
         "x_coordinate": 7,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 238",
-            "product 239",
-            "product 240"
+            {
+                "name": "product 238",
+                "category": "normal products"
+            },
+            {
+                "name": "product 239",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 240",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -816,9 +1536,18 @@
         "x_coordinate": 10,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 241",
-            "product 242",
-            "product 243"
+            {
+                "name": "product 241",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 242",
+                "category": "normal products"
+            },
+            {
+                "name": "product 243",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -826,9 +1555,18 @@
         "x_coordinate": 16,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 244",
-            "product 245",
-            "product 246"
+            {
+                "name": "product 244",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 245",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 246",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -836,9 +1574,18 @@
         "x_coordinate": 19,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 247",
-            "product 248",
-            "product 249"
+            {
+                "name": "product 247",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 248",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 249",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -846,9 +1593,18 @@
         "x_coordinate": 25,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 250",
-            "product 251",
-            "product 252"
+            {
+                "name": "product 250",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 251",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 252",
+                "category": "normal products"
+            }
         ]
     },
     {
@@ -856,9 +1612,18 @@
         "x_coordinate": 28,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 253",
-            "product 254",
-            "product 255"
+            {
+                "name": "product 253",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 254",
+                "category": "normal products"
+            },
+            {
+                "name": "product 255",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -866,9 +1631,18 @@
         "x_coordinate": 33,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 256",
-            "product 257",
-            "product 258"
+            {
+                "name": "product 256",
+                "category": "normal products"
+            },
+            {
+                "name": "product 257",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 258",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -876,9 +1650,18 @@
         "x_coordinate": 36,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 259",
-            "product 260",
-            "product 261"
+            {
+                "name": "product 259",
+                "category": "normal products"
+            },
+            {
+                "name": "product 260",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 261",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -886,9 +1669,18 @@
         "x_coordinate": 42,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 262",
-            "product 263",
-            "product 264"
+            {
+                "name": "product 262",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 263",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 264",
+                "category": "heavy products"
+            }
         ]
     },
     {
@@ -896,9 +1688,18 @@
         "x_coordinate": 45,
         "y_coordinate": 44,
         "list_of_products": [
-            "product 265",
-            "product 266",
-            "product 267"
+            {
+                "name": "product 265",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 266",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 267",
+                "category": "frozen products"
+            }
         ]
     },
     {
@@ -906,9 +1707,18 @@
         "x_coordinate": 34,
         "y_coordinate": 47,
         "list_of_products": [
-            "product 268",
-            "product 269",
-            "product 270"
+            {
+                "name": "product 268",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 269",
+                "category": "normal products"
+            },
+            {
+                "name": "product 270",
+                "category": "heavy products"
+            }
         ]
     }
 ]
