@@ -32,6 +32,10 @@ optimized_route_file = BASE_DIR / "output/optimized_route.json"  # Ajustar direc
 
 
 visualization_dir = BASE_DIR / "output/visualizations/"
+
+
+statistics_dir = BASE_DIR / "output/statistics/"
+
 """---- Pruebas------"""
 
 pruebas_annealing_dir = BASE_DIR / "output/pruebas_annealing/"

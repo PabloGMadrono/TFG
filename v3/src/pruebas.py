@@ -17,6 +17,8 @@ from v3.src.generador_datos.product_categorization import *
 from v3.src.visualizaciones.visualizacion_ruta_obstaculos import *
 
 from v3.src.algoritimia.find_best_route import *
+
+from v3.src.validadores import *
 import time
 
 

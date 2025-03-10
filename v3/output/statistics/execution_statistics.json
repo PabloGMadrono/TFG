@@ -1,0 +1,59 @@
+{
+    "summary_statistics": {
+        "order_id": {
+            "count": 50.0,
+            "mean": 24.5,
+            "std": 14.577379737113251,
+            "min": 0.0,
+            "25%": 12.25,
+            "50%": 24.5,
+            "75%": 36.75,
+            "max": 49.0
+        },
+        "Number of products": {
+            "count": 50.0,
+            "mean": 26.62,
+            "std": 10.397978610464317,
+            "min": 8.0,
+            "25%": 18.0,
+            "50%": 27.5,
+            "75%": 36.0,
+            "max": 40.0
+        },
+        "total_distance": {
+            "count": 50.0,
+            "mean": 570.36,
+            "std": 157.12399367300688,
+            "min": 190.0,
+            "25%": 478.5,
+            "50%": 598.0,
+            "75%": 698.0,
+            "max": 832.0
+        },
+        "execution_time": {
+            "count": 50.0,
+            "mean": 55.798676624298096,
+            "std": 37.45097777672695,
+            "min": 0.08209824562072754,
+            "25%": 13.877707660198212,
+            "50%": 62.03883159160614,
+            "75%": 77.67282259464264,
+            "max": 147.86515426635742
+        }
+    },
+    "algorithm_counts": {
+        "Simmulated Annealing": 32,
+        "Dynamic Programming": 13,
+        "Brute Force": 5
+    },
+    "average_total_distance": 570.36,
+    "average_execution_time": 55.798676624298096,
+    "correlation_num_products_total_distance": 0.9480857727345231,
+    "correlation_num_products_execution_time": 0.8308063735712615,
+    "percentage_following_regla_de_oro": 100.0,
+    "Average execution time per algorithm": {
+        "Brute Force": 3.5249392986297607,
+        "Dynamic Programming": 29.06122535925645,
+        "Simmulated Annealing": 74.82853765785694
+    }
+}

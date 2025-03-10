@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 import json
-from v3.src.files_management.json_management import load_file  # reusing our JSON load helper
-from v3.src.files_management.file_names import optimized_route_file, product_types_file  # assuming these are defined
-
+from v3.src.files_management.json_management import load_file
+from v3.src.files_management.file_names import optimized_route_file, product_types_file
 
 def route_respects_frozen_rule(route, product_types_file=product_types_file):
     """
