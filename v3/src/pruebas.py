@@ -17,6 +17,7 @@ from v3.src.generador_datos.product_categorization import *
 from v3.src.visualizaciones.visualizacion_ruta_obstaculos import *
 
 from v3.src.algoritimia.find_best_route import *
+import time
 
 
 
@@ -38,8 +39,12 @@ def main():
     print(orders)
     order = orders[0]
 
+    start_time = time.time()
     route, total_distance, order_id = find_best_route(order=order)
-    save_route_order_to_file(order_id, route, total_distance, output_file=optimized_route_file)
+    end_time = time.time()
+    execution_time = end_time - start_time
+
+    save_route_order_to_file(order_id, route, total_distance, execution_time,output_file=optimized_route_file, mode='r')
     generate_visualizacion_route(optimized_route_file, products_file, map_file)
 
     generate_baseline_1_order(products_file, baseline1_order_file)

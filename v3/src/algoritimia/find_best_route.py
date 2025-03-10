@@ -22,11 +22,22 @@ def is_frozen(product, type_products_file):
 
 
 
-def save_route_order_to_file(order_id, route, total_distance, output_file=optimized_route_file, mode='a'):
+def save_route_order_to_file(order_id, route, total_distance, execution_time, output_file=optimized_route_file, mode='a'):
+    if len(route) < 13:
+        algorithm = "Brute Force"
+    elif len(route) < 24:
+        algorithm = "Dynamic Programming"
+    else:
+        algorithm = "Simmulated Annealing"
     result = {
         "order_id": order_id,
+        "Number of products": str(len(route) - 2),
         "route": route,
-        "total_distance": total_distance
+        "total_distance": total_distance,
+        "algorithm": algorithm,
+        "Follows regla de oro" : route_respects_frozen_rule(route),
+        "execution_time": execution_time
+
     }
     # If we want to replace_file uncomment next line
     if mode == 'r':
@@ -128,23 +139,32 @@ def main():
     order = orders[4]
     start_time = time.time()
     route, total_distance, order_id = find_best_route(order=order)
-    save_route_order_to_file(order_id, route, total_distance, output_file=optimized_route_file, mode='r')
-
     end_time = time.time()
 
     execution_time = end_time - start_time
 
+    save_route_order_to_file(order_id, route, total_distance, execution_time, output_file=optimized_route_file, mode='r')
+
+    
     print(f"Execution time: {execution_time:.4f} seconds")
 
     """
+    reiniciar = True
     for order in orders:
         #empty_json_file(optimized_route_file, empty_type='list')
         start_time = time.time()
         route, total_distance, order_id = find_best_route(order=order)
-        save_route_order_to_file(order_id, route, total_distance, output_file=optimized_route_file)
         end_time = time.time()
-
         execution_time = end_time - start_time
+
+        if reiniciar:
+            save_route_order_to_file(order_id, route, total_distance, execution_time, output_file=optimized_route_file, mode='r')
+            reiniciar = False
+        else:
+            save_route_order_to_file(order_id, route, total_distance, execution_time, output_file=optimized_route_file)
+
+
+
         print(f"Execution time: {execution_time:.4f} seconds")
 
 
