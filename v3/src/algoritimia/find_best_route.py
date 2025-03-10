@@ -13,7 +13,11 @@ from v3.src.algoritimia.genetic_algorithm_TSP import genetic_algorithm_tsp
 def is_frozen(product, type_products_file):
     type_products_data = load_file(type_products_file)
     frozen_set = set(type_products_data.get("frozen products", []))
+    # If product is a dictionary, extract its 'name' field.
+    if isinstance(product, dict):
+        product = product.get("name", product)
     return product in frozen_set
+
 
 
 
@@ -118,6 +122,7 @@ def main():
         print("No orders found in the file.")
         return
 
+    """
     # For this example, we take the first order.
     print(orders)
     order = orders[4]
@@ -141,7 +146,7 @@ def main():
 
         execution_time = end_time - start_time
         print(f"Execution time: {execution_time:.4f} seconds")
-    """
+
 
 if __name__ == "__main__":
     main()
