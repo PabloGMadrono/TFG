@@ -6,15 +6,15 @@
         "list_of_products": [
             {
                 "name": "product 1",
-                "category": "heavy products"
-            },
-            {
-                "name": "product 2",
                 "category": "frozen products"
             },
             {
+                "name": "product 2",
+                "category": "heavy products"
+            },
+            {
                 "name": "product 3",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -25,11 +25,11 @@
         "list_of_products": [
             {
                 "name": "product 4",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 5",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 6",
@@ -44,7 +44,7 @@
         "list_of_products": [
             {
                 "name": "product 7",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 8",
@@ -63,7 +63,7 @@
         "list_of_products": [
             {
                 "name": "product 10",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 11",
@@ -82,15 +82,15 @@
         "list_of_products": [
             {
                 "name": "product 13",
-                "category": "normal products"
-            },
-            {
-                "name": "product 14",
                 "category": "frozen products"
             },
             {
+                "name": "product 14",
+                "category": "heavy products"
+            },
+            {
                 "name": "product 15",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -101,7 +101,7 @@
         "list_of_products": [
             {
                 "name": "product 16",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 17",
@@ -109,7 +109,7 @@
             },
             {
                 "name": "product 18",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -120,11 +120,11 @@
         "list_of_products": [
             {
                 "name": "product 19",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 20",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 21",
@@ -139,7 +139,7 @@
         "list_of_products": [
             {
                 "name": "product 22",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 23",
@@ -147,7 +147,7 @@
             },
             {
                 "name": "product 24",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -158,15 +158,15 @@
         "list_of_products": [
             {
                 "name": "product 25",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 26",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 27",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
@@ -177,15 +177,15 @@
         "list_of_products": [
             {
                 "name": "product 28",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 29",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 30",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -200,11 +200,11 @@
             },
             {
                 "name": "product 32",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 33",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -215,15 +215,15 @@
         "list_of_products": [
             {
                 "name": "product 34",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 35",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 36",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
@@ -234,11 +234,11 @@
         "list_of_products": [
             {
                 "name": "product 37",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 38",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 39",
@@ -253,11 +253,11 @@
         "list_of_products": [
             {
                 "name": "product 40",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 41",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 42",
@@ -272,7 +272,7 @@
         "list_of_products": [
             {
                 "name": "product 43",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 44",
@@ -299,7 +299,7 @@
             },
             {
                 "name": "product 48",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
@@ -310,15 +310,15 @@
         "list_of_products": [
             {
                 "name": "product 49",
-                "category": "normal products"
-            },
-            {
-                "name": "product 50",
                 "category": "frozen products"
             },
             {
+                "name": "product 50",
+                "category": "heavy products"
+            },
+            {
                 "name": "product 51",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -333,11 +333,11 @@
             },
             {
                 "name": "product 53",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 54",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -348,7 +348,7 @@
         "list_of_products": [
             {
                 "name": "product 55",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 56",
@@ -367,11 +367,11 @@
         "list_of_products": [
             {
                 "name": "product 58",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 59",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 60",
@@ -386,7 +386,7 @@
         "list_of_products": [
             {
                 "name": "product 61",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 62",
@@ -394,7 +394,7 @@
             },
             {
                 "name": "product 63",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
@@ -405,15 +405,15 @@
         "list_of_products": [
             {
                 "name": "product 64",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 65",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 66",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -428,11 +428,11 @@
             },
             {
                 "name": "product 68",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 69",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -443,15 +443,15 @@
         "list_of_products": [
             {
                 "name": "product 70",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 71",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 72",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
@@ -470,7 +470,7 @@
             },
             {
                 "name": "product 75",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
@@ -481,7 +481,7 @@
         "list_of_products": [
             {
                 "name": "product 76",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 77",
@@ -500,15 +500,15 @@
         "list_of_products": [
             {
                 "name": "product 79",
-                "category": "heavy products"
-            },
-            {
-                "name": "product 80",
                 "category": "frozen products"
             },
             {
-                "name": "product 81",
+                "name": "product 80",
                 "category": "heavy products"
+            },
+            {
+                "name": "product 81",
+                "category": "frozen products"
             }
         ]
     },
@@ -527,7 +527,7 @@
             },
             {
                 "name": "product 84",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
@@ -538,15 +538,15 @@
         "list_of_products": [
             {
                 "name": "product 85",
-                "category": "normal products"
-            },
-            {
-                "name": "product 86",
                 "category": "frozen products"
             },
             {
+                "name": "product 86",
+                "category": "normal products"
+            },
+            {
                 "name": "product 87",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
@@ -557,15 +557,15 @@
         "list_of_products": [
             {
                 "name": "product 88",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 89",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 90",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -576,7 +576,7 @@
         "list_of_products": [
             {
                 "name": "product 91",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 92",
@@ -599,11 +599,11 @@
             },
             {
                 "name": "product 95",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 96",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -614,11 +614,11 @@
         "list_of_products": [
             {
                 "name": "product 97",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 98",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 99",
@@ -641,7 +641,7 @@
             },
             {
                 "name": "product 102",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -656,11 +656,11 @@
             },
             {
                 "name": "product 104",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 105",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
@@ -675,7 +675,7 @@
             },
             {
                 "name": "product 107",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 108",
@@ -694,11 +694,11 @@
             },
             {
                 "name": "product 110",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 111",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
@@ -709,15 +709,15 @@
         "list_of_products": [
             {
                 "name": "product 112",
-                "category": "frozen products"
-            },
-            {
-                "name": "product 113",
                 "category": "normal products"
             },
             {
-                "name": "product 114",
+                "name": "product 113",
                 "category": "heavy products"
+            },
+            {
+                "name": "product 114",
+                "category": "normal products"
             }
         ]
     },
@@ -728,15 +728,15 @@
         "list_of_products": [
             {
                 "name": "product 115",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 116",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 117",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -747,11 +747,11 @@
         "list_of_products": [
             {
                 "name": "product 118",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 119",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 120",
@@ -766,15 +766,15 @@
         "list_of_products": [
             {
                 "name": "product 121",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 122",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 123",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -785,15 +785,15 @@
         "list_of_products": [
             {
                 "name": "product 124",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 125",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 126",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -804,7 +804,7 @@
         "list_of_products": [
             {
                 "name": "product 127",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 128",
@@ -812,7 +812,7 @@
             },
             {
                 "name": "product 129",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -823,7 +823,7 @@
         "list_of_products": [
             {
                 "name": "product 130",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 131",
@@ -831,7 +831,7 @@
             },
             {
                 "name": "product 132",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
@@ -846,7 +846,7 @@
             },
             {
                 "name": "product 134",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 135",
@@ -865,7 +865,7 @@
             },
             {
                 "name": "product 137",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 138",
@@ -880,7 +880,7 @@
         "list_of_products": [
             {
                 "name": "product 139",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 140",
@@ -888,7 +888,7 @@
             },
             {
                 "name": "product 141",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -899,11 +899,11 @@
         "list_of_products": [
             {
                 "name": "product 142",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 143",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 144",
@@ -926,7 +926,7 @@
             },
             {
                 "name": "product 147",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -941,7 +941,7 @@
             },
             {
                 "name": "product 149",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 150",
@@ -960,7 +960,7 @@
             },
             {
                 "name": "product 152",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 153",
@@ -975,7 +975,7 @@
         "list_of_products": [
             {
                 "name": "product 154",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 155",
@@ -994,7 +994,7 @@
         "list_of_products": [
             {
                 "name": "product 157",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 158",
@@ -1017,7 +1017,7 @@
             },
             {
                 "name": "product 161",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 162",
@@ -1032,11 +1032,11 @@
         "list_of_products": [
             {
                 "name": "product 163",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 164",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 165",
@@ -1051,7 +1051,7 @@
         "list_of_products": [
             {
                 "name": "product 166",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 167",
@@ -1059,7 +1059,7 @@
             },
             {
                 "name": "product 168",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -1070,7 +1070,7 @@
         "list_of_products": [
             {
                 "name": "product 169",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 170",
@@ -1089,11 +1089,11 @@
         "list_of_products": [
             {
                 "name": "product 172",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 173",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 174",
@@ -1108,7 +1108,7 @@
         "list_of_products": [
             {
                 "name": "product 175",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 176",
@@ -1127,15 +1127,15 @@
         "list_of_products": [
             {
                 "name": "product 178",
-                "category": "normal products"
-            },
-            {
-                "name": "product 179",
                 "category": "frozen products"
             },
             {
-                "name": "product 180",
+                "name": "product 179",
                 "category": "heavy products"
+            },
+            {
+                "name": "product 180",
+                "category": "frozen products"
             }
         ]
     },
@@ -1146,15 +1146,15 @@
         "list_of_products": [
             {
                 "name": "product 181",
-                "category": "frozen products"
-            },
-            {
-                "name": "product 182",
                 "category": "normal products"
             },
             {
+                "name": "product 182",
+                "category": "heavy products"
+            },
+            {
                 "name": "product 183",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -1165,15 +1165,15 @@
         "list_of_products": [
             {
                 "name": "product 184",
-                "category": "normal products"
-            },
-            {
-                "name": "product 185",
                 "category": "frozen products"
             },
             {
+                "name": "product 185",
+                "category": "normal products"
+            },
+            {
                 "name": "product 186",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
@@ -1184,15 +1184,15 @@
         "list_of_products": [
             {
                 "name": "product 187",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 188",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 189",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
@@ -1203,15 +1203,15 @@
         "list_of_products": [
             {
                 "name": "product 190",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 191",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 192",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -1222,15 +1222,15 @@
         "list_of_products": [
             {
                 "name": "product 193",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 194",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 195",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -1245,7 +1245,7 @@
             },
             {
                 "name": "product 197",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 198",
@@ -1260,7 +1260,7 @@
         "list_of_products": [
             {
                 "name": "product 199",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 200",
@@ -1268,7 +1268,7 @@
             },
             {
                 "name": "product 201",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
@@ -1279,7 +1279,7 @@
         "list_of_products": [
             {
                 "name": "product 202",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 203",
@@ -1302,7 +1302,7 @@
             },
             {
                 "name": "product 206",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 207",
@@ -1325,7 +1325,7 @@
             },
             {
                 "name": "product 210",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -1336,7 +1336,7 @@
         "list_of_products": [
             {
                 "name": "product 211",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 212",
@@ -1344,7 +1344,7 @@
             },
             {
                 "name": "product 213",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -1359,11 +1359,11 @@
             },
             {
                 "name": "product 215",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 216",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
@@ -1374,7 +1374,7 @@
         "list_of_products": [
             {
                 "name": "product 217",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 218",
@@ -1382,7 +1382,7 @@
             },
             {
                 "name": "product 219",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -1393,7 +1393,7 @@
         "list_of_products": [
             {
                 "name": "product 220",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 221",
@@ -1416,11 +1416,11 @@
             },
             {
                 "name": "product 224",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 225",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
@@ -1431,7 +1431,7 @@
         "list_of_products": [
             {
                 "name": "product 226",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 227",
@@ -1439,7 +1439,7 @@
             },
             {
                 "name": "product 228",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
@@ -1450,15 +1450,15 @@
         "list_of_products": [
             {
                 "name": "product 229",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 230",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 231",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
@@ -1477,7 +1477,7 @@
             },
             {
                 "name": "product 234",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -1488,11 +1488,11 @@
         "list_of_products": [
             {
                 "name": "product 235",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 236",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 237",
@@ -1519,15 +1519,15 @@
         "list_of_products": [
             {
                 "name": "product 238",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 239",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 240",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
@@ -1538,15 +1538,15 @@
         "list_of_products": [
             {
                 "name": "product 241",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 242",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 243",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -1557,15 +1557,15 @@
         "list_of_products": [
             {
                 "name": "product 244",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 245",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 246",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
@@ -1576,7 +1576,7 @@
         "list_of_products": [
             {
                 "name": "product 247",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 248",
@@ -1599,11 +1599,11 @@
             },
             {
                 "name": "product 251",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 252",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
@@ -1622,7 +1622,7 @@
             },
             {
                 "name": "product 255",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
@@ -1633,15 +1633,15 @@
         "list_of_products": [
             {
                 "name": "product 256",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 257",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 258",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -1652,7 +1652,7 @@
         "list_of_products": [
             {
                 "name": "product 259",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 260",
@@ -1671,15 +1671,15 @@
         "list_of_products": [
             {
                 "name": "product 262",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 263",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 264",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
@@ -1690,15 +1690,15 @@
         "list_of_products": [
             {
                 "name": "product 265",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 266",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 267",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
@@ -1713,11 +1713,11 @@
             },
             {
                 "name": "product 269",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 270",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     }
