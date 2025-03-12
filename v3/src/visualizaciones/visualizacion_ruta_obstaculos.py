@@ -103,13 +103,18 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
                     prod_name = product
                 product_coords[prod_name] = (row, col)
 
-    # Convert route (list of product/special node names) into coordinates
+    # Convert route (list of product/special node names) into coordinates.
+    # If a node is a dictionary, extract its 'name' before the lookup.
     route_coords = []
     for node in route_list:
-        if node in product_coords:
-            route_coords.append(product_coords[node])
+        if isinstance(node, dict):
+            node_key = node.get("name")
         else:
-            print(f"Warning: node '{node}' not found in product_coords.")
+            node_key = node
+        if node_key in product_coords:
+            route_coords.append(product_coords[node_key])
+        else:
+            print(f"Warning: node '{node_key}' not found in product_coords.")
 
     # Create a discrete colormap (example colors)
     cmap = mcolors.ListedColormap(["lightgrey", "blue", "yellow", "purple"])

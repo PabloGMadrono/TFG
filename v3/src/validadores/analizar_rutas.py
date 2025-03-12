@@ -96,17 +96,26 @@ def generate_statistics(route_file=optimized_route_file):
     plt.close()
     print(f"Visualization saved to {vis_file1}")
 
-    # Second figure: bar chart for algorithm distribution
-    plt.figure(figsize=(8, 6))
-    df["algorithm"].value_counts().plot(kind="bar", color="orange", edgecolor='black')
-    plt.xlabel("Algorithm")
-    plt.ylabel("Count of Orders")
-    plt.title("Algorithm Usage Distribution")
+    # Create a single figure with two subplots side by side
+    fig, axes = plt.subplots(1, 2, figsize=(14, 6))  # 1 row, 2 columns
+
+    # First Plot: Algorithm Usage Distribution
+    pd.Series(algorithm_counts).plot(kind="bar", color="orange", edgecolor='black', ax=axes[0])
+    axes[0].set_xlabel("Algorithm")
+    axes[0].set_ylabel("Count of Orders")
+    axes[0].set_title("Algorithm Usage Distribution")
+
+    # Second Plot: Average Execution Time per Algorithm
+    pd.Series(avg_exec_time).plot(kind="bar", color="blue", edgecolor='black', ax=axes[1])
+    axes[1].set_xlabel("Algorithm")
+    axes[1].set_ylabel("Average Execution Time (s)")
+    axes[1].set_title("Average Execution Time per Algorithm")
+
     plt.tight_layout()
-    vis_file2 = os.path.join(visualization_dir, "algorithm_distribution.png")
-    plt.savefig(vis_file2)
+    vis_file = os.path.join(visualization_dir, "algorithm_comparison.png")
+    plt.savefig(vis_file)
     plt.close()
-    print(f"Visualization saved to {vis_file2}")
+    print(f"Visualization saved to {vis_file}")
 
 
 def main():
