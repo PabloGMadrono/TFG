@@ -26,7 +26,7 @@ import time
 def main():
     generate_gondolas(map_file, products_file)
     generarate_pedidos(products_file, pedidos_file, 50, 8, 40)
-    generate_product_categories(products_file, product_types_file)
+    extract_product_categories(products_file, product_types_file)
 
     calcular_distancias_gondolas(map_file, products_file, gondolas_distances_file)
     calcular_distancias_productos(products_file, gondolas_distances_file, product_distances_file, product_types_file)

@@ -56,6 +56,7 @@ def astar_path(grid, start, goal):
     return []  # No path found
 
 
+
 def generate_visualizacion_route(optimized_route_file, products_file, map_file, selected_order_id=None):
     # Clear any previous plots and load the supermarket map
     grid = pd.read_csv(map_file, delimiter=",", header=None, dtype=int).to_numpy()
@@ -69,19 +70,6 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
     # If the orders are in a dict (not a list), convert it to a list
     if isinstance(orders, dict):
         orders = [orders]
-
-    # Select the order by order_id if provided; otherwise, use the first order
-    if selected_order_id is None:
-        selected_order = orders[0]
-    else:
-        selected_order = next((order for order in orders if order.get("order_id") == selected_order_id), None)
-        if selected_order is None:
-            print(f"Order with id {selected_order_id} not found.")
-            return
-
-    # Extract the route list from the selected order
-    route_list = selected_order.get("route", [])
-    print(f"Loaded route for order {selected_order.get('order_id')} with {len(route_list)} nodes: {route_list}")
 
     # Load product data (for mapping product -> (row, col))
     products_data = load_file(products_file)
@@ -103,54 +91,67 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
                     prod_name = product
                 product_coords[prod_name] = (row, col)
 
-    # Convert route (list of product/special node names) into coordinates.
-    # If a node is a dictionary, extract its 'name' before the lookup.
-    route_coords = []
-    for node in route_list:
-        if isinstance(node, dict):
-            node_key = node.get("name")
-        else:
-            node_key = node
-        if node_key in product_coords:
-            route_coords.append(product_coords[node_key])
-        else:
-            print(f"Warning: node '{node_key}' not found in product_coords.")
+    # Determine which orders to process: all orders if selected_order_id is None,
+    # otherwise, find the order with the matching order_id.
+    if selected_order_id is None:
+        orders_to_process = orders
+    else:
+        selected_order = next((order for order in orders if order.get("order_id") == selected_order_id), None)
+        if selected_order is None:
+            print(f"Order with id {selected_order_id} not found.")
+            return
+        orders_to_process = [selected_order]
 
-    # Create a discrete colormap (example colors)
-    cmap = mcolors.ListedColormap(["lightgrey", "blue", "yellow", "purple"])
-    bounds = [-0.5, 0.5, 1.5, 2.5, 99.5]
-    norm = mcolors.BoundaryNorm(bounds, cmap.N)
+    # Process each order in the list
+    for selected_order in orders_to_process:
+        # Extract the route list from the selected order
+        route_list = selected_order.get("route", [])
+        print(f"Loaded route for order {selected_order.get('order_id')} with {len(route_list)} nodes: {route_list}")
 
-    fig = plt.figure(figsize=(10, 10))
-    plt.imshow(grid, cmap=cmap, norm=norm)
+        # Convert route (list of product/special node names) into coordinates.
+        # If a node is a dictionary, extract its 'name' before the lookup.
+        route_coords = []
+        for node in route_list:
+            if isinstance(node, dict):
+                node_key = node.get("name")
+            else:
+                node_key = node
+            if node_key in product_coords:
+                route_coords.append(product_coords[node_key])
+            else:
+                print(f"Warning: node '{node_key}' not found in product_coords.")
 
-    # For each consecutive pair of route nodes, compute and plot the A* path
-    for i in range(len(route_coords) - 1):
-        start = route_coords[i]
-        goal = route_coords[i + 1]
-        path = astar_path(grid, start, goal)
-        for j in range(len(path) - 1):
-            (r1, c1) = path[j]
-            (r2, c2) = path[j + 1]
-            plt.plot([c1, c2], [r1, r2], color="red", linewidth=2)
+        # Create a discrete colormap (example colors)
+        cmap = mcolors.ListedColormap(["lightgrey", "blue", "yellow", "purple"])
+        bounds = [-0.5, 0.5, 1.5, 2.5, 99.5]
+        norm = mcolors.BoundaryNorm(bounds, cmap.N)
 
-    plt.title("Supermarket Map with Actual Route (Avoiding Obstacles)")
-    plt.show()
+        fig = plt.figure(figsize=(10, 10))
+        plt.imshow(grid, cmap=cmap, norm=norm)
 
-    order_id = selected_order.get("order_id", "default")
-    output_filename = os.path.join(visualization_dir, f"order_{order_id}_visualization.png")
+        # For each consecutive pair of route nodes, compute and plot the A* path
+        for i in range(len(route_coords) - 1):
+            start = route_coords[i]
+            goal = route_coords[i + 1]
+            path = astar_path(grid, start, goal)
+            for j in range(len(path) - 1):
+                (r1, c1) = path[j]
+                (r2, c2) = path[j + 1]
+                plt.plot([c1, c2], [r1, r2], color="red", linewidth=2)
 
-    # Save the visualization to file instead of showing it
-    fig.savefig(output_filename)
+        plt.title("Supermarket Map with Actual Route (Avoiding Obstacles)")
+        # Instead of showing, save the visualization to file
+        order_id = selected_order.get("order_id", "default")
+        output_filename = os.path.join(visualization_dir, f"order_{order_id}_visualization.png")
+        fig.savefig(output_filename)
+        plt.close(fig)
+
 
 
 def main():
     generate_visualizacion_route(optimized_route_file, products_file, map_file)
-    """
-    for filename in os.listdir(pruebas_annealing_dir):
-        file_path = os.path.join(pruebas_annealing_dir, filename)
-        generate_visualizacion_route(file_path, products_file, map_file)
-    """
+
+
 
 
 if __name__ == "__main__":

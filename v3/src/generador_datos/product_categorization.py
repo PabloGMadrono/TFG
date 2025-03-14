@@ -2,7 +2,7 @@ from v3.src.files_management.file_names import products_file, product_types_file
 from v3.src.files_management.json_management import load_file, save_file
 
 
-def generate_product_categories(products_file, product_types_file):
+def extract_product_categories(products_file, product_types_file):
     products = load_file(products_file)
 
     # Define category keys based on expected categories.
@@ -29,7 +29,7 @@ def generate_product_categories(products_file, product_types_file):
 
 
 def main():
-    generate_product_categories(products_file, product_types_file)
+    extract_product_categories(products_file, product_types_file)
 
 
 if __name__ == '__main__':

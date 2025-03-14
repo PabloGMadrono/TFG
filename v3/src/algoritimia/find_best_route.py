@@ -25,7 +25,7 @@ def is_frozen(product, type_products_file):
 def save_route_order_to_file(order_id, route, total_distance, execution_time, output_file=optimized_route_file, mode='a'):
     if len(route) < 13:
         algorithm = "Brute Force"
-    elif len(route) < 24:
+    elif len(route) < 23:
         algorithm = "Dynamic Programming"
     else:
         algorithm = "Simmulated Annealing"
@@ -66,7 +66,7 @@ def find_best_route(order, product_distances_file=product_distances_file):
     if len(product_list) < 13:
         print("Using brute-force TSP solver.")
         route, total_distance = brute_force_tsp(product_list, product_distances)
-    elif len(product_list) < 24:
+    elif len(product_list) < 23:
         print("Using Dynamic programming TSP solver.")
         route, total_distance = held_karp_tsp(product_list, product_distances)
     else:
@@ -74,7 +74,7 @@ def find_best_route(order, product_distances_file=product_distances_file):
         route, total_distance = simulated_annealing_tsp(product_list, product_distances)
 
         print("Also computing route with genetic algorithm.")
-        route1, total_distance1 = genetic_algorithm_tsp(product_list, product_distances)
+        #route1, total_distance1 = genetic_algorithm_tsp(product_list, product_distances)
 
         if not route_respects_frozen_rule(route):
             print("Simulated annealing solution does not respect the frozen rule.")
@@ -106,12 +106,14 @@ def find_best_route(order, product_distances_file=product_distances_file):
             route = merged_route
             print("Merged route created to respect frozen rule.")
 
+        """
         if total_distance < total_distance1:
             print("Simulated Annealing algorithm was better")
         else:
             print("Genetic algorithm was better")
             route = route1
             total_distance = total_distance1
+        """
 
         print("Route:", route)
         print("Total distance:", total_distance)

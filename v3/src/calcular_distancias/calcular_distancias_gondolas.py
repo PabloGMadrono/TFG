@@ -46,7 +46,7 @@ def astar(grid, start, goal):
         closed_set.add(current)
 
         for neighbor in get_neighbors(current, grid):
-            tentative_g = current_g + 1  # each move has a cost of 1
+            tentative_g = current_g + 1  # each move has a cost of 1 here we could add more complex weights
             if neighbor in g_score and tentative_g >= g_score[neighbor]:
                 continue
             g_score[neighbor] = tentative_g
@@ -82,11 +82,10 @@ def calcular_distancias_gondolas(map_file, products_file, output_file):
             if not (0 <= row < grid.shape[0] and 0 <= col < grid.shape[1]):
                 print(f"Warning: Gondola {gondola_id} coordinate {(row, col)} is out of grid bounds {grid.shape}.")
             gondola_coords[gondola_id] = (row, col)
-            print(f"Gondola {gondola_id} located at {(row, col)}")
+            #print(f"Gondola {gondola_id} located at {(row, col)}")
         except KeyError as e:
             print(f"Missing key {e} in gondola data: {gondola}")
 
-    # Optional: Warn if starting or finishing point is missing.
     if "starting_point" not in gondola_coords:
         print("Warning: No starting point found in the products JSON.")
     if "finishing_point" not in gondola_coords:
