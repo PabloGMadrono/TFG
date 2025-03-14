@@ -22,23 +22,23 @@
         },
         "total_distance": {
             "count": 34.0,
-            "mean": 443.11764705882354,
-            "std": 191.10599386535628,
-            "min": 132.0,
-            "25%": 323.0,
-            "50%": 411.0,
-            "75%": 520.0,
-            "max": 940.0
+            "mean": 549.6470588235294,
+            "std": 247.22188320725553,
+            "min": 216.0,
+            "25%": 335.5,
+            "50%": 510.0,
+            "75%": 684.5,
+            "max": 1062.0
         },
         "execution_time": {
             "count": 34.0,
-            "mean": 12.669193569351645,
-            "std": 13.047570381795866,
-            "min": 0.01591634750366211,
-            "25%": 0.20960402488708496,
-            "50%": 11.624842405319214,
-            "75%": 19.229922592639923,
-            "max": 42.29546880722046
+            "mean": 14.959069981294519,
+            "std": 15.939649518054603,
+            "min": 0.05852150917053223,
+            "25%": 0.3088253140449524,
+            "50%": 13.06012237071991,
+            "75%": 25.263737440109253,
+            "max": 60.47844958305359
         }
     },
     "algorithm_counts": {
@@ -46,14 +46,14 @@
         "Dynamic Programming": 10,
         "Brute Force": 8
     },
-    "average_total_distance": 443.11764705882354,
-    "average_execution_time": 12.669193569351645,
-    "correlation_num_products_total_distance": 0.9693371437162601,
-    "correlation_num_products_execution_time": 0.9149170794807069,
+    "average_total_distance": 549.6470588235294,
+    "average_execution_time": 14.959069981294519,
+    "correlation_num_products_total_distance": 0.9672363652946171,
+    "correlation_num_products_execution_time": 0.8355389108410847,
     "percentage_following_regla_de_oro": 100.0,
     "Average execution time per algorithm": {
-        "Brute Force": 1.581236332654953,
-        "Dynamic Programming": 6.914727830886841,
-        "Simmulated Annealing": 21.809713274240494
+        "Brute Force": 1.88054621219635,
+        "Dynamic Programming": 8.403076863288879,
+        "Simmulated Annealing": 25.59582756459713
     }
 }

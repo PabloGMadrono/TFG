@@ -17,7 +17,7 @@ def generate_statistics(route_file=optimized_route_file):
     df["Number of products"] = df["Number of products"].astype(int)
 
     # Compute basic statistics
-    summary_stats = df.describe().to_dict()
+    summary_stats = df[["Number of products", "total_distance", "execution_time"]].describe().to_dict()
     algorithm_counts = df["algorithm"].value_counts().to_dict()
 
     avg_distance = df["total_distance"].mean()

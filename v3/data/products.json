@@ -6,15 +6,15 @@
         "list_of_products": [
             {
                 "name": "product 1",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 2",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 3",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
@@ -25,15 +25,15 @@
         "list_of_products": [
             {
                 "name": "product 4",
-                "category": "frozen products"
-            },
-            {
-                "name": "product 5",
                 "category": "normal products"
             },
             {
-                "name": "product 6",
+                "name": "product 5",
                 "category": "heavy products"
+            },
+            {
+                "name": "product 6",
+                "category": "frozen products"
             }
         ]
     },
@@ -44,11 +44,11 @@
         "list_of_products": [
             {
                 "name": "product 7",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 8",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 9",
@@ -58,8 +58,8 @@
     },
     {
         "gondola_id": 3,
-        "x_coordinate": 40,
-        "y_coordinate": 3,
+        "x_coordinate": 52,
+        "y_coordinate": 2,
         "list_of_products": [
             {
                 "name": "product 10",
@@ -71,18 +71,18 @@
             },
             {
                 "name": "product 12",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 4,
-        "x_coordinate": 49,
-        "y_coordinate": 4,
+        "x_coordinate": 40,
+        "y_coordinate": 3,
         "list_of_products": [
             {
                 "name": "product 13",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 14",
@@ -96,27 +96,27 @@
     },
     {
         "gondola_id": 5,
-        "x_coordinate": 3,
-        "y_coordinate": 5,
+        "x_coordinate": 49,
+        "y_coordinate": 4,
         "list_of_products": [
             {
                 "name": "product 16",
-                "category": "heavy products"
-            },
-            {
-                "name": "product 17",
                 "category": "normal products"
             },
             {
+                "name": "product 17",
+                "category": "frozen products"
+            },
+            {
                 "name": "product 18",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 6,
-        "x_coordinate": 6,
-        "y_coordinate": 5,
+        "x_coordinate": 56,
+        "y_coordinate": 4,
         "list_of_products": [
             {
                 "name": "product 19",
@@ -124,7 +124,7 @@
             },
             {
                 "name": "product 20",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 21",
@@ -134,8 +134,8 @@
     },
     {
         "gondola_id": 7,
-        "x_coordinate": 12,
-        "y_coordinate": 5,
+        "x_coordinate": 59,
+        "y_coordinate": 4,
         "list_of_products": [
             {
                 "name": "product 22",
@@ -143,7 +143,7 @@
             },
             {
                 "name": "product 23",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 24",
@@ -153,8 +153,8 @@
     },
     {
         "gondola_id": 8,
-        "x_coordinate": 15,
-        "y_coordinate": 5,
+        "x_coordinate": 66,
+        "y_coordinate": 4,
         "list_of_products": [
             {
                 "name": "product 25",
@@ -162,37 +162,37 @@
             },
             {
                 "name": "product 26",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 27",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 9,
-        "x_coordinate": 21,
-        "y_coordinate": 5,
+        "x_coordinate": 69,
+        "y_coordinate": 4,
         "list_of_products": [
             {
                 "name": "product 28",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 29",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 30",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 10,
-        "x_coordinate": 24,
-        "y_coordinate": 5,
+        "x_coordinate": 75,
+        "y_coordinate": 4,
         "list_of_products": [
             {
                 "name": "product 31",
@@ -200,7 +200,7 @@
             },
             {
                 "name": "product 32",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 33",
@@ -210,31 +210,31 @@
     },
     {
         "gondola_id": 11,
-        "x_coordinate": 29,
-        "y_coordinate": 5,
+        "x_coordinate": 78,
+        "y_coordinate": 4,
         "list_of_products": [
             {
                 "name": "product 34",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 35",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 36",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 12,
-        "x_coordinate": 32,
+        "x_coordinate": 3,
         "y_coordinate": 5,
         "list_of_products": [
             {
                 "name": "product 37",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 38",
@@ -248,7 +248,7 @@
     },
     {
         "gondola_id": 13,
-        "x_coordinate": 38,
+        "x_coordinate": 6,
         "y_coordinate": 5,
         "list_of_products": [
             {
@@ -257,37 +257,37 @@
             },
             {
                 "name": "product 41",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 42",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 14,
-        "x_coordinate": 41,
+        "x_coordinate": 12,
         "y_coordinate": 5,
         "list_of_products": [
             {
                 "name": "product 43",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 44",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 45",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 15,
-        "x_coordinate": 49,
-        "y_coordinate": 8,
+        "x_coordinate": 15,
+        "y_coordinate": 5,
         "list_of_products": [
             {
                 "name": "product 46",
@@ -305,12 +305,12 @@
     },
     {
         "gondola_id": 16,
-        "x_coordinate": 3,
-        "y_coordinate": 9,
+        "x_coordinate": 21,
+        "y_coordinate": 5,
         "list_of_products": [
             {
                 "name": "product 49",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 50",
@@ -324,31 +324,31 @@
     },
     {
         "gondola_id": 17,
-        "x_coordinate": 6,
-        "y_coordinate": 9,
+        "x_coordinate": 24,
+        "y_coordinate": 5,
         "list_of_products": [
             {
                 "name": "product 52",
-                "category": "heavy products"
-            },
-            {
-                "name": "product 53",
                 "category": "normal products"
             },
             {
-                "name": "product 54",
+                "name": "product 53",
                 "category": "frozen products"
+            },
+            {
+                "name": "product 54",
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 18,
-        "x_coordinate": 12,
-        "y_coordinate": 9,
+        "x_coordinate": 29,
+        "y_coordinate": 5,
         "list_of_products": [
             {
                 "name": "product 55",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 56",
@@ -356,22 +356,22 @@
             },
             {
                 "name": "product 57",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 19,
-        "x_coordinate": 15,
-        "y_coordinate": 9,
+        "x_coordinate": 32,
+        "y_coordinate": 5,
         "list_of_products": [
             {
                 "name": "product 58",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 59",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 60",
@@ -381,8 +381,8 @@
     },
     {
         "gondola_id": 20,
-        "x_coordinate": 21,
-        "y_coordinate": 9,
+        "x_coordinate": 38,
+        "y_coordinate": 5,
         "list_of_products": [
             {
                 "name": "product 61",
@@ -390,45 +390,45 @@
             },
             {
                 "name": "product 62",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 63",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 21,
-        "x_coordinate": 24,
-        "y_coordinate": 9,
+        "x_coordinate": 41,
+        "y_coordinate": 5,
         "list_of_products": [
             {
                 "name": "product 64",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 65",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 66",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 22,
-        "x_coordinate": 29,
-        "y_coordinate": 9,
+        "x_coordinate": 52,
+        "y_coordinate": 6,
         "list_of_products": [
             {
                 "name": "product 67",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 68",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 69",
@@ -438,8 +438,8 @@
     },
     {
         "gondola_id": 23,
-        "x_coordinate": 32,
-        "y_coordinate": 9,
+        "x_coordinate": 49,
+        "y_coordinate": 8,
         "list_of_products": [
             {
                 "name": "product 70",
@@ -447,22 +447,22 @@
             },
             {
                 "name": "product 71",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 72",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 24,
-        "x_coordinate": 38,
-        "y_coordinate": 9,
+        "x_coordinate": 56,
+        "y_coordinate": 8,
         "list_of_products": [
             {
                 "name": "product 73",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 74",
@@ -470,22 +470,22 @@
             },
             {
                 "name": "product 75",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 25,
-        "x_coordinate": 41,
-        "y_coordinate": 9,
+        "x_coordinate": 59,
+        "y_coordinate": 8,
         "list_of_products": [
             {
                 "name": "product 76",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 77",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 78",
@@ -495,8 +495,8 @@
     },
     {
         "gondola_id": 26,
-        "x_coordinate": 3,
-        "y_coordinate": 13,
+        "x_coordinate": 66,
+        "y_coordinate": 8,
         "list_of_products": [
             {
                 "name": "product 79",
@@ -504,37 +504,37 @@
             },
             {
                 "name": "product 80",
-                "category": "normal products"
-            },
-            {
-                "name": "product 81",
-                "category": "normal products"
-            }
-        ]
-    },
-    {
-        "gondola_id": 27,
-        "x_coordinate": 6,
-        "y_coordinate": 13,
-        "list_of_products": [
-            {
-                "name": "product 82",
-                "category": "normal products"
-            },
-            {
-                "name": "product 83",
                 "category": "frozen products"
             },
             {
-                "name": "product 84",
+                "name": "product 81",
                 "category": "heavy products"
             }
         ]
     },
     {
+        "gondola_id": 27,
+        "x_coordinate": 69,
+        "y_coordinate": 8,
+        "list_of_products": [
+            {
+                "name": "product 82",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 83",
+                "category": "normal products"
+            },
+            {
+                "name": "product 84",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
         "gondola_id": 28,
-        "x_coordinate": 12,
-        "y_coordinate": 13,
+        "x_coordinate": 75,
+        "y_coordinate": 8,
         "list_of_products": [
             {
                 "name": "product 85",
@@ -542,22 +542,22 @@
             },
             {
                 "name": "product 86",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 87",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 29,
-        "x_coordinate": 15,
-        "y_coordinate": 13,
+        "x_coordinate": 78,
+        "y_coordinate": 8,
         "list_of_products": [
             {
                 "name": "product 88",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 89",
@@ -565,22 +565,22 @@
             },
             {
                 "name": "product 90",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 30,
-        "x_coordinate": 21,
-        "y_coordinate": 13,
+        "x_coordinate": 3,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 91",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 92",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 93",
@@ -590,8 +590,8 @@
     },
     {
         "gondola_id": 31,
-        "x_coordinate": 24,
-        "y_coordinate": 13,
+        "x_coordinate": 6,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 94",
@@ -603,14 +603,14 @@
             },
             {
                 "name": "product 96",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 32,
-        "x_coordinate": 29,
-        "y_coordinate": 13,
+        "x_coordinate": 12,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 97",
@@ -618,18 +618,18 @@
             },
             {
                 "name": "product 98",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 99",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 33,
-        "x_coordinate": 32,
-        "y_coordinate": 13,
+        "x_coordinate": 15,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 100",
@@ -637,7 +637,7 @@
             },
             {
                 "name": "product 101",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 102",
@@ -647,88 +647,88 @@
     },
     {
         "gondola_id": 34,
-        "x_coordinate": 38,
-        "y_coordinate": 13,
+        "x_coordinate": 21,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 103",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 104",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 105",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 35,
-        "x_coordinate": 41,
-        "y_coordinate": 13,
+        "x_coordinate": 24,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 106",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 107",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 108",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 36,
-        "x_coordinate": 49,
-        "y_coordinate": 13,
+        "x_coordinate": 29,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 109",
-                "category": "normal products"
-            },
-            {
-                "name": "product 110",
                 "category": "heavy products"
             },
             {
+                "name": "product 110",
+                "category": "normal products"
+            },
+            {
                 "name": "product 111",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 37,
-        "x_coordinate": 30,
-        "y_coordinate": 16,
+        "x_coordinate": 32,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 112",
-                "category": "frozen products"
-            },
-            {
-                "name": "product 113",
                 "category": "normal products"
             },
             {
+                "name": "product 113",
+                "category": "frozen products"
+            },
+            {
                 "name": "product 114",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 38,
-        "x_coordinate": 4,
-        "y_coordinate": 22,
+        "x_coordinate": 38,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 115",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 116",
@@ -736,18 +736,18 @@
             },
             {
                 "name": "product 117",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 39,
-        "x_coordinate": 12,
-        "y_coordinate": 22,
+        "x_coordinate": 41,
+        "y_coordinate": 9,
         "list_of_products": [
             {
                 "name": "product 118",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 119",
@@ -761,46 +761,46 @@
     },
     {
         "gondola_id": 40,
-        "x_coordinate": 20,
-        "y_coordinate": 22,
+        "x_coordinate": 52,
+        "y_coordinate": 10,
         "list_of_products": [
             {
                 "name": "product 121",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 122",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 123",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 41,
-        "x_coordinate": 25,
-        "y_coordinate": 22,
+        "x_coordinate": 56,
+        "y_coordinate": 12,
         "list_of_products": [
             {
                 "name": "product 124",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 125",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 126",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 42,
-        "x_coordinate": 30,
-        "y_coordinate": 22,
+        "x_coordinate": 59,
+        "y_coordinate": 12,
         "list_of_products": [
             {
                 "name": "product 127",
@@ -808,18 +808,18 @@
             },
             {
                 "name": "product 128",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 129",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 43,
-        "x_coordinate": 40,
-        "y_coordinate": 22,
+        "x_coordinate": 66,
+        "y_coordinate": 12,
         "list_of_products": [
             {
                 "name": "product 130",
@@ -827,22 +827,22 @@
             },
             {
                 "name": "product 131",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 132",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 44,
-        "x_coordinate": 43,
-        "y_coordinate": 22,
+        "x_coordinate": 69,
+        "y_coordinate": 12,
         "list_of_products": [
             {
                 "name": "product 133",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 134",
@@ -856,8 +856,8 @@
     },
     {
         "gondola_id": 45,
-        "x_coordinate": 34,
-        "y_coordinate": 24,
+        "x_coordinate": 75,
+        "y_coordinate": 12,
         "list_of_products": [
             {
                 "name": "product 136",
@@ -875,8 +875,8 @@
     },
     {
         "gondola_id": 46,
-        "x_coordinate": 38,
-        "y_coordinate": 24,
+        "x_coordinate": 78,
+        "y_coordinate": 12,
         "list_of_products": [
             {
                 "name": "product 139",
@@ -884,45 +884,45 @@
             },
             {
                 "name": "product 140",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 141",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 47,
-        "x_coordinate": 46,
-        "y_coordinate": 24,
+        "x_coordinate": 3,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 142",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 143",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 144",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 48,
-        "x_coordinate": 34,
-        "y_coordinate": 27,
+        "x_coordinate": 6,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 145",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 146",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 147",
@@ -932,12 +932,12 @@
     },
     {
         "gondola_id": 49,
-        "x_coordinate": 46,
-        "y_coordinate": 27,
+        "x_coordinate": 12,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 148",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 149",
@@ -945,33 +945,33 @@
             },
             {
                 "name": "product 150",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 50,
-        "x_coordinate": 38,
-        "y_coordinate": 28,
+        "x_coordinate": 15,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 151",
-                "category": "heavy products"
-            },
-            {
-                "name": "product 152",
                 "category": "frozen products"
             },
             {
+                "name": "product 152",
+                "category": "normal products"
+            },
+            {
                 "name": "product 153",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 51,
-        "x_coordinate": 4,
-        "y_coordinate": 29,
+        "x_coordinate": 21,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 154",
@@ -979,22 +979,22 @@
             },
             {
                 "name": "product 155",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 156",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 52,
-        "x_coordinate": 12,
-        "y_coordinate": 29,
+        "x_coordinate": 24,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 157",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 158",
@@ -1002,14 +1002,14 @@
             },
             {
                 "name": "product 159",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 53,
-        "x_coordinate": 20,
-        "y_coordinate": 29,
+        "x_coordinate": 29,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 160",
@@ -1017,18 +1017,18 @@
             },
             {
                 "name": "product 161",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 162",
-                "category": "heavy products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 54,
-        "x_coordinate": 25,
-        "y_coordinate": 29,
+        "x_coordinate": 32,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 163",
@@ -1040,22 +1040,22 @@
             },
             {
                 "name": "product 165",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 55,
-        "x_coordinate": 30,
-        "y_coordinate": 29,
+        "x_coordinate": 38,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 166",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 167",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 168",
@@ -1066,45 +1066,45 @@
     {
         "gondola_id": 56,
         "x_coordinate": 41,
-        "y_coordinate": 29,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 169",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 170",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 171",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 57,
-        "x_coordinate": 44,
-        "y_coordinate": 29,
+        "x_coordinate": 49,
+        "y_coordinate": 13,
         "list_of_products": [
             {
                 "name": "product 172",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 173",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 174",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 58,
-        "x_coordinate": 44,
-        "y_coordinate": 34,
+        "x_coordinate": 30,
+        "y_coordinate": 16,
         "list_of_products": [
             {
                 "name": "product 175",
@@ -1112,7 +1112,7 @@
             },
             {
                 "name": "product 176",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 177",
@@ -1122,46 +1122,46 @@
     },
     {
         "gondola_id": 59,
-        "x_coordinate": 7,
-        "y_coordinate": 36,
+        "x_coordinate": 52,
+        "y_coordinate": 20,
         "list_of_products": [
             {
                 "name": "product 178",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 179",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 180",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 60,
-        "x_coordinate": 10,
-        "y_coordinate": 36,
+        "x_coordinate": 68,
+        "y_coordinate": 20,
         "list_of_products": [
             {
                 "name": "product 181",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 182",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 183",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 61,
-        "x_coordinate": 16,
-        "y_coordinate": 36,
+        "x_coordinate": 71,
+        "y_coordinate": 20,
         "list_of_products": [
             {
                 "name": "product 184",
@@ -1169,18 +1169,18 @@
             },
             {
                 "name": "product 185",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 186",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 62,
-        "x_coordinate": 19,
-        "y_coordinate": 36,
+        "x_coordinate": 4,
+        "y_coordinate": 22,
         "list_of_products": [
             {
                 "name": "product 187",
@@ -1188,22 +1188,22 @@
             },
             {
                 "name": "product 188",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 189",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 63,
-        "x_coordinate": 25,
-        "y_coordinate": 36,
+        "x_coordinate": 12,
+        "y_coordinate": 22,
         "list_of_products": [
             {
                 "name": "product 190",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 191",
@@ -1211,14 +1211,14 @@
             },
             {
                 "name": "product 192",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 64,
-        "x_coordinate": 28,
-        "y_coordinate": 36,
+        "x_coordinate": 20,
+        "y_coordinate": 22,
         "list_of_products": [
             {
                 "name": "product 193",
@@ -1236,12 +1236,12 @@
     },
     {
         "gondola_id": 65,
-        "x_coordinate": 33,
-        "y_coordinate": 36,
+        "x_coordinate": 25,
+        "y_coordinate": 22,
         "list_of_products": [
             {
                 "name": "product 196",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 197",
@@ -1249,22 +1249,22 @@
             },
             {
                 "name": "product 198",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 66,
-        "x_coordinate": 36,
-        "y_coordinate": 36,
+        "x_coordinate": 30,
+        "y_coordinate": 22,
         "list_of_products": [
             {
                 "name": "product 199",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 200",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 201",
@@ -1274,8 +1274,8 @@
     },
     {
         "gondola_id": 67,
-        "x_coordinate": 42,
-        "y_coordinate": 36,
+        "x_coordinate": 40,
+        "y_coordinate": 22,
         "list_of_products": [
             {
                 "name": "product 202",
@@ -1283,7 +1283,7 @@
             },
             {
                 "name": "product 203",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 204",
@@ -1293,8 +1293,8 @@
     },
     {
         "gondola_id": 68,
-        "x_coordinate": 45,
-        "y_coordinate": 36,
+        "x_coordinate": 43,
+        "y_coordinate": 22,
         "list_of_products": [
             {
                 "name": "product 205",
@@ -1302,22 +1302,22 @@
             },
             {
                 "name": "product 206",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 207",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 69,
-        "x_coordinate": 7,
-        "y_coordinate": 40,
+        "x_coordinate": 66,
+        "y_coordinate": 22,
         "list_of_products": [
             {
                 "name": "product 208",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 209",
@@ -1331,8 +1331,8 @@
     },
     {
         "gondola_id": 70,
-        "x_coordinate": 10,
-        "y_coordinate": 40,
+        "x_coordinate": 74,
+        "y_coordinate": 22,
         "list_of_products": [
             {
                 "name": "product 211",
@@ -1340,60 +1340,72 @@
             },
             {
                 "name": "product 212",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 213",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
+        "gondola_id": "starting_point",
+        "x_coordinate": 79,
+        "y_coordinate": 23,
+        "list_of_products": []
+    },
+    {
+        "gondola_id": "finishing_point",
+        "x_coordinate": 79,
+        "y_coordinate": 23,
+        "list_of_products": []
+    },
+    {
         "gondola_id": 71,
-        "x_coordinate": 16,
-        "y_coordinate": 40,
+        "x_coordinate": 34,
+        "y_coordinate": 24,
         "list_of_products": [
             {
                 "name": "product 214",
-                "category": "heavy products"
-            },
-            {
-                "name": "product 215",
                 "category": "frozen products"
             },
             {
-                "name": "product 216",
+                "name": "product 215",
                 "category": "heavy products"
+            },
+            {
+                "name": "product 216",
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 72,
-        "x_coordinate": 19,
-        "y_coordinate": 40,
+        "x_coordinate": 38,
+        "y_coordinate": 24,
         "list_of_products": [
             {
                 "name": "product 217",
-                "category": "heavy products"
-            },
-            {
-                "name": "product 218",
                 "category": "frozen products"
             },
             {
-                "name": "product 219",
+                "name": "product 218",
                 "category": "normal products"
+            },
+            {
+                "name": "product 219",
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 73,
-        "x_coordinate": 25,
-        "y_coordinate": 40,
+        "x_coordinate": 46,
+        "y_coordinate": 24,
         "list_of_products": [
             {
                 "name": "product 220",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 221",
@@ -1401,33 +1413,33 @@
             },
             {
                 "name": "product 222",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 74,
-        "x_coordinate": 28,
-        "y_coordinate": 40,
+        "x_coordinate": 52,
+        "y_coordinate": 24,
         "list_of_products": [
             {
                 "name": "product 223",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 224",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 225",
-                "category": "frozen products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 75,
-        "x_coordinate": 33,
-        "y_coordinate": 40,
+        "x_coordinate": 74,
+        "y_coordinate": 25,
         "list_of_products": [
             {
                 "name": "product 226",
@@ -1435,26 +1447,26 @@
             },
             {
                 "name": "product 227",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 228",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 76,
-        "x_coordinate": 36,
-        "y_coordinate": 40,
+        "x_coordinate": 66,
+        "y_coordinate": 26,
         "list_of_products": [
             {
                 "name": "product 229",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 230",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 231",
@@ -1464,8 +1476,8 @@
     },
     {
         "gondola_id": 77,
-        "x_coordinate": 42,
-        "y_coordinate": 40,
+        "x_coordinate": 34,
+        "y_coordinate": 27,
         "list_of_products": [
             {
                 "name": "product 232",
@@ -1473,22 +1485,22 @@
             },
             {
                 "name": "product 233",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 234",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 78,
-        "x_coordinate": 45,
-        "y_coordinate": 40,
+        "x_coordinate": 46,
+        "y_coordinate": 27,
         "list_of_products": [
             {
                 "name": "product 235",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 236",
@@ -1496,45 +1508,33 @@
             },
             {
                 "name": "product 237",
-                "category": "normal products"
-            }
-        ]
-    },
-    {
-        "gondola_id": "starting_point",
-        "x_coordinate": 49,
-        "y_coordinate": 40,
-        "list_of_products": []
-    },
-    {
-        "gondola_id": "finishing_point",
-        "x_coordinate": 49,
-        "y_coordinate": 40,
-        "list_of_products": []
-    },
-    {
-        "gondola_id": 79,
-        "x_coordinate": 7,
-        "y_coordinate": 44,
-        "list_of_products": [
-            {
-                "name": "product 238",
-                "category": "heavy products"
-            },
-            {
-                "name": "product 239",
-                "category": "normal products"
-            },
-            {
-                "name": "product 240",
                 "category": "frozen products"
             }
         ]
     },
     {
+        "gondola_id": 79,
+        "x_coordinate": 69,
+        "y_coordinate": 27,
+        "list_of_products": [
+            {
+                "name": "product 238",
+                "category": "normal products"
+            },
+            {
+                "name": "product 239",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 240",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
         "gondola_id": 80,
-        "x_coordinate": 10,
-        "y_coordinate": 44,
+        "x_coordinate": 72,
+        "y_coordinate": 27,
         "list_of_products": [
             {
                 "name": "product 241",
@@ -1542,26 +1542,26 @@
             },
             {
                 "name": "product 242",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 243",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 81,
-        "x_coordinate": 16,
-        "y_coordinate": 44,
+        "x_coordinate": 38,
+        "y_coordinate": 28,
         "list_of_products": [
             {
                 "name": "product 244",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 245",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 246",
@@ -1571,8 +1571,8 @@
     },
     {
         "gondola_id": 82,
-        "x_coordinate": 19,
-        "y_coordinate": 44,
+        "x_coordinate": 52,
+        "y_coordinate": 28,
         "list_of_products": [
             {
                 "name": "product 247",
@@ -1580,37 +1580,37 @@
             },
             {
                 "name": "product 248",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 249",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 83,
-        "x_coordinate": 25,
-        "y_coordinate": 44,
+        "x_coordinate": 57,
+        "y_coordinate": 28,
         "list_of_products": [
             {
                 "name": "product 250",
-                "category": "frozen products"
+                "category": "normal products"
             },
             {
                 "name": "product 251",
-                "category": "frozen products"
+                "category": "heavy products"
             },
             {
                 "name": "product 252",
-                "category": "heavy products"
+                "category": "normal products"
             }
         ]
     },
     {
         "gondola_id": 84,
-        "x_coordinate": 28,
-        "y_coordinate": 44,
+        "x_coordinate": 60,
+        "y_coordinate": 28,
         "list_of_products": [
             {
                 "name": "product 253",
@@ -1618,18 +1618,18 @@
             },
             {
                 "name": "product 254",
-                "category": "heavy products"
+                "category": "normal products"
             },
             {
                 "name": "product 255",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 85,
-        "x_coordinate": 33,
-        "y_coordinate": 44,
+        "x_coordinate": 4,
+        "y_coordinate": 29,
         "list_of_products": [
             {
                 "name": "product 256",
@@ -1641,22 +1641,22 @@
             },
             {
                 "name": "product 258",
-                "category": "frozen products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 86,
-        "x_coordinate": 36,
-        "y_coordinate": 44,
+        "x_coordinate": 12,
+        "y_coordinate": 29,
         "list_of_products": [
             {
                 "name": "product 259",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 260",
-                "category": "normal products"
+                "category": "heavy products"
             },
             {
                 "name": "product 261",
@@ -1666,46 +1666,46 @@
     },
     {
         "gondola_id": 87,
-        "x_coordinate": 42,
-        "y_coordinate": 44,
+        "x_coordinate": 20,
+        "y_coordinate": 29,
         "list_of_products": [
             {
                 "name": "product 262",
-                "category": "frozen products"
-            },
-            {
-                "name": "product 263",
                 "category": "heavy products"
             },
             {
+                "name": "product 263",
+                "category": "frozen products"
+            },
+            {
                 "name": "product 264",
-                "category": "normal products"
+                "category": "frozen products"
             }
         ]
     },
     {
         "gondola_id": 88,
-        "x_coordinate": 45,
-        "y_coordinate": 44,
+        "x_coordinate": 25,
+        "y_coordinate": 29,
         "list_of_products": [
             {
                 "name": "product 265",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 266",
-                "category": "heavy products"
+                "category": "frozen products"
             },
             {
                 "name": "product 267",
-                "category": "normal products"
+                "category": "heavy products"
             }
         ]
     },
     {
         "gondola_id": 89,
-        "x_coordinate": 34,
-        "y_coordinate": 47,
+        "x_coordinate": 30,
+        "y_coordinate": 29,
         "list_of_products": [
             {
                 "name": "product 268",
@@ -1713,11 +1713,1113 @@
             },
             {
                 "name": "product 269",
-                "category": "normal products"
+                "category": "frozen products"
             },
             {
                 "name": "product 270",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 90,
+        "x_coordinate": 41,
+        "y_coordinate": 29,
+        "list_of_products": [
+            {
+                "name": "product 271",
+                "category": "normal products"
+            },
+            {
+                "name": "product 272",
+                "category": "normal products"
+            },
+            {
+                "name": "product 273",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 91,
+        "x_coordinate": 44,
+        "y_coordinate": 29,
+        "list_of_products": [
+            {
+                "name": "product 274",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 275",
                 "category": "heavy products"
+            },
+            {
+                "name": "product 276",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 92,
+        "x_coordinate": 52,
+        "y_coordinate": 32,
+        "list_of_products": [
+            {
+                "name": "product 277",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 278",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 279",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 93,
+        "x_coordinate": 57,
+        "y_coordinate": 32,
+        "list_of_products": [
+            {
+                "name": "product 280",
+                "category": "normal products"
+            },
+            {
+                "name": "product 281",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 282",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 94,
+        "x_coordinate": 60,
+        "y_coordinate": 32,
+        "list_of_products": [
+            {
+                "name": "product 283",
+                "category": "normal products"
+            },
+            {
+                "name": "product 284",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 285",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 95,
+        "x_coordinate": 68,
+        "y_coordinate": 33,
+        "list_of_products": [
+            {
+                "name": "product 286",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 287",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 288",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 96,
+        "x_coordinate": 71,
+        "y_coordinate": 33,
+        "list_of_products": [
+            {
+                "name": "product 289",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 290",
+                "category": "normal products"
+            },
+            {
+                "name": "product 291",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 97,
+        "x_coordinate": 75,
+        "y_coordinate": 33,
+        "list_of_products": [
+            {
+                "name": "product 292",
+                "category": "normal products"
+            },
+            {
+                "name": "product 293",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 294",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 98,
+        "x_coordinate": 78,
+        "y_coordinate": 33,
+        "list_of_products": [
+            {
+                "name": "product 295",
+                "category": "normal products"
+            },
+            {
+                "name": "product 296",
+                "category": "normal products"
+            },
+            {
+                "name": "product 297",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 99,
+        "x_coordinate": 44,
+        "y_coordinate": 34,
+        "list_of_products": [
+            {
+                "name": "product 298",
+                "category": "normal products"
+            },
+            {
+                "name": "product 299",
+                "category": "normal products"
+            },
+            {
+                "name": "product 300",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 100,
+        "x_coordinate": 7,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 301",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 302",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 303",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 101,
+        "x_coordinate": 10,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 304",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 305",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 306",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 102,
+        "x_coordinate": 16,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 307",
+                "category": "normal products"
+            },
+            {
+                "name": "product 308",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 309",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 103,
+        "x_coordinate": 19,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 310",
+                "category": "normal products"
+            },
+            {
+                "name": "product 311",
+                "category": "normal products"
+            },
+            {
+                "name": "product 312",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 104,
+        "x_coordinate": 25,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 313",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 314",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 315",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 105,
+        "x_coordinate": 28,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 316",
+                "category": "normal products"
+            },
+            {
+                "name": "product 317",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 318",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 106,
+        "x_coordinate": 33,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 319",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 320",
+                "category": "normal products"
+            },
+            {
+                "name": "product 321",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 107,
+        "x_coordinate": 36,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 322",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 323",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 324",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 108,
+        "x_coordinate": 42,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 325",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 326",
+                "category": "normal products"
+            },
+            {
+                "name": "product 327",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 109,
+        "x_coordinate": 45,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 328",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 329",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 330",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 110,
+        "x_coordinate": 57,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 331",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 332",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 333",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 111,
+        "x_coordinate": 60,
+        "y_coordinate": 36,
+        "list_of_products": [
+            {
+                "name": "product 334",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 335",
+                "category": "normal products"
+            },
+            {
+                "name": "product 336",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 112,
+        "x_coordinate": 68,
+        "y_coordinate": 37,
+        "list_of_products": [
+            {
+                "name": "product 337",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 338",
+                "category": "normal products"
+            },
+            {
+                "name": "product 339",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 113,
+        "x_coordinate": 71,
+        "y_coordinate": 37,
+        "list_of_products": [
+            {
+                "name": "product 340",
+                "category": "normal products"
+            },
+            {
+                "name": "product 341",
+                "category": "normal products"
+            },
+            {
+                "name": "product 342",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 114,
+        "x_coordinate": 75,
+        "y_coordinate": 37,
+        "list_of_products": [
+            {
+                "name": "product 343",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 344",
+                "category": "normal products"
+            },
+            {
+                "name": "product 345",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 115,
+        "x_coordinate": 78,
+        "y_coordinate": 37,
+        "list_of_products": [
+            {
+                "name": "product 346",
+                "category": "normal products"
+            },
+            {
+                "name": "product 347",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 348",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 116,
+        "x_coordinate": 53,
+        "y_coordinate": 38,
+        "list_of_products": [
+            {
+                "name": "product 349",
+                "category": "normal products"
+            },
+            {
+                "name": "product 350",
+                "category": "normal products"
+            },
+            {
+                "name": "product 351",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 117,
+        "x_coordinate": 7,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 352",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 353",
+                "category": "normal products"
+            },
+            {
+                "name": "product 354",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 118,
+        "x_coordinate": 10,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 355",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 356",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 357",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 119,
+        "x_coordinate": 16,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 358",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 359",
+                "category": "normal products"
+            },
+            {
+                "name": "product 360",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 120,
+        "x_coordinate": 19,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 361",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 362",
+                "category": "normal products"
+            },
+            {
+                "name": "product 363",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 121,
+        "x_coordinate": 25,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 364",
+                "category": "normal products"
+            },
+            {
+                "name": "product 365",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 366",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 122,
+        "x_coordinate": 28,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 367",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 368",
+                "category": "normal products"
+            },
+            {
+                "name": "product 369",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 123,
+        "x_coordinate": 33,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 370",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 371",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 372",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 124,
+        "x_coordinate": 36,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 373",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 374",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 375",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 125,
+        "x_coordinate": 42,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 376",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 377",
+                "category": "normal products"
+            },
+            {
+                "name": "product 378",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 126,
+        "x_coordinate": 45,
+        "y_coordinate": 40,
+        "list_of_products": [
+            {
+                "name": "product 379",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 380",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 381",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 127,
+        "x_coordinate": 51,
+        "y_coordinate": 41,
+        "list_of_products": [
+            {
+                "name": "product 382",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 383",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 384",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 128,
+        "x_coordinate": 56,
+        "y_coordinate": 41,
+        "list_of_products": [
+            {
+                "name": "product 385",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 386",
+                "category": "normal products"
+            },
+            {
+                "name": "product 387",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 129,
+        "x_coordinate": 61,
+        "y_coordinate": 41,
+        "list_of_products": [
+            {
+                "name": "product 388",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 389",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 390",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 130,
+        "x_coordinate": 68,
+        "y_coordinate": 41,
+        "list_of_products": [
+            {
+                "name": "product 391",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 392",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 393",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 131,
+        "x_coordinate": 71,
+        "y_coordinate": 41,
+        "list_of_products": [
+            {
+                "name": "product 394",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 395",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 396",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 132,
+        "x_coordinate": 75,
+        "y_coordinate": 41,
+        "list_of_products": [
+            {
+                "name": "product 397",
+                "category": "normal products"
+            },
+            {
+                "name": "product 398",
+                "category": "normal products"
+            },
+            {
+                "name": "product 399",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 133,
+        "x_coordinate": 78,
+        "y_coordinate": 41,
+        "list_of_products": [
+            {
+                "name": "product 400",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 401",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 402",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 134,
+        "x_coordinate": 7,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 403",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 404",
+                "category": "normal products"
+            },
+            {
+                "name": "product 405",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 135,
+        "x_coordinate": 10,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 406",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 407",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 408",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 136,
+        "x_coordinate": 16,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 409",
+                "category": "normal products"
+            },
+            {
+                "name": "product 410",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 411",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 137,
+        "x_coordinate": 19,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 412",
+                "category": "normal products"
+            },
+            {
+                "name": "product 413",
+                "category": "normal products"
+            },
+            {
+                "name": "product 414",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 138,
+        "x_coordinate": 25,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 415",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 416",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 417",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 139,
+        "x_coordinate": 28,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 418",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 419",
+                "category": "normal products"
+            },
+            {
+                "name": "product 420",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 140,
+        "x_coordinate": 33,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 421",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 422",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 423",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 141,
+        "x_coordinate": 36,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 424",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 425",
+                "category": "normal products"
+            },
+            {
+                "name": "product 426",
+                "category": "heavy products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 142,
+        "x_coordinate": 42,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 427",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 428",
+                "category": "normal products"
+            },
+            {
+                "name": "product 429",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 143,
+        "x_coordinate": 45,
+        "y_coordinate": 44,
+        "list_of_products": [
+            {
+                "name": "product 430",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 431",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 432",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 144,
+        "x_coordinate": 34,
+        "y_coordinate": 47,
+        "list_of_products": [
+            {
+                "name": "product 433",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 434",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 435",
+                "category": "normal products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 145,
+        "x_coordinate": 54,
+        "y_coordinate": 49,
+        "list_of_products": [
+            {
+                "name": "product 436",
+                "category": "normal products"
+            },
+            {
+                "name": "product 437",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 438",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 146,
+        "x_coordinate": 59,
+        "y_coordinate": 49,
+        "list_of_products": [
+            {
+                "name": "product 439",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 440",
+                "category": "normal products"
+            },
+            {
+                "name": "product 441",
+                "category": "frozen products"
+            }
+        ]
+    },
+    {
+        "gondola_id": 147,
+        "x_coordinate": 64,
+        "y_coordinate": 49,
+        "list_of_products": [
+            {
+                "name": "product 442",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 443",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 444",
+                "category": "frozen products"
             }
         ]
     }

@@ -10,7 +10,7 @@ products_file = BASE_DIR / "data/products.json"
 pedidos_file = BASE_DIR / "data/pedidos.json"
 
 # Mapa en formato CSV
-map_file = BASE_DIR / "data/mapaTFG.csv"
+map_file = BASE_DIR / "data/mapaTFG_lvl2.csv"
 
 # Archivo para categorizar productos
 product_types_file = BASE_DIR / "data/typeproducts.json"
