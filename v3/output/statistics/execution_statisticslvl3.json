@@ -1,9 +1,9 @@
 {
     "summary_statistics": {
         "Number of products": {
-            "count": 68.0,
+            "count": 170.0,
             "mean": 24.705882352941178,
-            "std": 19.067091931708447,
+            "std": 18.98228606169681,
             "min": 3.0,
             "25%": 12.0,
             "50%": 19.0,
@@ -11,40 +11,40 @@
             "max": 70.0
         },
         "total_distance": {
-            "count": 68.0,
-            "mean": 642.7352941176471,
-            "std": 307.872023114037,
-            "min": 110.0,
-            "25%": 420.0,
-            "50%": 595.0,
-            "75%": 754.5,
-            "max": 1336.0
+            "count": 170.0,
+            "mean": 655.1764705882352,
+            "std": 309.45285467349635,
+            "min": 144.0,
+            "25%": 438.0,
+            "50%": 596.0,
+            "75%": 780.5,
+            "max": 1468.0
         },
         "execution_time": {
-            "count": 68.0,
-            "mean": 14.114423495881697,
-            "std": 14.498349347143234,
-            "min": 0.10980582237243652,
-            "25%": 0.39236772060394287,
-            "50%": 12.289429426193237,
-            "75%": 23.935588598251343,
-            "max": 66.74474382400513
+            "count": 170.0,
+            "mean": 12.653524753626655,
+            "std": 13.410058800980176,
+            "min": 0.0924525260925293,
+            "25%": 0.3156569004058838,
+            "50%": 11.613414764404297,
+            "75%": 19.92378181219101,
+            "max": 68.43518686294556
         }
     },
     "algorithm_counts": {
-        "Simmulated Annealing": 32,
-        "Dynamic Programming": 20,
-        "Brute Force": 16
+        "Simmulated Annealing": 80,
+        "Dynamic Programming": 50,
+        "Brute Force": 40
     },
-    "average_total_distance": 642.7352941176471,
-    "average_execution_time": 14.114423495881697,
-    "correlation_num_products_total_distance": 0.9761856246180182,
-    "correlation_num_products_execution_time": 0.8210832203523222,
+    "average_total_distance": 655.1764705882352,
+    "average_execution_time": 12.653524753626655,
+    "correlation_num_products_total_distance": 0.9760841558309384,
+    "correlation_num_products_execution_time": 0.851182221221106,
     "percentage_following_regla_de_oro": 100.0,
     "average_execution_time_per_algorithm": {
-        "Brute Force": 2.9958071410655975,
-        "Dynamic Programming": 8.99331384897232,
-        "Simmulated Annealing": 22.87442520260811
+        "Brute Force": 1.8666266560554505,
+        "Dynamic Programming": 7.273382778167725,
+        "Simmulated Annealing": 21.409562537074088
     },
     "number_of_gondolas (nodes)": 216,
     "total_number_of_products": 642

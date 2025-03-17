@@ -30,7 +30,7 @@ def performance_testing(mapa_file, name):
 
     # PERFORMANCE TESTING
     lengths = [3, 5, 7, 10, 12, 13, 15, 17, 19, 21, 23, 25, 30, 40, 50, 60, 70]
-    generate_pedidos_for_lengths(products_file, pedidos_file, lengths, 4)
+    generate_pedidos_for_lengths(products_file, pedidos_file, lengths, 10)
 
     extract_product_categories(products_file, product_types_file)
 
