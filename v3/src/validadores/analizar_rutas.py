@@ -7,7 +7,7 @@ import os
 
 
 
-def generate_statistics(route_file=optimized_route_file):
+def generate_statistics(products_file, route_file, name):
     data = load_file(route_file)
 
     # Create a DataFrame from the data
@@ -43,6 +43,16 @@ def generate_statistics(route_file=optimized_route_file):
     avg_exec_time = df.groupby("algorithm")["execution_time"].mean().to_dict()
     print("Average execution time per algorithn:", avg_exec_time)
 
+    # Load the products file data which contains gondolas and products info
+    products_data = load_file(products_file)
+    # Number of gondolas is the number of nodes in the file
+    number_of_gondolas = len(products_data)
+    # Total number of products is the sum of the products in each gondola
+    total_number_of_products = sum(len(gondola["list_of_products"]) for gondola in products_data)
+
+    print(f"\nTotal number of gondolas (nodes): {number_of_gondolas}")
+    print(f"Total number of products (from products file): {total_number_of_products}")
+
     # Prepare a dictionary with statistics to save as JSON
     stats = {
         "summary_statistics": summary_stats,
@@ -52,11 +62,16 @@ def generate_statistics(route_file=optimized_route_file):
         "correlation_num_products_total_distance": corr_distance,
         "correlation_num_products_execution_time": corr_time,
         "percentage_following_regla_de_oro": follows_percentage,
-        "Average execution time per algorithm": avg_exec_time
+        "average_execution_time_per_algorithm": avg_exec_time,
+        "number_of_gondolas (nodes)": number_of_gondolas,
+        "total_number_of_products": total_number_of_products
     }
 
-    stats_file = os.path.join(statistics_dir, "execution_statistics.json")
+
+    stats_file = os.path.join(statistics_dir, "execution_statistics"+str(name)+".json")
     save_file(stats_file, stats)
+
+
 
     # -------------------- Visualizations --------------------
     # First figure: multiple subplots
@@ -91,7 +106,7 @@ def generate_statistics(route_file=optimized_route_file):
     plt.title("Products vs Execution Time")
 
     plt.tight_layout()
-    vis_file1 = os.path.join(visualization_dir, "route_statistics.png")
+    vis_file1 = os.path.join(visualization_dir, "route_statistics"+str(name)+".png")
     plt.savefig(vis_file1)
     plt.close()
     print(f"Visualization saved to {vis_file1}")
@@ -112,7 +127,7 @@ def generate_statistics(route_file=optimized_route_file):
     axes[1].set_title("Average Execution Time per Algorithm")
 
     plt.tight_layout()
-    vis_file = os.path.join(visualization_dir, "algorithm_comparison.png")
+    vis_file = os.path.join(visualization_dir, "algorithm_comparison"+str(name)+".png")
     plt.savefig(vis_file)
     plt.close()
     print(f"Visualization saved to {vis_file}")

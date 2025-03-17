@@ -57,7 +57,7 @@ def astar_path(grid, start, goal):
 
 
 
-def generate_visualizacion_route(optimized_route_file, products_file, map_file, selected_order_id=None):
+def generate_visualizacion_route(optimized_route_file, products_file, map_file, name, selected_order_id=None):
     # Clear any previous plots and load the supermarket map
     grid = pd.read_csv(map_file, delimiter=",", header=None, dtype=int).to_numpy()
 
@@ -142,14 +142,14 @@ def generate_visualizacion_route(optimized_route_file, products_file, map_file, 
         plt.title("Supermarket Map with Actual Route (Avoiding Obstacles)")
         # Instead of showing, save the visualization to file
         order_id = selected_order.get("order_id", "default")
-        output_filename = os.path.join(visualization_dir, f"order_{order_id}_visualization.png")
+        output_filename = os.path.join(visualization_dir, f"order_{order_id}_{name}_visualization.png")
         fig.savefig(output_filename)
         plt.close(fig)
 
 
 
 def main():
-    generate_visualizacion_route(optimized_route_file, products_file, map_file)
+    generate_visualizacion_route(optimized_route_file, products_file, map_file, "lvl1")
 
 
 

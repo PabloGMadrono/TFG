@@ -10,7 +10,11 @@ products_file = BASE_DIR / "data/products.json"
 pedidos_file = BASE_DIR / "data/pedidos.json"
 
 # Mapa en formato CSV
-map_file = BASE_DIR / "data/mapaTFG_lvl2.csv"
+map_file = BASE_DIR / "data/mapaTFG.csv"
+
+map_file_lvl2 = BASE_DIR / "data/mapaTFG_lvl2.csv"
+
+map_file_lvl3 = BASE_DIR / "data/mapaTFG_lvl3.csv"
 
 # Archivo para categorizar productos
 product_types_file = BASE_DIR / "data/typeproducts.json"
@@ -28,7 +32,9 @@ product_distances_file = BASE_DIR / "data/product_distances.json"
 gondolas_distances_file = BASE_DIR / "data/gondolas_distances.json"
 
 # Archivo de la ruta optimizada
-optimized_route_file = BASE_DIR / "output/optimized_route.json"  # Ajustar directorio si es necesario.
+optimized_route_file = BASE_DIR / "output/optimized_route.json"
+
+optimized_route_levels = BASE_DIR / "output/optimized_route"
 
 
 visualization_dir = BASE_DIR / "output/visualizations/"
