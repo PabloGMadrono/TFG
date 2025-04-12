@@ -63,9 +63,11 @@ def find_best_route(order, product_distances_file=product_distances_file):
 
     # Use brute-force if the number of nodes is small (< 12)
     # Numero de productos <= 12
-    if len(product_list) < 13:
+    #13
+    if len(product_list) < 9:
         print("Using brute-force TSP solver.")
         route, total_distance = brute_force_tsp(product_list, product_distances)
+    # 23
     elif len(product_list) < 23:
         print("Using Dynamic programming TSP solver.")
         route, total_distance = held_karp_tsp(product_list, product_distances)

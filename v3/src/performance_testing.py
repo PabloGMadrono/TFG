@@ -25,7 +25,7 @@ import time
 
 
 
-def performance_testing(mapa_file, name):
+def performance_testing(mapa_file, name, generate_visualization=True):
     generate_gondolas(mapa_file, products_file)
 
     # PERFORMANCE TESTING
@@ -61,7 +61,8 @@ def performance_testing(mapa_file, name):
     print(f"The total execution time was: {total_time}")
 
     generate_statistics(products_file, output_file, name)
-    generate_visualizacion_route(output_file, products_file, mapa_file, name)
+    if generate_visualization:
+        generate_visualizacion_route(output_file, products_file, mapa_file, name)
 
 
 
@@ -69,6 +70,6 @@ def main():
     performance_testing(map_file, "lvl1")
     performance_testing(map_file_lvl2, "lvl2")
     performance_testing(map_file_lvl3, "lvl3")
-
+    #performance_testing(map_file_lvl3, "prueba_DP_BF", False)
 if __name__ == '__main__':
     main()

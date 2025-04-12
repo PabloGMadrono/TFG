@@ -1,0 +1,458 @@
+[
+    {
+        "order_id": 0,
+        "Number of products": "1",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 524",
+                "category": "heavy products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 96,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 0.05242490768432617
+    },
+    {
+        "order_id": 1,
+        "Number of products": "2",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 456",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 468",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 152,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 0.050103187561035156
+    },
+    {
+        "order_id": 2,
+        "Number of products": "3",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 337",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 1",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 104",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 194,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 0.05121731758117676
+    },
+    {
+        "order_id": 3,
+        "Number of products": "4",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 175",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 69",
+                "category": "normal products"
+            },
+            {
+                "name": "product 226",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 230",
+                "category": "heavy products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 104,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 0.05200695991516113
+    },
+    {
+        "order_id": 4,
+        "Number of products": "5",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 287",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 486",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 273",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 236",
+                "category": "normal products"
+            },
+            {
+                "name": "product 259",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 270,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 0.05181574821472168
+    },
+    {
+        "order_id": 5,
+        "Number of products": "6",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 386",
+                "category": "normal products"
+            },
+            {
+                "name": "product 330",
+                "category": "normal products"
+            },
+            {
+                "name": "product 429",
+                "category": "normal products"
+            },
+            {
+                "name": "product 598",
+                "category": "normal products"
+            },
+            {
+                "name": "product 521",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 298",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 224,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 0.051885128021240234
+    },
+    {
+        "order_id": 6,
+        "Number of products": "7",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 287",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 388",
+                "category": "normal products"
+            },
+            {
+                "name": "product 529",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 569",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 311",
+                "category": "normal products"
+            },
+            {
+                "name": "product 93",
+                "category": "normal products"
+            },
+            {
+                "name": "product 422",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 412,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 0.05512499809265137
+    },
+    {
+        "order_id": 7,
+        "Number of products": "8",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 449",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 572",
+                "category": "normal products"
+            },
+            {
+                "name": "product 567",
+                "category": "normal products"
+            },
+            {
+                "name": "product 603",
+                "category": "normal products"
+            },
+            {
+                "name": "product 507",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 503",
+                "category": "normal products"
+            },
+            {
+                "name": "product 269",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 8",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 278,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 0.08930516242980957
+    },
+    {
+        "order_id": 8,
+        "Number of products": "9",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 577",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 386",
+                "category": "normal products"
+            },
+            {
+                "name": "product 249",
+                "category": "normal products"
+            },
+            {
+                "name": "product 54",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 361",
+                "category": "normal products"
+            },
+            {
+                "name": "product 489",
+                "category": "normal products"
+            },
+            {
+                "name": "product 600",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 626",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 79",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 454,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 0.44446706771850586
+    },
+    {
+        "order_id": 9,
+        "Number of products": "10",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 136",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 68",
+                "category": "normal products"
+            },
+            {
+                "name": "product 174",
+                "category": "normal products"
+            },
+            {
+                "name": "product 102",
+                "category": "normal products"
+            },
+            {
+                "name": "product 312",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 608",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 586",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 499",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 138",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 36",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 462,
+        "algorithm": "Brute Force",
+        "Follows regla de oro": true,
+        "execution_time": 3.705209970474243
+    },
+    {
+        "order_id": 10,
+        "Number of products": "11",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 169",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 13",
+                "category": "normal products"
+            },
+            {
+                "name": "product 61",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 55",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 431",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 597",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 489",
+                "category": "normal products"
+            },
+            {
+                "name": "product 582",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 268",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 379",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 5",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 424,
+        "algorithm": "Dynamic Programming",
+        "Follows regla de oro": true,
+        "execution_time": 36.2192759513855
+    },
+    {
+        "order_id": 11,
+        "Number of products": "12",
+        "route": [
+            "starting_point",
+            {
+                "name": "product 33",
+                "category": "normal products"
+            },
+            {
+                "name": "product 238",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 174",
+                "category": "normal products"
+            },
+            {
+                "name": "product 49",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 249",
+                "category": "normal products"
+            },
+            {
+                "name": "product 320",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 264",
+                "category": "normal products"
+            },
+            {
+                "name": "product 306",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 583",
+                "category": "heavy products"
+            },
+            {
+                "name": "product 508",
+                "category": "normal products"
+            },
+            {
+                "name": "product 640",
+                "category": "frozen products"
+            },
+            {
+                "name": "product 396",
+                "category": "frozen products"
+            },
+            "finishing_point"
+        ],
+        "total_distance": 436,
+        "algorithm": "Dynamic Programming",
+        "Follows regla de oro": true,
+        "execution_time": 554.6999049186707
+    }
+]

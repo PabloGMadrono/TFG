@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import pandas as pd
 import heapq
+import math  # Added for Euclidean distance calculation
 from v3.src.files_management.file_names import map_file, products_file, gondolas_distances_file
 from v3.src.files_management.json_management import load_file, save_file
 
@@ -57,8 +58,7 @@ def astar(grid, start, goal):
 
 
 # --- Main Script ---
-def calcular_distancias_gondolas(map_file, products_file, output_file):
-
+def calcular_distancias_gondolas(map_file, products_file, output_file, type_distance='a'):
     # Load the map as a NumPy array.
     try:
         grid = pd.read_csv(map_file, delimiter=",", dtype=int, encoding="utf-8-sig", header=None).to_numpy()
@@ -82,7 +82,6 @@ def calcular_distancias_gondolas(map_file, products_file, output_file):
             if not (0 <= row < grid.shape[0] and 0 <= col < grid.shape[1]):
                 print(f"Warning: Gondola {gondola_id} coordinate {(row, col)} is out of grid bounds {grid.shape}.")
             gondola_coords[gondola_id] = (row, col)
-            #print(f"Gondola {gondola_id} located at {(row, col)}")
         except KeyError as e:
             print(f"Missing key {e} in gondola data: {gondola}")
 
@@ -95,7 +94,7 @@ def calcular_distancias_gondolas(map_file, products_file, output_file):
     gondola_ids = list(gondola_coords.keys())
     distances = {gid: {} for gid in gondola_ids}
 
-    # Compute pairwise distances using the A* algorithm.
+    # Compute pairwise distances.
     n = len(gondola_ids)
     for i in range(n):
         id1 = gondola_ids[i]
@@ -106,11 +105,16 @@ def calcular_distancias_gondolas(map_file, products_file, output_file):
             else:
                 start_coord = gondola_coords[id1]
                 goal_coord = gondola_coords[id2]
-                dist = astar(grid, start_coord, goal_coord)
+                if type_distance == 'a':
+                    # Calculate distance using A* algorithm.
+                    dist = astar(grid, start_coord, goal_coord)
+                else:
+                    # Calculate Euclidean distance ignoring obstacles.
+                    dist = math.sqrt((start_coord[0] - goal_coord[0])**2 + (start_coord[1] - goal_coord[1])**2)
             distances[id1][id2] = dist
             distances[id2][id1] = dist
 
-    # If desired, you can comment out this removal loop to retain all distances.
+    # Optionally remove the starting_point from other gondolas' entries.
     for gondola_id in distances:
         if gondola_id != "starting_point":
              distances[gondola_id].pop("starting_point", None)

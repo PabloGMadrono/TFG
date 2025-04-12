@@ -1,0 +1,47 @@
+{
+    "summary_statistics": {
+        "Number of products": {
+            "count": 102.0,
+            "mean": 100.0,
+            "std": 0.0,
+            "min": 100.0,
+            "25%": 100.0,
+            "50%": 100.0,
+            "75%": 100.0,
+            "max": 100.0
+        },
+        "total_distance": {
+            "count": 102.0,
+            "mean": 1676.0,
+            "std": 0.0,
+            "min": 1676.0,
+            "25%": 1676.0,
+            "50%": 1676.0,
+            "75%": 1676.0,
+            "max": 1676.0
+        },
+        "execution_time": {
+            "count": 102.0,
+            "mean": 25.823335886001587,
+            "std": 0.0,
+            "min": 25.823335886001587,
+            "25%": 25.823335886001587,
+            "50%": 25.823335886001587,
+            "75%": 25.823335886001587,
+            "max": 25.823335886001587
+        }
+    },
+    "algorithm_counts": {
+        "Simmulated Annealing": 102
+    },
+    "average_total_distance": 1676.0,
+    "average_execution_time": 25.823335886001587,
+    "correlation_num_products_total_distance": NaN,
+    "correlation_num_products_execution_time": NaN,
+    "percentage_following_regla_de_oro": 100.0,
+    "average_execution_time_per_algorithm": {
+        "Simmulated Annealing": 25.823335886001587
+    },
+    "number_of_gondolas (nodes)": 216,
+    "total_number_of_products": 642
+}

@@ -1,0 +1,49 @@
+{
+    "summary_statistics": {
+        "Number of products": {
+            "count": 12.0,
+            "mean": 6.5,
+            "std": 3.605551275463989,
+            "min": 1.0,
+            "25%": 3.75,
+            "50%": 6.5,
+            "75%": 9.25,
+            "max": 12.0
+        },
+        "total_distance": {
+            "count": 12.0,
+            "mean": 292.1666666666667,
+            "std": 140.12061903512944,
+            "min": 96.0,
+            "25%": 183.5,
+            "50%": 274.0,
+            "75%": 427.0,
+            "max": 462.0
+        },
+        "execution_time": {
+            "count": 12.0,
+            "mean": 49.626895109812416,
+            "std": 159.39197794288432,
+            "min": 0.050103187561035156,
+            "25%": 0.051867783069610596,
+            "50%": 0.05377495288848877,
+            "75%": 1.2596527934074402,
+            "max": 554.6999049186707
+        }
+    },
+    "algorithm_counts": {
+        "Brute Force": 10,
+        "Dynamic Programming": 2
+    },
+    "average_total_distance": 292.1666666666667,
+    "average_execution_time": 49.626895109812416,
+    "correlation_num_products_total_distance": 0.9020514230801022,
+    "correlation_num_products_execution_time": 0.5104913460037483,
+    "percentage_following_regla_de_oro": 100.0,
+    "average_execution_time_per_algorithm": {
+        "Brute Force": 0.4603560447692871,
+        "Dynamic Programming": 295.4595904350281
+    },
+    "number_of_gondolas (nodes)": 216,
+    "total_number_of_products": 642
+}

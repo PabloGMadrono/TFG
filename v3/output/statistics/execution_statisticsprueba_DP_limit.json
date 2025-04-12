@@ -1,0 +1,51 @@
+{
+    "summary_statistics": {
+        "Number of products": {
+            "count": 16.0,
+            "mean": 14.5,
+            "std": 4.760952285695233,
+            "min": 7.0,
+            "25%": 10.75,
+            "50%": 14.5,
+            "75%": 18.25,
+            "max": 22.0
+        },
+        "total_distance": {
+            "count": 16.0,
+            "mean": 483.5,
+            "std": 111.43069595044267,
+            "min": 320.0,
+            "25%": 379.5,
+            "50%": 499.0,
+            "75%": 588.5,
+            "max": 640.0
+        },
+        "execution_time": {
+            "count": 16.0,
+            "mean": 19.690348014235497,
+            "std": 45.430873462898965,
+            "min": 0.05515003204345703,
+            "25%": 0.07760483026504517,
+            "50%": 0.486092209815979,
+            "75%": 9.733909726142883,
+            "max": 171.83514308929443
+        }
+    },
+    "algorithm_counts": {
+        "Dynamic Programming": 10,
+        "Brute Force": 4,
+        "Simmulated Annealing": 2
+    },
+    "average_total_distance": 483.5,
+    "average_execution_time": 19.690348014235497,
+    "correlation_num_products_total_distance": 0.8597914832355117,
+    "correlation_num_products_execution_time": 0.6461957498822094,
+    "percentage_following_regla_de_oro": 100.0,
+    "average_execution_time_per_algorithm": {
+        "Brute Force": 0.05935323238372803,
+        "Dynamic Programming": 6.509554123878479,
+        "Simmulated Annealing": 124.85630702972412
+    },
+    "number_of_gondolas (nodes)": 216,
+    "total_number_of_products": 642
+}

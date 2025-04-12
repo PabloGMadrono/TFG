@@ -1,0 +1,412 @@
+{
+    "order_id": 0,
+    "Number of products": "100",
+    "route": [
+        "starting_point",
+        {
+            "name": "product 187",
+            "category": "normal products"
+        },
+        {
+            "name": "product 186",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 335",
+            "category": "normal products"
+        },
+        {
+            "name": "product 279",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 271",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 264",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 312",
+            "category": "normal products"
+        },
+        {
+            "name": "product 314",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 317",
+            "category": "normal products"
+        },
+        {
+            "name": "product 379",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 329",
+            "category": "normal products"
+        },
+        {
+            "name": "product 328",
+            "category": "normal products"
+        },
+        {
+            "name": "product 248",
+            "category": "normal products"
+        },
+        {
+            "name": "product 166",
+            "category": "normal products"
+        },
+        {
+            "name": "product 63",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 62",
+            "category": "normal products"
+        },
+        {
+            "name": "product 14",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 13",
+            "category": "normal products"
+        },
+        {
+            "name": "product 18",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 169",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 122",
+            "category": "normal products"
+        },
+        {
+            "name": "product 67",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 79",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 89",
+            "category": "normal products"
+        },
+        {
+            "name": "product 139",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 136",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 87",
+            "category": "normal products"
+        },
+        {
+            "name": "product 31",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 29",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 83",
+            "category": "normal products"
+        },
+        {
+            "name": "product 84",
+            "category": "normal products"
+        },
+        {
+            "name": "product 207",
+            "category": "normal products"
+        },
+        {
+            "name": "product 180",
+            "category": "normal products"
+        },
+        {
+            "name": "product 162",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 106",
+            "category": "normal products"
+        },
+        {
+            "name": "product 155",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 47",
+            "category": "normal products"
+        },
+        {
+            "name": "product 44",
+            "category": "normal products"
+        },
+        {
+            "name": "product 99",
+            "category": "normal products"
+        },
+        {
+            "name": "product 95",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 147",
+            "category": "normal products"
+        },
+        {
+            "name": "product 192",
+            "category": "normal products"
+        },
+        {
+            "name": "product 424",
+            "category": "normal products"
+        },
+        {
+            "name": "product 452",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 502",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 596",
+            "category": "normal products"
+        },
+        {
+            "name": "product 548",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 499",
+            "category": "normal products"
+        },
+        {
+            "name": "product 498",
+            "category": "normal products"
+        },
+        {
+            "name": "product 497",
+            "category": "normal products"
+        },
+        {
+            "name": "product 488",
+            "category": "normal products"
+        },
+        {
+            "name": "product 581",
+            "category": "normal products"
+        },
+        {
+            "name": "product 586",
+            "category": "normal products"
+        },
+        {
+            "name": "product 543",
+            "category": "normal products"
+        },
+        {
+            "name": "product 494",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 478",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 629",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 634",
+            "category": "normal products"
+        },
+        {
+            "name": "product 641",
+            "category": "normal products"
+        },
+        {
+            "name": "product 625",
+            "category": "normal products"
+        },
+        {
+            "name": "product 534",
+            "category": "normal products"
+        },
+        {
+            "name": "product 521",
+            "category": "normal products"
+        },
+        {
+            "name": "product 527",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 619",
+            "category": "normal products"
+        },
+        {
+            "name": "product 574",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 476",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 448",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 405",
+            "category": "normal products"
+        },
+        {
+            "name": "product 399",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 384",
+            "category": "normal products"
+        },
+        {
+            "name": "product 385",
+            "category": "normal products"
+        },
+        {
+            "name": "product 388",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 446",
+            "category": "heavy products"
+        },
+        {
+            "name": "product 447",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 391",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 64",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 1",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 179",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 156",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 194",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 320",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 421",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 327",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 175",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 124",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 125",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 141",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 290",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 624",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 618",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 609",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 567",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 485",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 626",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 636",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 595",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 500",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 406",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 310",
+            "category": "frozen products"
+        },
+        {
+            "name": "product 215",
+            "category": "frozen products"
+        },
+        "finishing_point"
+    ],
+    "total_distance": 1676,
+    "algorithm": "Simmulated Annealing",
+    "Follows regla de oro": true,
+    "execution_time": 25.823335886001587
+}
