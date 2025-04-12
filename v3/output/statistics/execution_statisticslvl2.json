@@ -12,23 +12,23 @@
         },
         "total_distance": {
             "count": 170.0,
-            "mean": 546.6117647058824,
-            "std": 255.55379447898446,
-            "min": 124.0,
-            "25%": 369.0,
-            "50%": 506.0,
-            "75%": 663.0,
-            "max": 1202.0
+            "mean": 553.4823529411765,
+            "std": 265.07235193008063,
+            "min": 130.0,
+            "25%": 355.0,
+            "50%": 501.0,
+            "75%": 697.5,
+            "max": 1230.0
         },
         "execution_time": {
             "count": 170.0,
-            "mean": 14.061981239038355,
-            "std": 14.029754634954811,
-            "min": 0.053765296936035156,
-            "25%": 0.3898443579673767,
-            "50%": 13.224876642227173,
-            "75%": 22.861208975315094,
-            "max": 79.00224471092224
+            "mean": 5.979943471796372,
+            "std": 6.418119819837101,
+            "min": 0.023288965225219727,
+            "25%": 0.0703805685043335,
+            "50%": 5.80364453792572,
+            "75%": 9.830968022346497,
+            "max": 35.9930579662323
         }
     },
     "algorithm_counts": {
@@ -36,15 +36,15 @@
         "Dynamic Programming": 50,
         "Brute Force": 40
     },
-    "average_total_distance": 546.6117647058824,
-    "average_execution_time": 14.061981239038355,
-    "correlation_num_products_total_distance": 0.9757780372036103,
-    "correlation_num_products_execution_time": 0.8100334895467772,
+    "average_total_distance": 553.4823529411765,
+    "average_execution_time": 5.979943471796372,
+    "correlation_num_products_total_distance": 0.974011206368696,
+    "correlation_num_products_execution_time": 0.8430095429772622,
     "percentage_following_regla_de_oro": 100.0,
     "average_execution_time_per_algorithm": {
-        "Brute Force": 1.902013546228409,
-        "Dynamic Programming": 8.919382963180542,
-        "Simmulated Annealing": 23.35608900785446
+        "Brute Force": 0.026488888263702392,
+        "Dynamic Programming": 3.8514516353607178,
+        "Simmulated Annealing": 10.286978161334991
     },
     "number_of_gondolas (nodes)": 150,
     "total_number_of_products": 444
